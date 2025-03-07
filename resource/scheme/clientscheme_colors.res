@@ -1,3 +1,4 @@
+#base "custom_colors.res"
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -31,7 +32,7 @@ Scheme
 		//---------------------------------------------
 		// Gameplay
 		"Ammo In Clip"				"255 255 255 255"
-		"Ammo In Reserve"			"141 141 141 255"
+		"AmmoInReserve"			"141 141 141 255"
 		"Ammo In Clip Low"			"255 216 0 255"
 		"Ammo In Reserve Low"		"255 106 0 255"
 		"Health Normal"				"235 226 202 255"

@@ -55,8 +55,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica18"
-		"fgcolor"		"Health Normal"
+		"font"			"Cerbetica10Alt"
+		"fgcolor"		"ColorWhite"
 	}
 
 	"TargetHealthShadow"
@@ -64,7 +64,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TargetHealthShadow"
 		"xpos"			"-1"
-		"ypos"			"-2"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"15"
@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica18"
+		"font"			"Cerbetica10Alt"
 		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"TargetHealthValue"

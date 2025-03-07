@@ -281,7 +281,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"-65"
-		"ypos"					"-340"
+		"ypos"					"-447"
 		"wide"					"128"
 		"tall"					"170"
 

@@ -31,7 +31,6 @@ event HudHealthDyingPulse
 	Animate	HurtBar 	alpha		"255"		Linear 0.0 0.0
 	Animate	OverHealBar 	Alpha		"0"			Linear 0.0 0.0
 
-	Animate HealthBG BgColor "100 0 0 100"			Linear 0.0 0.15
 	Animate HealthBG BgColor "HudElementBG"			Linear 0.15 0.15
 
 	RunEvent HudHealthDyingPulseLoop 0.3

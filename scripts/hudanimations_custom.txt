@@ -212,6 +212,7 @@ event Startup
 	Animate HudWeaponAmmo wide 60 linear 0.32 0.42
 	Animate classmodelpanel wide 0 linear 0.0 0.0
 	Animate classmodelpanel wide 128 linear 0.0 0.3
+	RunEvent engie 0.0
 }
 
 event Radiant
@@ -232,4 +233,11 @@ event Radiant
 event RadiantLoop 
 {
 	RunEvent Radiant 0.0
+}
+
+event engie{
+	Animate Sentry Position "10 0" "linear" 0.0 0.0
+	Animate Dispenser Position "76 0" "linear" 0.0 0.0
+	Animate TeleEntrance Position "10 42" "linear" 0.0 0.0
+	Animate TeleExit Position "76 42" "linear" 0.0 0.0
 }

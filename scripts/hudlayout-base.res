@@ -345,10 +345,10 @@
 		"fieldName" 			"BuildingStatus_Spy"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"r176"
+		"ypos"					"-102"
 		"wide"					"640"
-		"tall"					"480"
+		"tall"					"22"
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"		"BuildingStatusAnchor"

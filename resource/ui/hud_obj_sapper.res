@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"100"
-		"tall"			"40"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -23,6 +23,21 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
+	}
+
+	"BuildingBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BuildingBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-10"
+		"wide"			"64"
+		"tall"			"22"
+		"bgcolor_override"		"0 0 0 150"
+		"visible"		"1"
+		"enabled"		"1"	
+		"paintBackgroundtype" "2"			
 	}
 
 	"Icon"

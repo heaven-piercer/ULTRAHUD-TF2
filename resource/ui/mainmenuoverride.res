@@ -1,7 +1,5 @@
-#base	"../../_customizations/ENABLED/Streamer Mode/mainmenuoverride-streamer.res"
-#base	"../../_customizations/ENABLED/menu_old/mainmenuoverride-old.res"
+#base "mainmenuoverride_backgrounds.res"
 "#base" "mainmenuoverride-base.res"
-#base "../../_customizations/ENABLED/Gabriel Pack/hudoptions_gabe.res"
 #base "../hudoptions.res"
 
 "Resource/UI/MainMenuOverride.res"

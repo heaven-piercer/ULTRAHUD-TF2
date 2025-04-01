@@ -191,7 +191,7 @@
 		"zpos"			"-55"
 		"wide"			"80"
 		"tall"			"20"
-		"labeltext"		"Engineer"
+		"labeltext"		"Engie"
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
 		"allcaps"		"1"

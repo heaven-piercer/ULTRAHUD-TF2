@@ -728,7 +728,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"FindAGameButton-mover"
-				"xpos"		"-5"
+				"xpos"		"rs-16"
 				"ypos"		"0"
 				"wide"		"35"
 				"tall"		"35"
@@ -746,7 +746,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"rs1-60"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"140"
@@ -756,7 +756,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Cerbetica24"
+			"font"			"Cerbetica24Alt"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
@@ -767,20 +767,24 @@
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"0"
+			"textAlignment"		"center"
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"0 0 0 0"
-			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"255 255 255 3"
+			"defaultBgColor_override"	"HudElementBG"
+			"depressedBgColor_override"		"ColorRed"
 
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "234 234 234 155"
+			"armedFgColor_override" "255 255 255 255"
 			
 			"border_default"	""
 			"border_armed"		"OptionsCategoryBorder"
+
+			pin_to_sibling findagamebutton-mover
 			
 			"SubImage"
 			{

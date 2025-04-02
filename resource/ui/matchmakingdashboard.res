@@ -728,7 +728,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"FindAGameButton-mover"
-				"xpos"		"rs-16"
+				"xpos"		"rs-14.65"
 				"ypos"		"0"
 				"wide"		"35"
 				"tall"		"35"

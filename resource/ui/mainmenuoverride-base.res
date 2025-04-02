@@ -698,6 +698,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -724,6 +725,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -752,6 +754,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -780,6 +783,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -792,8 +796,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"TF2SettingButton"
-		"xpos"			"3"
-		"ypos"			"-20"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"-55"
 		"wide"			"20"
 		"tall"			"20"
@@ -807,14 +811,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"0 0 0 200"
+		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
 
 		"pin_to_sibling"		"SettingButton"
 		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"		"PIN_BOTTOMRIGHT"
 	}
 
 	"MinmodeToggle"
@@ -830,14 +836,16 @@
 		"textalignment"		"center"
 		"font"			"HudFontSmallishBold"
 		"allcaps"		"1"
-		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
+		"command"		"engine incrementvar cl_hud_minmode 0 1 1; fullhudreload"
 		"visible"		"1"
 		"enabled"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultBgColor_override"	"0 0 0 200"
+		"defaultBgColor_override_minmode"	"0 200 0 20"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -880,6 +888,7 @@
 
 			"defaultBgColor_override"	"0 0 0 200"
 			"armedBgColor_override"		"206 4 4 59"
+			"depressedBgColor_override"	"ColorRed"
 
 			"defaultFgColor_override"	"255 255 255 255"
 			"armedFgColor_override"	"255 255 255 255"
@@ -925,6 +934,7 @@
 
 			"defaultBgColor_override"	"0 0 0 200"
 			"armedBgColor_override"		"206 4 4 59"
+			"defaultBgColor_override"	"0 0 0 200"
 
 			"defaultFgColor_override"	"255 255 255 255"
 			"armedFgColor_override"	"255 255 255 255"

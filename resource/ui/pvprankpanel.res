@@ -1,2 +1,2 @@
-"#base" "../../#customizations/streamermode/pvprankpanel.res"
+#base ../../../../cfg/rank_name.txt
 "#base" "pvprankpanel-base.res"

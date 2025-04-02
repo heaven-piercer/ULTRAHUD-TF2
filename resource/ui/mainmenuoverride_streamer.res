@@ -1,0 +1,1 @@
+#base ../../../../cfg/menu_friends.txt

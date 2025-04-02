@@ -1,4 +1,5 @@
 #base "mainmenuoverride_backgrounds.res"
+#base "mainmenuoverride_streamer.res"
 "#base" "mainmenuoverride-base.res"
 #base "../hudoptions.res"
 

@@ -181,8 +181,8 @@
 		"fieldName"		"Customization"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"793"
-		"tall"		"2000"
+		"wide"		"743"
+		"tall"		"970"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -4278,7 +4278,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Itemtest"
 		"allcaps"		"1"
-		"font"			"Cerbetica16Alt"
+		"font"			"Cerbetica10Alt"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -4310,7 +4310,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"walkway"
 		"allcaps"		"1"
-		"font"			"Cerbetica10Alt"
+		"font"			"Cerbetica8Alt"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	

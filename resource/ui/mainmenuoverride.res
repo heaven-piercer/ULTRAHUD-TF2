@@ -1,5 +1,6 @@
 #base "mainmenuoverride_backgrounds.res"
 #base "../../../../cfg/menu_friends.txt"
+#base "../../_welcome/welcome_screen.res"
 "#base" "mainmenuoverride-base.res"
 #base "../hudoptions.res"
 

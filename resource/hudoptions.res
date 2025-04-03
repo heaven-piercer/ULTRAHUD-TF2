@@ -2445,7 +2445,7 @@
 					fieldName Clip
 					xpos	0
 					ypos	20
-					wide 100
+					wide 130
 					tall 100
 					visible 1
 					enabled 1
@@ -2689,7 +2689,69 @@
 						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 
-					
+					"color 8"
+					{
+						"ControlName"	"CExImageButton"	
+						"fieldname"	"color 8"
+						"xpos"	"0"	
+						"ypos"	"0"	
+						"zpos"	"100"	
+						"wide"	"14"	
+						"tall"	"20"
+						
+						"visible"	"1"	
+						"enabled"	"1"	
+						"command"	"engine hud_clip_white;hud_reloadscheme"	
+						"textinsetx"	"9999"	
+						"actionsignallevel"	"6"	
+						"proportionaltoparent"	"1"	
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"		
+						
+						"paintbackground"	"1"
+						
+						"defaultBgColor_override"	"ColorWhite"	
+						"armedBgColor_override"	"197 197 197 255"	
+						"depressedBgColor_override"	"ColorWhite"
+						
+						"border_default"	"noborder"
+
+						"pin_to_sibling"	"color 7"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"color 9"
+					{
+						"ControlName"	"CExImageButton"	
+						"fieldname"	"color 9"
+						"xpos"	"0"	
+						"ypos"	"0"	
+						"zpos"	"100"	
+						"wide"	"14"	
+						"tall"	"20"
+						
+						"visible"	"1"	
+						"enabled"	"1"	
+						"command"	"engine hud_clip_grey;hud_reloadscheme"	
+						"textinsetx"	"9999"	
+						"actionsignallevel"	"6"	
+						"proportionaltoparent"	"1"	
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"		
+						
+						"paintbackground"	"1"
+						
+						"defaultBgColor_override"	"AmmoInReserve"	
+						"armedBgColor_override"	"197 197 197 255"	
+						"depressedBgColor_override"	"AmmoInReserve"
+						
+						"border_default"	"noborder"
+
+						"pin_to_sibling"	"color 8"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
 				}
 
 				"Reserve"
@@ -2698,7 +2760,7 @@
 					fieldName Reserve
 					xpos	130
 					ypos	20
-					wide 100
+					wide 130
 					tall 100
 					visible 1
 					enabled 1
@@ -2939,6 +3001,70 @@
 						"border_default"	"noborder"
 
 						"pin_to_sibling"	"color 6"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"color 8"
+					{
+						"ControlName"	"CExImageButton"	
+						"fieldname"	"color 8"
+						"xpos"	"0"	
+						"ypos"	"0"	
+						"zpos"	"100"	
+						"wide"	"14"	
+						"tall"	"20"
+						
+						"visible"	"1"	
+						"enabled"	"1"	
+						"command"	"engine hud_reserve_white;hud_reloadscheme"	
+						"textinsetx"	"9999"	
+						"actionsignallevel"	"6"	
+						"proportionaltoparent"	"1"	
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"		
+						
+						"paintbackground"	"1"
+						
+						"defaultBgColor_override"	"ColorWhite"	
+						"armedBgColor_override"	"197 197 197 255"	
+						"depressedBgColor_override"	"ColorWhite"
+						
+						"border_default"	"noborder"
+
+						"pin_to_sibling"	"color 7"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"color 9"
+					{
+						"ControlName"	"CExImageButton"	
+						"fieldname"	"color 9"
+						"xpos"	"0"	
+						"ypos"	"0"	
+						"zpos"	"100"	
+						"wide"	"14"	
+						"tall"	"20"
+						
+						"visible"	"1"	
+						"enabled"	"1"	
+						"command"	"engine hud_reserve_grey;hud_reloadscheme"	
+						"textinsetx"	"9999"	
+						"actionsignallevel"	"6"	
+						"proportionaltoparent"	"1"	
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"		
+						
+						"paintbackground"	"1"
+						
+						"defaultBgColor_override"	"AmmoInReserve"	
+						"armedBgColor_override"	"197 197 197 255"	
+						"depressedBgColor_override"	"AmmoInReserve"
+						
+						"border_default"	"noborder"
+
+						"pin_to_sibling"	"color 8"
 						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 

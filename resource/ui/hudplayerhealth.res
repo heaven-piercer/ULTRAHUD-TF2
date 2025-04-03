@@ -1,2 +1,2 @@
-#base   "../../_customizations/ENABLED/Gabriel Pack/hudplayerhealth-gabe.res"
+#base ../../../../cfg/hud_healthlabel_colors.txt
 "#base" "hudplayerhealth-base.res"

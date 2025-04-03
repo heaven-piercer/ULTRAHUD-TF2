@@ -1,3 +1,2 @@
-"#base" "../../#customizations/streamermode/scoreboard.res"
-"#base" "../../#customizations/_enabled/scoreboard-minimal.res"
+#base ../../../../cfg/scoreboard-streamer.txt
 "#base" "scoreboard-base.res"

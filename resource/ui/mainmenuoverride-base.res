@@ -572,6 +572,40 @@
 			"fgcolor_override"	"ColorWhite"
 		}
 
+		"InvisLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"InvisLabel"
+			"font"			"Cerbetica20Alt"
+			"labelText"		"HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA."
+			"wrap"			"1"
+			"xpos"			"-2"
+			"ypos"			"-2"
+			"wide"			"262"
+			"tall"			"182"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor_override"	"ColorRed"
+			"alpha"			"150"
+		}
+
+		"Mockery"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Mockery"
+			"font"			"Cerbetica16Alt"
+			"labelText"		"T H E Y L E F T Y O U."
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"11"
+			"wide"			"260"
+			"tall"			"180"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor_override"	"ColorWhite"
+		}
+
 		"InnerShadow"
 		{
 			"ControlName"	"EditablePanel"

@@ -533,7 +533,7 @@
 		"LineSpacing"			"0"
 		"CornerRadius"			"2"
 		"RightJustify"			"1"
-		"TextFont"				"ItemFontNameLarge"
+		"TextFont"				"hideText"
 		"TeamBlue"				"HUDBlueTeamSolid"
 		"TeamRed"				"HUDRedTeamSolid"
 		"IconColor"				"HudWhite"

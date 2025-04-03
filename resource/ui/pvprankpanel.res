@@ -1,2 +1,2 @@
-#base ../../../../cfg/rank_name.txt
-"#base" "pvprankpanel-base.res"
+#base ../../../../cfg/rank_stream.txt
+#base pvprankpanel-base.res

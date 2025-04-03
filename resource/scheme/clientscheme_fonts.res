@@ -331,6 +331,15 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"hideText"
+		{
+			"1"{
+				"name"	"VCR OSD Mono"
+				"tall"	0
+				additive 0
+			}
+		}
 		// DEFAULT
 		"Default"
 		{
@@ -2906,16 +2915,6 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
-		}
-		"8"
-		{
-			"font" 	"resource/fonts/Cerbetica.ttf"
-			"name" 	"Cerbetica"
-		}
-		"9"
-		{
-			"font" 	"resource/fonts/Cerbetica-Bold.ttf"
-			"name" 	"Cerbetica-Bold"
 		}
 		"10"
 		{

@@ -182,7 +182,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"743"
-		"tall"		"970"
+		"tall"		"1300"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -193,7 +193,7 @@
 	"TitleLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"titlelabel"
+			"fieldName"				"TitleLabel"
 			"xpos"					"2"
 			"ypos"					"0"
 			"zpos"					"100"
@@ -4017,6 +4017,401 @@
 				"pin_to_sibling"		"GooseTreacheryImage"
 			}
 
+			"ULTRA_REVAMPImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "ULTRA_REVAMPImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"			"100"
+				"tall"			"56"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/revamp"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"GooseTreacheryImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"ULTRA_REVAMButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"ULTRA_REVAMButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"56"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_revamp;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"ULTRA_REVAMPImage"
+			}
+
+			"StreamerLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"StreamerLabel"
+				"xpos"					"0"
+				"ypos"					"140"
+				"zpos"					"100"
+				"wide"					"360"
+				"tall"					"28"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica28"
+				"labeltext"				"STREAMER MODE"
+				"fgcolor"				"ColorRed"
+
+				"pin_to_sibling"		"BGLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"StreamerFiller"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"				"StreamerFiller"
+				"xpos"					"2"
+				"ypos"					"-5"
+				"zpos"					"100"
+				"wide"					"400"
+				"tall"					"3"
+				"visible"				"1"
+				"enabled"				"1"
+				"fillcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"StreamerLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"FriendsLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"FriendsLabel"
+				"xpos"					"0"
+				"ypos"					"7"
+				"zpos"					"100"
+				"wide"					"285"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"labeltext"				"Friends List"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"StreamerFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultFriendsImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DefaultFriendsImage"
+				"xpos"			"0"
+				"ypos"			"25"
+				"zpos"			"2"
+				"wide"			"140"
+				"tall"			"100"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/friends_default"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"StreamerFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DefaultFriendsLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DefaultFriendsLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"140"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Default"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"DefaultFriendsImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultFriendsButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultFriendsButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"120"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine friends_show;fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DefaultFriendsImage"
+			}
+
+			"HideFriendsImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"HideFriendsImage"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"140"
+				"tall"			"100"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/friends_hidden"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"DefaultFriendsImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"HideFriendsLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"HideFriendsLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"140"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Hidden"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"HideFriendsImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"HideFriendsButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"HideFriendsButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"120"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine friends_hide;fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"HideFriendsImage"
+			}
+
+			"RankLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"RankLabel"
+				"xpos"					"-295"
+				"ypos"					"7"
+				"zpos"					"100"
+				"wide"					"285"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"labeltext"				"Rank"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"StreamerFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultRankImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DefaultRankImage"
+				"xpos"			"-295"
+				"ypos"			"25"
+				"zpos"			"2"
+				"wide"			"140"
+				"tall"			"65"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/rank_default"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"StreamerFiller"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DefaultRankLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DefaultRankLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"140"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Default"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"DefaultRankImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultRankButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultRankButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"82"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine rank_show;fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DefaultRankImage"
+			}
+
+			"HideRankImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"HideRankImage"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"140"
+				"tall"			"65"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/rank_hidden"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"DefaultRankImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"HideRankLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"HideRankLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"140"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Hidden"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"HideRankImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"HideRankButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"HideRankButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"140"
+				"tall"			"82"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine rank_hide;fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"HideRankImage"
+			}
+
+			
+			
+			
 			"MenusLabel"
 			{
 				"ControlName"			"CExLabel"
@@ -4032,7 +4427,7 @@
 				"labeltext"				"MENUS"
 				"fgcolor"				"ColorRed"
 
-				"pin_to_sibling"		"BGLabel"
+				"pin_to_sibling"		"StreamerLabel"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 			}
@@ -4059,10 +4454,10 @@
 				"ControlName"			"CExLabel"
 				"fieldName"				"ClassModelLabel"
 				"xpos"					"0"
-				"ypos"					"10"
+				"ypos"					"7"
 				"zpos"					"100"
 				"wide"					"205"
-				"tall"					"28"
+				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
 				"font"					"Cerbetica14Alt"
@@ -4080,7 +4475,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"DefaultClassModelImage"
 				"xpos"			"0"
-				"ypos"			"35"
+				"ypos"			"25"
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"100"
@@ -4102,7 +4497,7 @@
 				"ypos"					"0"
 				"zpos"					"100"
 				"wide"					"100"
-				"tall"					"28"
+				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
 				"font"					"Cerbetica14Alt"
@@ -4123,7 +4518,7 @@
 				"ypos"			"0"
 				"zpos"			"101"
 				"wide"			"100"
-				"tall"			"128"
+				"tall"			"120"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -4169,7 +4564,7 @@
 				"ypos"					"0"
 				"zpos"					"100"
 				"wide"					"100"
-				"tall"					"28"
+				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
 				"font"					"Cerbetica14Alt"
@@ -4185,12 +4580,12 @@
 			"FullClassModelButton"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"DefaultClassModelButton"
+				"fieldName"		"FullClassModelButton"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
 				"wide"			"100"
-				"tall"			"128"
+				"tall"			"120"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -4216,7 +4611,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"0"
-		"ypos"		"950"
+		"ypos"		"1150"
 		"wide"		"743"
 		"tall"		"160"
 		"autoResize"		"0"
@@ -4231,7 +4626,7 @@
 	"TitleLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"titlelabel"
+			"fieldName"				"TitleLabel"
 			"xpos"					"2"
 			"ypos"					"0"
 			"zpos"					"100"

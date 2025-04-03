@@ -1,5 +1,5 @@
 #base "mainmenuoverride_backgrounds.res"
-#base "mainmenuoverride_streamer.res"
+#base "../../../../cfg/menu_friends.txt"
 "#base" "mainmenuoverride-base.res"
 #base "../hudoptions.res"
 

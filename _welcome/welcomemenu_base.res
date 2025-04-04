@@ -8,11 +8,11 @@
         "enabled"       "1"
 		"ControlName"	"EditablePanel"
 		"fieldname"		"WelcomeScreen"
-		"xpos"			"180"
-		"ypos"			"0"
+		"xpos"			"r370"
+		"ypos"			"cs-0.5"
 		"zpos"			"50"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"245"
+		"tall"			"300"
 		
 
 
@@ -20,8 +20,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGHeader"
-		"xpos"			"c-120"
-		"ypos"			"c-150"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"52"
 		"wide"			"245"
 		"tall"			"20"
@@ -52,14 +52,14 @@
 	{
 		"ControlName"	"Label"	
 		"FieldName"	"headerlabel"				
-		"xpos"	"c-275"	
-		"ypos"	"93"
+		"xpos"	"5"	
+		"ypos"	"3"
 		"zpos"			"53"	
-		"wide"	"400"	
+		"wide"	"100"	
 		"tall"	"12"				
 		"font"			"Tahoma16"
 		"labelText"	"ULTRAHUD 4.2"	
-		"textAlignment"	"center"				
+		"textAlignment"	"west"				
 		"fgcolor_override"		"ColorWhite"
 				
 	}
@@ -70,11 +70,11 @@
 		"xpos"	"-1"	
 		"ypos"	"-1"
 		"zpos"			"53"	
-		"wide"	"400"	
+		"wide"	"100"	
 		"tall"	"12"				
 		"font"			"Tahoma16"
 		"labelText"	"ULTRAHUD 4.2"	
-		"textAlignment"	"center"				
+		"textAlignment"	"west"				
 		"fgcolor_override"		"TransparentBlack"
 		"pin_to_sibling"		"headerlabel"
 				
@@ -85,8 +85,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
-		"xpos"			"c-120"
-		"ypos"			"c-150"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"50"
 		"wide"			"245"
 		"tall"			"300"
@@ -101,8 +101,8 @@
     {
         "ControlName"	"imagePanel"
 		"fieldname"		"fillbg"
-		"xpos"			"c-105"
-		"ypos"			"c-140"
+		"xpos"			"15"
+		"ypos"			"10"
 		"zpos"			"51"
 		"wide"			"215"
 		"tall"			"272"
@@ -116,8 +116,8 @@
 	{
 		"ControlName"	"ImagePanel"
 	    "fieldName"		"logohud"
-		"xpos"			"cs-0.5"
-		"ypos"			"110"
+		"xpos"			"20"
+		"ypos"			"25"
 		"zpos"			"52"
 		"wide"			"95"
 		"tall"			"95"
@@ -132,41 +132,74 @@
 	{
 		"ControlName"	"Label"	
 		"FieldName"	"title"				
-		"xpos"	"c-200"	
-		"ypos"	"200"
+		"xpos"	"120"	
+		"ypos"	"25"
 		"zpos"			"52"	
-		"wide"	"400"	
-		"tall"	"20"				
-		"font"			"Tahoma24"
+		"wide"	"200"	
+		"tall"	"24"				
+		"font"			"Tahoma14"
 		"labelText"	"INIT ULTRAHUD... OK"	
-		"textAlignment"	"center"				
+		"textAlignment"	"west"				
 		"fgcolor_override"		"ColorWhite"
 				
-		}	
+		}
+
+	"label0"				
+	{
+		"ControlName"	"Label"	
+		"FieldName"	"label0"				
+		"xpos"	"120"	
+		"ypos"	"45"
+		"zpos"			"52"	
+		"wide"	"200"	
+		"tall"	"24"				
+		"font"			"Tahoma14"
+		"labelText"	"SmileOS 2.0 Installed"	
+		"textAlignment"	"west"				
+		"fgcolor_override"		"Colorgreen"
+				
+		}		
 
     "label1"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label1"				
-				"xpos"	"c-200"	
-		        "ypos"	"220"
+				"xpos"	"115"	
+		        "ypos"	"65"
 		        "zpos"			"52"
-				"wide"	"400"	
-				"tall"	"20"				
+				"wide"	"200"	
+				"tall"	"24"				
 				"font"			"Tahoma14"
-				"labelText"	"YOUR DOWNLOAD IS APPRECIATED!"	
-				"textAlignment"	"center"				
-				"fgcolor_override"		"Colorgreen"
+				"labelText"	"YOUR DOWNLOAD IS"	
+				"textAlignment"	"west"				
+				"fgcolor_override"		"Colorwhite"
 				
 			}	
+
+			"label1p2"				
+			{
+				"ControlName"	"Label"	
+				"FieldName"	"label1p2"				
+				"xpos"	"125"	
+		        "ypos"	"80"
+		        "zpos"			"52"
+				"wide"	"200"	
+				"tall"	"24"				
+				"font"			"Tahoma14"
+				"labelText"	"APPRECIATED!"	
+				"textAlignment"	"west"				
+				"fgcolor_override"		"Colorgreen"
+				
+			}
+
             "label2"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label2"				
-				"xpos"	"c-200"	
-		        "ypos"	"240"
+				"xpos"	"20"	
+		        "ypos"	"120"
 		        "zpos"			"52"
-				"wide"	"400"	
+				"wide"	"200"	
 				"tall"	"20"				
 				"font"			"Tahoma16"
 				"labelText"	"FOR ASSISTANCE, JOIN THE"	
@@ -180,8 +213,8 @@
 			{
 				"ControlName"			"EditablePanel"
 				"fieldName"				"DiscordLinkUrl"				
-				"xpos"	"c-100"	
-		        "ypos"	"257"
+				"xpos"	"20"	
+		        "ypos"	"140"
 		        "zpos"			"100"	
 				"wide"	"200"	
 				"tall"	"20"							
@@ -206,42 +239,12 @@
 				}
 			}	
 
-			"helpbutton"				
-			{
-				"ControlName"			"EditablePanel"
-				"fieldName"				"helpLinkUrl"				
-				"xpos"	"c-3"	
-		        "ypos"	"353"
-		        "zpos"			"100"	
-				"wide"	"110"	
-				"tall"	"14"							
-				"PaintBackgroundType"	"0"
-				
-				"DiscordUrl"
-				{
-					"ControlName"			"URLLabel"
-					"fieldName"				"helpLinkUrl"
-					"xpos"					"0"
-					"ypos"					"0"
-					"zpos"					"2"
-					"wide"					"f0"
-					"tall"					"f0"
-					"font"		    	  	"Tahoma10"
-					"labelText"				"if you are stuck here click me"	
-					"textAlignment"			"center"
-					"fgcolor_override"		"ColorYellow"
-					"proportionaltoparent"	"1"
-					"urlText"				"https://steamcommunity.com/sharedfiles/filedetails/?id=3451318454"
-			
-				}
-			}	
-
-		"line"				
+			"line"				
 			{
 				"ControlName"			"EditablePanel"
 				"fieldName"				"line"				
-				"xpos"	"c-90"	
-		        "ypos"	"276"
+				"xpos"	"30"	
+		        "ypos"	"160"
 		        "zpos"			"100"	
 				"wide"	"180"	
 				"tall"	"2"							
@@ -252,14 +255,18 @@
 
 			}
 
+			
+
+		
+
 			"label3"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label3"				
-				"xpos"	"c-200"	
-		        "ypos"	"277"
+				"xpos"	"20"	
+		        "ypos"	"173"
 		        "zpos"			"52"
-				"wide"	"400"	
+				"wide"	"200"	
 				"tall"	"20"				
 				"font"			"Tahoma14"
 				"labelText"	"ULTRAHUD IS BROUGHT TO YOU BY:"	
@@ -270,56 +277,56 @@
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label4"				
-				"xpos"	"c-250"	
-		        "ypos"	"290"
+				"xpos"	"25"	
+		        "ypos"	"190"
 		        "zpos"			"52"
-				"wide"	"400"	
+				"wide"	"200"	
 				"tall"	"20"				
 				"font"			"Tahoma14"
 				"labelText"	"Heaven Piercer"	
-				"textAlignment"	"center"				
+				"textAlignment"	"west"				
 				"fgcolor_override"		"ColorRed"
 			}
 			"label5"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label5"				
-				"xpos"	"c-180"	
-		        "ypos"	"290"
+				"xpos"	"117"	
+		        "ypos"	"190"
 		        "zpos"			"52"
-				"wide"	"400"	
+				"wide"	"200"	
 				"tall"	"20"				
 				"font"			"Tahoma14"
 				"labelText"	"Tomma"	
-				"textAlignment"	"center"				
+				"textAlignment"	"west"				
 				"fgcolor_override"		"ColorPurple"
 			}
 			"label6"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label6"				
-				"xpos"	"c-130"	
-		        "ypos"	"290"
+				"xpos"	"170"	
+		        "ypos"	"190"
 		        "zpos"			"52"
-				"wide"	"400"	
+				"wide"	"200"	
 				"tall"	"20"				
 				"font"			"Tahoma14"
 				"labelText"	"Techno"	
-				"textAlignment"	"center"				
+				"textAlignment"	"west"				
 				"fgcolor_override"		"ColorYellow"
 			}
 			"label7"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label7"				
-				"xpos"	"c-233"	
-		        "ypos"	"303"
+				"xpos"	"25"	
+		        "ypos"	"205"
 		        "zpos"			"52"
-				"wide"	"400"	
+				"wide"	"200"	
 				"tall"	"20"				
 				"font"			"Tahoma14"
 				"labelText"	"VillageGreenPreserver"	
-				"textAlignment"	"center"				
+				"textAlignment"	"west"				
 				"fgcolor_override"		"ColorGreen"
 			}
 
@@ -328,8 +335,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CLOSE-button"
-		"xpos"			"c-103"
-		"ypos"			"353"
+		"xpos"			"17"
+		"ypos"			"265"
 		"zpos"		"58"
 		"wide"					"100"
 		"tall"					"14"
@@ -367,6 +374,36 @@
 			}
 		
 	}
+
+	"helpbutton"				
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"helpLinkUrl"				
+				"xpos"	"119"	
+		        "ypos"	"265"
+		        "zpos"			"100"	
+				"wide"	"110"	
+				"tall"	"14"							
+				"PaintBackgroundType"	"0"
+				
+				"DiscordUrl"
+				{
+					"ControlName"			"URLLabel"
+					"fieldName"				"helpLinkUrl"
+					"xpos"					"0"
+					"ypos"					"0"
+					"zpos"					"2"
+					"wide"					"f0"
+					"tall"					"f0"
+					"font"		    	  	"Tahoma10"
+					"labelText"				"if you are stuck here click me"	
+					"textAlignment"			"center"
+					"fgcolor_override"		"ColorYellow"
+					"proportionaltoparent"	"1"
+					"urlText"				"https://steamcommunity.com/sharedfiles/filedetails/?id=3451318454"
+			
+				}
+			}	
 
 
 	}

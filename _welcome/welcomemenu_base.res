@@ -1,9 +1,9 @@
 "Resource/UI/MainMenuOverride.res"
-{   
+{
 
 
     "WelcomeScreen"
-	{   
+	{
         "visible"		"1"
         "enabled"       "1"
 		"ControlName"	"EditablePanel"
@@ -48,33 +48,33 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"headerlabel"				
+	"headerlabel"
 	{
-		"ControlName"	"Label"	
-		"FieldName"	"headerlabel"				
-		"xpos"	"5"	
+		"ControlName"	"Label"
+		"FieldName"	"headerlabel"
+		"xpos"	"5"
 		"ypos"	"3"
-		"zpos"			"53"	
-		"wide"	"100"	
-		"tall"	"12"				
+		"zpos"			"53"
+		"wide"	"100"
+		"tall"	"12"
 		"font"			"Tahoma16"
-		"labelText"	"ULTRAHUD 4.2"	
-		"textAlignment"	"west"				
+		"labelText"	"ULTRAHUD 4.2"
+		"textAlignment"	"west"
 		"fgcolor_override"		"ColorWhite"
 				
 	}
-	"headerlabelshadow"				
+	"headerlabelshadow"
 	{
-		"ControlName"	"Label"	
-		"FieldName"	"headerlabelshadow"				
-		"xpos"	"-1"	
+		"ControlName"	"Label"
+		"FieldName"	"headerlabelshadow"
+		"xpos"	"-1"
 		"ypos"	"-1"
-		"zpos"			"53"	
-		"wide"	"100"	
-		"tall"	"12"				
+		"zpos"			"53"
+		"wide"	"100"
+		"tall"	"12"
 		"font"			"Tahoma16"
-		"labelText"	"ULTRAHUD 4.2"	
-		"textAlignment"	"west"				
+		"labelText"	"ULTRAHUD 4.2"
+		"textAlignment"	"west"
 		"fgcolor_override"		"TransparentBlack"
 		"pin_to_sibling"		"headerlabel"
 				
@@ -126,98 +126,98 @@
 		"image"			"replay/thumbnails/ultrahud/ultrahudlogo"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-	}	
+	}
 
-    "title"				
+    "title"
 	{
-		"ControlName"	"Label"	
-		"FieldName"	"title"				
-		"xpos"	"120"	
+		"ControlName"	"Label"
+		"FieldName"	"title"
+		"xpos"	"120"
 		"ypos"	"25"
-		"zpos"			"52"	
-		"wide"	"200"	
-		"tall"	"24"				
+		"zpos"			"52"
+		"wide"	"200"
+		"tall"	"24"
 		"font"			"Tahoma14"
-		"labelText"	"INIT ULTRAHUD... OK"	
-		"textAlignment"	"west"				
+		"labelText"	"INIT ULTRAHUD... OK"
+		"textAlignment"	"west"
 		"fgcolor_override"		"ColorWhite"
 				
 		}
 
-	"label0"				
+	"label0"
 	{
-		"ControlName"	"Label"	
-		"FieldName"	"label0"				
-		"xpos"	"120"	
+		"ControlName"	"Label"
+		"FieldName"	"label0"
+		"xpos"	"120"
 		"ypos"	"45"
-		"zpos"			"52"	
-		"wide"	"200"	
-		"tall"	"24"				
+		"zpos"			"52"
+		"wide"	"200"
+		"tall"	"24"
 		"font"			"Tahoma14"
-		"labelText"	"SmileOS 2.0 Installed"	
-		"textAlignment"	"west"				
+		"labelText"	"SmileOS 2.0 Installed"
+		"textAlignment"	"west"
 		"fgcolor_override"		"Colorgreen"
 				
-		}		
+		}
 
-    "label1"				
+    "label1"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label1"				
-				"xpos"	"115"	
+				"ControlName"	"Label"
+				"FieldName"	"label1"
+				"xpos"	"115"
 		        "ypos"	"65"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"24"				
+				"wide"	"200"
+				"tall"	"24"
 				"font"			"Tahoma14"
-				"labelText"	"YOUR DOWNLOAD IS"	
-				"textAlignment"	"west"				
+				"labelText"	"YOUR DOWNLOAD IS"
+				"textAlignment"	"west"
 				"fgcolor_override"		"Colorwhite"
 				
-			}	
+			}
 
-			"label1p2"				
+			"label1p2"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label1p2"				
-				"xpos"	"125"	
+				"ControlName"	"Label"
+				"FieldName"	"label1p2"
+				"xpos"	"125"
 		        "ypos"	"80"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"24"				
+				"wide"	"200"
+				"tall"	"24"
 				"font"			"Tahoma14"
-				"labelText"	"APPRECIATED!"	
-				"textAlignment"	"west"				
+				"labelText"	"APPRECIATED!"
+				"textAlignment"	"west"
 				"fgcolor_override"		"Colorgreen"
 				
 			}
 
-            "label2"				
+            "label2"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label2"				
-				"xpos"	"20"	
+				"ControlName"	"Label"
+				"FieldName"	"label2"
+				"xpos"	"20"
 		        "ypos"	"120"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"20"				
+				"wide"	"200"
+				"tall"	"20"
 				"font"			"Tahoma16"
-				"labelText"	"FOR ASSISTANCE, JOIN THE"	
-				"textAlignment"	"center"				
+				"labelText"	"FOR ASSISTANCE, JOIN THE"
+				"textAlignment"	"center"
 				"fgcolor_override"		"ColorWhite"
 				
 				
-			}	
+			}
 
-        "discordbutton"				
+        "discordbutton"
 			{
 				"ControlName"			"EditablePanel"
-				"fieldName"				"DiscordLinkUrl"				
-				"xpos"	"20"	
+				"fieldName"				"DiscordLinkUrl"
+				"xpos"	"20"
 		        "ypos"	"140"
-		        "zpos"			"100"	
-				"wide"	"200"	
-				"tall"	"20"							
+		        "zpos"			"100"
+				"wide"	"200"
+				"tall"	"20"
 				"PaintBackgroundType"	"0"
 				
 				"DiscordUrl"
@@ -230,24 +230,24 @@
 					"wide"					"f0"
 					"tall"					"f0"
 					"font"		    	  	"Tahoma16"
-					"labelText"				"DISCORD"	
+					"labelText"				"DISCORD"
 					"textAlignment"			"center"
 					"fgcolor_override"		"106 88 242 255"
 					"proportionaltoparent"	"1"
 					"urlText"				"https://discord.gg/v8nmUKRX62"
 			
 				}
-			}	
+			}
 
-			"line"				
+			"line"
 			{
 				"ControlName"			"EditablePanel"
-				"fieldName"				"line"				
-				"xpos"	"30"	
+				"fieldName"				"line"
+				"xpos"	"30"
 		        "ypos"	"160"
-		        "zpos"			"100"	
-				"wide"	"180"	
-				"tall"	"2"							
+		        "zpos"			"100"
+				"wide"	"180"
+				"tall"	"2"
 				"PaintBackgroundType"	"0"
 				
 				"fillcolor"		"106 88 242 255"
@@ -259,74 +259,74 @@
 
 		
 
-			"label3"				
+			"label3"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label3"				
-				"xpos"	"20"	
+				"ControlName"	"Label"
+				"FieldName"	"label3"
+				"xpos"	"20"
 		        "ypos"	"173"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"20"				
+				"wide"	"200"
+				"tall"	"20"
 				"font"			"Tahoma14"
-				"labelText"	"ULTRAHUD IS BROUGHT TO YOU BY:"	
-				"textAlignment"	"center"				
+				"labelText"	"ULTRAHUD IS BROUGHT TO YOU BY:"
+				"textAlignment"	"center"
 				"fgcolor_override"		"ColorWhite"
 			}
-			"label4"				
+			"label4"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label4"				
-				"xpos"	"25"	
+				"ControlName"	"Label"
+				"FieldName"	"label4"
+				"xpos"	"25"
 		        "ypos"	"190"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"20"				
+				"wide"	"200"
+				"tall"	"20"
 				"font"			"Tahoma14"
-				"labelText"	"Heaven Piercer"	
-				"textAlignment"	"west"				
+				"labelText"	"Heaven Piercer"
+				"textAlignment"	"west"
 				"fgcolor_override"		"ColorRed"
 			}
-			"label5"				
+			"label5"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label5"				
-				"xpos"	"117"	
+				"ControlName"	"Label"
+				"FieldName"	"label5"
+				"xpos"	"117"
 		        "ypos"	"190"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"20"				
+				"wide"	"200"
+				"tall"	"20"
 				"font"			"Tahoma14"
-				"labelText"	"Tomma"	
-				"textAlignment"	"west"				
+				"labelText"	"Tomma"
+				"textAlignment"	"west"
 				"fgcolor_override"		"ColorPurple"
 			}
-			"label6"				
+			"label6"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label6"				
-				"xpos"	"170"	
+				"ControlName"	"Label"
+				"FieldName"	"label6"
+				"xpos"	"170"
 		        "ypos"	"190"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"20"				
+				"wide"	"200"
+				"tall"	"20"
 				"font"			"Tahoma14"
-				"labelText"	"Techno"	
-				"textAlignment"	"west"				
+				"labelText"	"Techno"
+				"textAlignment"	"west"
 				"fgcolor_override"		"ColorYellow"
 			}
-			"label7"				
+			"label7"
 			{
-				"ControlName"	"Label"	
-				"FieldName"	"label7"				
-				"xpos"	"25"	
+				"ControlName"	"Label"
+				"FieldName"	"label7"
+				"xpos"	"25"
 		        "ypos"	"205"
 		        "zpos"			"52"
-				"wide"	"200"	
-				"tall"	"20"				
+				"wide"	"200"
+				"tall"	"20"
 				"font"			"Tahoma14"
-				"labelText"	"VillageGreenPreserver"	
-				"textAlignment"	"west"				
+				"labelText"	"VillageGreenPreserver"
+				"textAlignment"	"west"
 				"fgcolor_override"		"ColorGreen"
 			}
 
@@ -375,15 +375,15 @@
 		
 	}
 
-	"helpbutton"				
+	"helpbutton"
 			{
 				"ControlName"			"EditablePanel"
-				"fieldName"				"helpLinkUrl"				
-				"xpos"	"119"	
+				"fieldName"				"helpLinkUrl"
+				"xpos"	"119"
 		        "ypos"	"265"
-		        "zpos"			"100"	
-				"wide"	"110"	
-				"tall"	"14"							
+		        "zpos"			"100"
+				"wide"	"110"
+				"tall"	"14"
 				"PaintBackgroundType"	"0"
 				
 				"DiscordUrl"
@@ -396,14 +396,14 @@
 					"wide"					"f0"
 					"tall"					"f0"
 					"font"		    	  	"Tahoma10"
-					"labelText"				"if you are stuck here click me"	
+					"labelText"				"if you are stuck here click me"
 					"textAlignment"			"center"
 					"fgcolor_override"		"ColorYellow"
 					"proportionaltoparent"	"1"
 					"urlText"				"https://steamcommunity.com/sharedfiles/filedetails/?id=3451318454"
 			
 				}
-			}	
+			}
 
 
 	}

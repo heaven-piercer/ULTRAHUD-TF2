@@ -340,6 +340,159 @@ Scheme
 				additive 0
 			}
 		}
+
+		//NEW TERMINALS
+		"Tahoma56" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"56"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma40"
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"40"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma32" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma28" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"28"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma24" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma20" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma18" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"18"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma16"
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma14" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma12" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"12"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma10" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma8" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"8"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma6" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"6"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma4" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"4"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma2"
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"2"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 		// DEFAULT
 		"Default"
 		{
@@ -2925,6 +3078,11 @@ Scheme
 		{
 			"font" 	"resource/fonts/BroshKill-Regular.otf"
 			"name" 	"BroshKill"
+		}
+		"11"
+		{
+			"font" 	"resource/fonts/fs-tahoma-8px.ttf"
+			"name" 	"fs Tahoma 8px"
 		}
 	}
 }

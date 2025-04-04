@@ -30,6 +30,8 @@
 		"clientinsetx_override"				"0"
 		"sheetinset_bottom"					"40"
 	}
+	
+
 
 	"TerminalBG"
 	{
@@ -37,13 +39,13 @@
 		"fieldName"		"TerminalBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-10"
+		"zpos"			"-4"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
+		"image"		"replay/thumbnails/content"
 	}
 
 	"TerminalBG2"
@@ -52,13 +54,13 @@
 		"fieldName"		"TerminalBG2"
 		"xpos"			"150"
 		"ypos"			"30"
-		"zpos"			"-10"
+		"zpos"			"-3"
 		"wide"			"670"
 		"tall"			"420"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
+		"image"		"replay/thumbnails/inset"
 		"alpha"		"200"
 	}
 
@@ -70,12 +72,46 @@
 		"ypos"				"0"
 		"zpos"				"-2"
 		"wide"				"f0"
-		"tall"				"47"
-		"visible"			"0"
-		"enabled"			"0"
-		"fillcolor"			"0 0 0 250"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/header"
 		"tileImage"			"1"
 	}
+
+	"headerlabel"				
+	{
+		"ControlName"	"Label"	
+		"FieldName"	"headerlabel"				
+		"xpos"	"5"	
+		"ypos"	"3"
+		"zpos"			"53"	
+		"wide"	"400"	
+		"tall"	"12"				
+		"font"			"Tahoma16"
+		"labelText"	"SmileOS 2.0"	
+		"textAlignment"	"west"				
+		"fgcolor_override"		"ColorWhite"
+				
+	}
+	"headerlabelshadow"				
+	{
+		"ControlName"	"Label"	
+		"FieldName"	"headerlabelshadow"				
+		"xpos"	"-1"	
+		"ypos"	"-1"
+		"zpos"			"53"	
+		"wide"	"400"	
+		"tall"	"12"				
+		"font"			"Tahoma16"
+		"labelText"	"SmileOS 2.0"	
+		"textAlignment"	"west"				
+		"fgcolor_override"		"TransparentBlack"
+		"pin_to_sibling"		"headerlabel"
+				
+	}
+
 	"BackgroundHeader2"
 	{
 		"ControlName"		"ImagePanel"

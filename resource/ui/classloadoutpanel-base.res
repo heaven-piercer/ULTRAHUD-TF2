@@ -236,7 +236,7 @@
 		"enabled"			"0"
 		"labelText"			""
 		"textAlignment"		"north"
-		"fgcolor"			"75 255 75 255"
+		"fgcolor_override"			"75 255 75 255"
 		"centerwrap"		"1"
 	}
 
@@ -258,21 +258,48 @@
 		"pin_to_sibling"	"PassiveAttribsLabel"
 	}
 
-	"loadout_preset_panel"
+	"PresetLabel"
 	{
-		"ControlName"		"CLoadoutPresetPanel"
-		"FieldName"			"loadout_preset_panel"
-		"xpos"				"0"
-		"ypos"				"-50"
-		"zpos"				"20"
+		"ControlName"		"CExLabel"
+		"fieldName"			"PresetLabel"
+		"font"				"Tahoma24"
+		"xpos"				"r360"
+		"ypos"				"32"
+		"zpos"				"1"
 		"wide"				"150"
-		"tall"				"25"
+		"tall"				"24"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
-		"paintbackground"	"0"
+		"labelText"			"Presets:"
+		"textAlignment"		"Center"
+		"fgcolor"			"75 255 75 255"
+		"centerwrap"		"1"
+	}
+
+	"presetpinner"
+	{
+		"ControlName"    "Panel"
+		"xpos"            "283"
+		"ypos"            "-27"
+		"wide"            "0"
+		"tall"            "0"
+		"proportionaltoparent"    "1"
+	}
+
+	"loadout_preset_panel"
+	{
+		"ControlName"            "CLoadoutPresetPanel"
+		"FieldName"                "loadout_preset_panel"
+		"xpos"                    "0"
+		"zpos"                    "20"
+		"wide"                    "130"
+		"tall"                    "135"
+		"visible"                "1"
+		"ignorescheme"            "1"
+		"pin_to_sibling"        "presetpinner"
+		"pin_to_sibling_corner"    "3"
 	}
 
 	"PresetsExplanation"
@@ -311,8 +338,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedButton"
-		"xpos"				"c-55"
-		"ypos"				"c-153"
+		"xpos"				"173"
+		"ypos"				"c-159"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -329,7 +356,11 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"180 92 77 127"
-		"armedFgColor_override"		"180 92 77 127"
+		"armedFgColor_override"		"236 79 52 127"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -358,7 +389,11 @@
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"104 124 155 127"
-		"armedFgColor_override"		"104 124 155 127"
+		"armedFgColor_override"		"56 127 233 127"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -372,8 +407,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"CharacterLoadoutButton"
-		"xpos"				"2"
-		"ypos"				"0"
+		"xpos"				"0"
+		"ypos"				"2"
 		"zpos"				"2"
 		"wide"				"25"
 		"tall"				"25"
@@ -396,11 +431,12 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
 
-		"defaultBgColor_override"		"ColorRed"
-		"depressedBgColor_override" 	"ColorRed"
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
-		"pin_to_sibling"		"BlueButton"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"		"RedButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"TauntLoadoutButton"
@@ -431,8 +467,9 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override" 	"White"
 
-		"defaultBgColor_override"		"ColorRed"
-		"depressedBgColor_override" 	"ColorRed"
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"pin_to_sibling"		"CharacterLoadoutButton"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"

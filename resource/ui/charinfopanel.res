@@ -80,6 +80,22 @@
 		"tileImage"			"1"
 	}
 
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"rs1-5"
+		"ypos"			"3"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
+
 	"headerlabel"				
 	{
 		"ControlName"	"Label"	
@@ -229,9 +245,10 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Back (Q) &Q"
-		"font"				"HudFontSmall"
+		"labelText"			"Back (&Q) "
+		"font"				"Tahoma16"
 		"default"			"0"
+		"textAlignment"		"center"
 		"Command"			"back"
 
 		"sound_depressed"	"UI/buttonclick.wav"

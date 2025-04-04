@@ -31,6 +31,22 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 	}
+	
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"c60"
+		"ypos"			"c-147"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
 
 	"headerlabel"				
 	{
@@ -194,11 +210,11 @@
 			{
 				"ControlName"			"EditablePanel"
 				"fieldName"				"helpLinkUrl"				
-				"xpos"	"c-100"	
-		        "ypos"	"400"
+				"xpos"	"c-3"	
+		        "ypos"	"353"
 		        "zpos"			"100"	
-				"wide"	"200"	
-				"tall"	"20"							
+				"wide"	"110"	
+				"tall"	"14"							
 				"PaintBackgroundType"	"0"
 				
 				"DiscordUrl"
@@ -210,10 +226,10 @@
 					"zpos"					"2"
 					"wide"					"f0"
 					"tall"					"f0"
-					"font"		    	  	"Tahoma16"
+					"font"		    	  	"Tahoma10"
 					"labelText"				"if you are stuck here click me"	
 					"textAlignment"			"center"
-					"fgcolor_override"		"106 88 242 255"
+					"fgcolor_override"		"ColorYellow"
 					"proportionaltoparent"	"1"
 					"urlText"				"https://steamcommunity.com/sharedfiles/filedetails/?id=3451318454"
 			
@@ -234,74 +250,103 @@
 				"fillcolor"		"106 88 242 255"
 				"bgcolor_override"	"106 88 242 255"
 
-			}	
+			}
 
-         "VersionLabel"				
+			"label3"				
 			{
 				"ControlName"	"Label"	
-				"FieldName"	"VersionLabel"				
+				"FieldName"	"label3"				
 				"xpos"	"c-200"	
-		        "ypos"	"280"
-		        "zpos"			"52"	
+		        "ypos"	"277"
+		        "zpos"			"52"
 				"wide"	"400"	
 				"tall"	"20"				
-				"font"			"Tahoma20"
-				"labelText"	"CURRENT VERSION:"	
+				"font"			"Tahoma14"
+				"labelText"	"ULTRAHUD IS BROUGHT TO YOU BY:"	
 				"textAlignment"	"center"				
-				"fgcolor_override"		"Colorwhite"
-				
-			}   
-
-			"Version"				
+				"fgcolor_override"		"ColorWhite"
+			}
+			"label4"				
 			{
 				"ControlName"	"Label"	
-				"FieldName"	"Version"				
-				"xpos"	"c-200"	
-		        "ypos"	"300"
-		        "zpos"			"52"	
+				"FieldName"	"label4"				
+				"xpos"	"c-250"	
+		        "ypos"	"290"
+		        "zpos"			"52"
 				"wide"	"400"	
 				"tall"	"20"				
-				"font"			"Tahoma20"
-				"labelText"	"4.2 "	
+				"font"			"Tahoma14"
+				"labelText"	"Heaven Piercer"	
 				"textAlignment"	"center"				
-				"fgcolor_override"		"Colorwhite"
-				
-			}  
-
-            "label7"				
+				"fgcolor_override"		"ColorRed"
+			}
+			"label5"				
+			{
+				"ControlName"	"Label"	
+				"FieldName"	"label5"				
+				"xpos"	"c-180"	
+		        "ypos"	"290"
+		        "zpos"			"52"
+				"wide"	"400"	
+				"tall"	"20"				
+				"font"			"Tahoma14"
+				"labelText"	"Tomma"	
+				"textAlignment"	"center"				
+				"fgcolor_override"		"ColorPurple"
+			}
+			"label6"				
+			{
+				"ControlName"	"Label"	
+				"FieldName"	"label6"				
+				"xpos"	"c-130"	
+		        "ypos"	"290"
+		        "zpos"			"52"
+				"wide"	"400"	
+				"tall"	"20"				
+				"font"			"Tahoma14"
+				"labelText"	"Techno"	
+				"textAlignment"	"center"				
+				"fgcolor_override"		"ColorYellow"
+			}
+			"label7"				
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"label7"				
-				"xpos"	"c-200"	
-		        "ypos"	"320"
+				"xpos"	"c-233"	
+		        "ypos"	"303"
 		        "zpos"			"52"
 				"wide"	"400"	
-				"tall"	"70"				
-				"font"			"Tahoma10"
-				"labelText"	"THIS WINDOW WILL CLOSE UPON CLICK."	
+				"tall"	"20"				
+				"font"			"Tahoma14"
+				"labelText"	"VillageGreenPreserver"	
 				"textAlignment"	"center"				
-				"fgcolor_override"		"ColorRed"
-				
+				"fgcolor_override"		"ColorGreen"
 			}
+
 
             "CLOSE-button"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"CLOSE-ONbutton"
-		"xpos"			"-180"
-		"ypos"			"0"
+		"fieldName"		"CLOSE-button"
+		"xpos"			"c-103"
+		"ypos"			"353"
 		"zpos"		"58"
-		"wide"					"9999"
-		"tall"					"9999"
+		"wide"					"100"
+		"tall"					"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"
-		"paintbackground"	"0"
-		"labelText"			""
+		"textAlignment"	"center"
+		"labelText"			"CLOSE WINDOW"
+		"font"				"Tahoma10"
 		"command"		"engine close_welcome_menu; hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
-		"sound_depressed"	"UI/sound5.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
 		
-		"fillcolor"      "0 0 0 0"
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"defaultFgColor_override"	"ColorRed"
+		"armedFgColor_override"	"ColorRed"
 	
 		"actionsignallevel"	"2"
 		

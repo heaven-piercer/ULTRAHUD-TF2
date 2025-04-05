@@ -112,7 +112,7 @@
 			"defaultBgColor_override"	"Transparent"
 			"armedFgColor_override"		"TanLight"
 			"armedBgColor_override"		"Transparent"
-			"depressedFgColor_override"	"15 255 255 255"
+			"depressedFgColor_override"	"colorred"
 			"depressedBgColor_override"	"Transparent"
 		}
 

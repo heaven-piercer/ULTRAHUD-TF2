@@ -7,7 +7,7 @@ Scheme
 			"1"
 			{
 				"name"			"TF2Icons"
-				"tall"			"15"
+				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"

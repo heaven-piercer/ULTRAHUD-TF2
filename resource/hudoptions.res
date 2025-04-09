@@ -2202,7 +2202,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_red;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -2234,7 +2234,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_orange;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -2265,7 +2265,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_yellow;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -2297,7 +2297,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_green;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -2328,7 +2328,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_blue;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -2359,7 +2359,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_magenta;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -2390,7 +2390,7 @@
 				"enabled"	"1"	
 				"command"	"engine hud_health_purple;hud_reloadscheme"	
 				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
+				"actionsignallevel"	"5"	
 				"proportionaltoparent"	"1"	
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -4545,7 +4545,7 @@
 				"xpos"					"0"
 				"ypos"					"140"
 				"zpos"					"100"
-				"wide"					"360"
+				"wide"					"70"
 				"tall"					"28"
 				"visible"				"1"
 				"enabled"				"1"
@@ -4555,6 +4555,25 @@
 
 				"pin_to_sibling"		"StreamerLabel"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+			"MenusAppend"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MenusAppend"
+				"xpos"					"0"
+				"ypos"					"-18"
+				"zpos"					"100"
+				"wide"					"360"
+				"tall"					"10"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica10Alt"
+				"labeltext"				"(Options with a * require a game restart)"
+				"fgcolor"				"ColorYellow"
+
+				"pin_to_sibling"		"MenusLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
 
 			}
 
@@ -4728,6 +4747,162 @@
 				"fgcolor_override"		"ColorWhite"
 
 				"pin_to_sibling"		"FullClassModelImage"
+			}
+
+			"TahomaStyleLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"TahomaStyleLabel"
+				"xpos"					"10"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"205"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"labeltext"				"SmileOS Font Style*"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"ClassModelLabel"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+			}
+
+			"DefaultTahomaStyleExample"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"		"DefaultTahomaStyleExample"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"40"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"Aa"
+				"textAlignment"	"center"
+				"font"			"Tahoma32p"
+
+				"pin_to_sibling"		"TahomaStyleLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DefaultTahomaStyleLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DefaultTahomaStyleLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Default"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"DefaultTahomaStyleExample"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultTahomaStyleButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultTahomaStyleButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"60"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine tahoma_pixel"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DefaultTahomaStyleExample"
+			}
+
+			"AltTahomaStyleExample"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"		"AltTahomaStyleExample"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"40"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"Aa"
+				"textAlignment"		"center"
+				"font"			"Tahoma32r"
+
+				"pin_to_sibling"		"DefaultTahomaStyleExample"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"AltTahomaStyleLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"AltTahomaStyleLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"High Quality"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"AltTahomaStyleExample"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"AltTahomaStyleButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"AltTahomaStyleButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"60"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine tahoma_reg"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"AltTahomaStyleExample"
 			}
 		
 		}

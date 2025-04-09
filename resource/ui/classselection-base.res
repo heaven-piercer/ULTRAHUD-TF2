@@ -1181,6 +1181,25 @@
 		"alpha"		"200"
 	}
 
+	"Label2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Label2"
+		"xpos"			"-1"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"120"
+		"tall"			"10"
+		"labelText"		"PREVIEW"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"		"west"
+		"font"			"Tahoma8"
+		"fgcolor_override"	"White"
+
+		"pin_to_sibling"	"Header2"
+	}
+
 	"TerminalBG2"
 	{
 		"ControlName"	"ImagePanel"

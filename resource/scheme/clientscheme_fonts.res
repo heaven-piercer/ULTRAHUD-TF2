@@ -372,6 +372,26 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Tahoma32p" 
+		{
+			"1"
+			{
+				"name"			"fs Tahoma 8px"
+				"tall"			"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Tahoma32r" 
+		{
+			"1"
+			{
+				"name"			"Tahoma"
+				"tall"			"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Tahoma28" 
 		{
 			"1"
@@ -3083,6 +3103,11 @@ Scheme
 		{
 			"font" 	"resource/fonts/fs-tahoma-8px.ttf"
 			"name" 	"fs Tahoma 8px"
+		}
+		"12"
+		{
+			"font" 	"resource/fonts/tahoma.ttf"
+			"name" 	"Tahoma"
 		}
 	}
 }

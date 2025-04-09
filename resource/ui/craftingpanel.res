@@ -94,7 +94,7 @@
 
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"Tahoma12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -108,7 +108,7 @@
 			"textAlignment" "west"
 			"textinsetx"	"0"
 
-			"defaultFgColor_override"	"TextColor"
+			"defaultFgColor_override"	"ColorWhite"
 			"defaultBgColor_override"	"Transparent"
 			"armedFgColor_override"		"TanLight"
 			"armedBgColor_override"		"Transparent"
@@ -146,19 +146,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"Cerbetica40"
+		"font"				"Tahoma40"
 		"labelText"			"CRAFTING"
-		"textAlignment"		"center"
-		"xpos"				"cs-0.5"
-		"ypos"				"0"
+		"textAlignment"		"west"
+		"xpos"				"175"
+		"ypos"				"42"
 		"zpos"				"1"
-		"wide"				"300"
+		"wide"				"160"
 		"tall"				"40"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"ColorRed"
+		"fgcolor_override"		"ColorWhite"
 	}
 
 	"selectedrecipecontainer"
@@ -177,20 +177,22 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontSmall"
+			"font"			"Tahoma8"
 			"labelText"		"%recipetitle%"
 			"textAlignment"	"west"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"-1"
+			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"280"
-			"tall"			"30"
+			"wide"			"300"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor_override"		"255 255 255 255"
 			"wrap"			"1"
+
+			pin_to_sibling	"Header2"
 		}
 
 		"RecipeInputStringLabel"
@@ -327,6 +329,80 @@
 			"depressedBgColor_override"	"143 167 57 255"
 			"selectedBgColor_override"	"143 167 57 255"
 		}
+
+		"Header2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Header2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-7"
+		"wide"			"300"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/header"
+		"alpha"		"200"
+	}
+
+	"TerminalBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-8"
+		"wide"			"300"
+		"tall"			"340"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+		"alpha"		"200"
+
+		"pin_to_sibling"	"Header2"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+	
+
+	"buttons2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons2"
+		"xpos"			"-3"
+		"ypos"			"-2"
+		"zpos"			"53"
+		"wide"			"28"
+		"tall"			"7"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"	"header2"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+	}
+
+	"inset2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"inset2"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-8"
+		"wide"			"290"
+		"tall"			"330"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+
+		"pin_to_sibling"		"TerminalBG2"
+	}
 	}
 
 	"recipecontainerscroller"
@@ -344,36 +420,19 @@
 		"autohide_buttons"		"1"
 	}
 
-	"RecipeContainerBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RecipeContainerBG"
-		"xpos"			"12"
-		"ypos"			"10"
-		"zpos"			"-10"
-		"wide"			"305"
-		"tall"			"320"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"		"replay/thumbnails/teamselect_background"
-		"alpha"		"250"
-
-		"pin_to_sibling"		"recipecontainerscroller"
-	}
-
 
 	"recipecontainer"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"recipecontainer"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"5"
 		"zpos"					"5"
 		"wide"					"280"
 		"tall"					"240"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"200 187 161 0"
+		"fgcolor_override"		"ColorWhite"
 	}
 
 	"mouseoveritempanel"

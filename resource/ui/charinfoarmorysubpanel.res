@@ -234,7 +234,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
 			"font"			"Tahoma8"
-			"labelText"		"ITEM SUMMARY"
+			"labelText"		"Item Summary"
 			"textAlignment"	"west"
 			"xpos"			"-1"
 			"ypos"			"0"

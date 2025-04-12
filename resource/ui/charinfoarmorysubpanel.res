@@ -22,9 +22,9 @@
 		"thumbnails_rows"				"4"
 		"thumbnails_columns"			"4"
 		"thumbnails_x"					"c-250"
-		"thumbnails_y"					"60"
-		"thumbnails_delta_x"			"8"
-		"thumbnails_delta_y"			"8"
+		"thumbnails_y"					"100"
+		"thumbnails_delta_x"			"2"
+		"thumbnails_delta_y"			"2"
 
 		"thumbnail_modelpanels_kv"
 		{
@@ -67,30 +67,31 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ArmoryLabel"
-		"font"					"Cerbetica40"
+		"font"					"Tahoma40"
 		"labelText"				"#Armory"
-		"textAlignment"			"center"
-		"xpos"					"c-250"
-		"ypos"					"0"
+		"textAlignment"			"west"
+		"xpos"					"175"
+		"ypos"					"42"
 		"zpos"					"1"
+		"allcaps"				"1"
 		"wide"					"560"
 		"tall"					"40"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"ColorRed"
+		"fgcolor_override"		"ColorWhite"
 	}
 
 	"FiltersLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"FiltersLabel"
-		"font"					"HudFontSmall"
+		"font"					"Tahoma16"
 		"labelText"				"#Store_FilterLabel"
 		"textAlignment"			"west"
 		"xpos"					"c-250"
-		"ypos"					"37"
+		"ypos"					"77"
 		"zpos"					"1"
 		"wide"					"65"
 		"tall"					"20"
@@ -104,7 +105,7 @@
 	{
 		"ControlName"			"ComboBox"
 		"fieldName"				"FilterComboBox"
-		"font"					"HudFontSmall"
+		"font"					"Tahoma16"
 		"xpos"					"-20"
 		"ypos"					"0"
 		"zpos"					"1"
@@ -121,12 +122,12 @@
 		"NumericInputOnly"		"0"
 		"unicode"				"0"
 
-		"fgcolor_override"					"TanLight"
+		"fgcolor_override"					"ColorWhite"
 		"bgcolor_override"					"DarkerGrey"
-		"disabledFgColor_override"			"TanLight"
+		"disabledFgColor_override"			"ColorWhite"
 		"disabledBgColor_override"			"DarkerGrey"
 		"selectionColor_override"			"DarkerGrey"
-		"selectionTextColor_override"		"TanLight"
+		"selectionTextColor_override"		"ColorWhite"
 		"defaultSelectionBG2Color_override"	"DarkerGrey"
 
 		"pin_to_sibling"			"FiltersLabel"
@@ -151,7 +152,7 @@
 		{
 			"ControlName"			"CEconItemDetailsRichText"
 			"fieldName"				"Data_TextRichText"
-			"font"					"HudFontSmallest"
+			"font"					"Tahoma12"
 			"labelText"				"%datatext%"
 			"textAlignment"			"north-west"
 			"xpos"					"10"
@@ -228,6 +229,103 @@
 		}
 	}
 
+	"RecipeTitle"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RecipeTitle"
+			"font"			"Tahoma8"
+			"labelText"		"ITEM SUMMARY"
+			"textAlignment"	"west"
+			"xpos"			"-1"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"		"255 255 255 255"
+			"wrap"			"1"
+
+			pin_to_sibling	"Header2"
+		}
+
+	
+	"Header2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Header2"
+		"xpos"			"c100"
+		"ypos"			"40"
+		"zpos"			"-7"
+		"wide"			"280"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/header"
+		"alpha"		"200"
+	}
+
+	"TerminalBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-8"
+		"wide"			"280"
+		"tall"			"310"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+		"alpha"		"200"
+
+		"pin_to_sibling"	"Header2"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+	
+
+	"buttons2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons2"
+		"xpos"			"-3"
+		"ypos"			"-2"
+		"zpos"			"53"
+		"wide"			"28"
+		"tall"			"7"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"	"header2"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+	}
+
+	"inset2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"inset2"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-8"
+		"wide"			"270"
+		"tall"			"300"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+
+		"pin_to_sibling"		"TerminalBG2"
+	}
+
 	"mouseoveritempanel"
 	{
 		"ControlName"			"CItemModelPanel"
@@ -268,11 +366,11 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"PrevPageButton"
-		"xpos"					"c-258"
-		"ypos"					"290"
+		"xpos"					"8"
+		"ypos"					"0"
 		"zpos"					"5"
-		"wide"					"20"
-		"tall"					"20"
+		"wide"					"10"
+		"tall"					"10"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -294,13 +392,16 @@
 		"depressedFgColor_override" "ColorWhite"
 		"selectedFgColor_override" 	"ColorRed"
 		"bgcolor_override"		"Transparent"
+
+		"pin_to_sibling"	"FilterComboBox"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurPageLabel"
-		"font"					"HudFontSmall"
+		"font"					"Tahoma16"
 		"labelText"				"%thumbnailpage%"
 		"textAlignment"			"center"
 		"xpos"					"1"
@@ -312,7 +413,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override"		"ColorRed"
+		"fgcolor_override"		"ColorWhite"
 
 		"pin_to_sibling"		"PrevPageButton"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
@@ -322,11 +423,11 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"NextPageButton"
-		"xpos"					"2"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"5"
-		"wide"					"20"
-		"tall"					"20"
+		"wide"					"10"
+		"tall"					"10"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -349,26 +450,26 @@
 		"selectedFgColor_override" 	"ColorRed"
 		"bgcolor_override"		"Transparent"
 
-		"pin_to_sibling"		"CurPageLabel"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"		"PrevPageButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 	}
 
 	"WikiButton"
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"WikiButton"
-		"xpos"					"c210"
-		"ypos"					"290"
+		"xpos"					"-2"
+		"ypos"					"-234"
 		"zpos"					"20"
-		"wide"					"160"
-		"tall"					"20"
+		"wide"					"266"
+		"tall"					"30"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_Wiki"
-		"font"					"HudFontSmallest"
+		"font"					"Tahoma28"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -376,12 +477,15 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"			"0"
-		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorRed"
-		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorRed"
-		"bgcolor_override"		"Transparent"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"pin_to_sibling"	"inset2"
 	}
 
 	"ViewSetButton"
@@ -420,19 +524,19 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"StoreButton"
-		"xpos"					"c-147"
-		"ypos"					"290"
+		"xpos"					"-2"
+		"ypos"					"-266"
 		"zpos"					"20"
-		"wide"					"200"
-		"tall"					"20"
+		"wide"					"266"
+		"tall"					"30"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#ArmoryButton_Store"
-		"font"					"HudFontMediumSmall"
-		"textAlignment"			"east"
+		"font"					"Tahoma28"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"Command"				"openstore"
@@ -440,11 +544,13 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"			"0"
-		"defaultFgColor_override" 	"ColorWhite"
-		"armedFgColor_override"		"ColorRed"
-		"depressedFgColor_override" "ColorWhite"
-		"selectedFgColor_override" 	"ColorRed"
-		"bgcolor_override"		"Transparent"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"pin_to_sibling"	"inset2"
 	}
 }

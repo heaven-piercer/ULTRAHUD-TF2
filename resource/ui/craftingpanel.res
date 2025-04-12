@@ -182,6 +182,7 @@
 			"textAlignment"	"west"
 			"xpos"			"-1"
 			"ypos"			"0"
+			"allcaps"		"1"
 			"zpos"			"1"
 			"wide"			"300"
 			"tall"			"10"

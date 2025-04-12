@@ -3508,106 +3508,6 @@
 					"allowoutofrange"	"0"		
 				}	
 			}
-			//MISC
-
-		
-			"MiscLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"MiscLabel"
-			"xpos"					"0"
-			"ypos"					"70"
-			"zpos"					"100"
-			"wide"					"360"
-			"tall"					"28"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica28"
-			"labeltext"				"MISC."
-			"fgcolor"				"ColorRed"
-
-			"pin_to_sibling"		"SoundLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-		}
-
-		"MiscFiller"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"MiscFiller"
-			"xpos"					"2"
-			"ypos"					"-5"
-			"zpos"					"100"
-			"wide"					"400"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-
-			"pin_to_sibling"		"MiscLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		}
-			
-			
-			//MARK:FOV
-			"fovSize"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"fovSize"
-
-				"xpos"	"0"	
-				"ypos"	"10"	
-				"zpos"	"15"	
-				"wide"	"700"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"miscFiller"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Cerbetica20Alt"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"FOV:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"160"	
-					"ypos"	"5"	
-					"wide"	"500"	
-					"tall"	"20"
-					
-					"leftText"	"75"	
-					"rightText"	"90"
-					
-					"minvalue"	"75"	
-					"maxvalue"	"90"
-					
-					"cvar_name"	"fov_desired"
-					
-					"allowoutofrange"	"0"		
-				}		
-			}	
-
 			//MARK: BACKGROUNDS
 			"BGLabel"
 			{
@@ -3624,7 +3524,7 @@
 				"labeltext"				"BACKGROUNDS"
 				"fgcolor"				"ColorRed"
 
-				"pin_to_sibling"		"MiscLabel"
+				"pin_to_sibling"		"SoundLabel"
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 			}
@@ -4550,7 +4450,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"font"					"Cerbetica28"
-				"labeltext"				"MENUS"
+				"labeltext"				"MISC."
 				"fgcolor"				"ColorRed"
 
 				"pin_to_sibling"		"StreamerLabel"
@@ -4756,7 +4656,7 @@
 				"xpos"					"10"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"205"
+				"wide"					"245"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -4903,6 +4803,162 @@
 				"fgcolor_override"		"ColorWhite"
 
 				"pin_to_sibling"		"AltTahomaStyleExample"
+			}
+
+			"SpeedoLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"SpeedoLabel"
+				"xpos"					"10"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"205"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"labeltext"				"Speedometer"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"TahomaStyleLabel"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+			}
+
+			"SpeedoOnExample"
+			{
+				"ControlName"			"ImagePanel"
+				"fieldName"		"SpeedoOnExample"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"120"
+				"tall"			"40"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/speedo_on"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"SpeedoLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"SpeedoOnLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"SpeedoOnLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"120"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"On"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"SpeedoOnExample"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultTahomaStyleButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultTahomaStyleButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"120"
+				"tall"			"60"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine hud_speedometer_on; hud_reloadscheme"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"SpeedoOnExample"
+			}
+
+			"SpeedoOffExample"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"		"SpeedoOffExample"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"120"
+				"tall"			"40"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"???"
+				"textAlignment"		"center"
+				"font"			"Cerbetica20Alt"
+				"fgcolor_override"		"ColorRed"
+
+				"pin_to_sibling"		"SpeedoOnExample"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"SpeedoOffLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"SpeedoOffLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"120"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Cerbetica14Alt"
+				"textAlignment"			"center"
+				"labeltext"				"Off"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"SpeedoOffExample"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"AltTahomaStyleButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"AltTahomaStyleButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"120"
+				"tall"			"60"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine hud_speedometer_off; hud_reloadscheme"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"SpeedoOffExample"
 			}
 		
 		}
@@ -5238,72 +5294,6 @@
 
 		"pin_to_sibling"		"chat on/off"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-
-	"speedometerONButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"speedometerONButton"
-		"xpos"			"0"
-		"ypos"			"60"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine hud_Speedometer_on; hud_reloadscheme"
-		"actionsignallevel"		"4"
-		"labelText"		"speedometer ON"
-		"allcaps"		"1"
-		"font"			"Cerbetica10Alt"
-		"textAlignment"	"center"
-		
-		"sound_depressed"	"UI/buttonclick.wav"	
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"filler"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		
-	}
-
-
-	"speedometerOFFButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"speedometerOFFButton"
-		"xpos"			"-90"
-		"ypos"			"60"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine hud_Speedometer_off; hud_reloadscheme"
-		"actionsignallevel"		"4"
-		"labelText"		"speedometer OFF"
-		"allcaps"		"1"
-		"font"			"Cerbetica8Alt"
-		"textAlignment"	"center"
-		
-		"sound_depressed"	"UI/buttonclick.wav"	
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"filler"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		
 	}
 

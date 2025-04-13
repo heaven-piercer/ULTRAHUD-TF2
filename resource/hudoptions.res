@@ -4787,10 +4787,10 @@
 				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 			}
 
-			"ULTRA_REVAMButton"
+			"ULTRA_REVAMPButton"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"ULTRA_REVAMButton"
+				"fieldName"		"ULTRA_REVAMPButton"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
@@ -4812,6 +4812,96 @@
 				"fgcolor_override"		"ColorWhite"
 
 				"pin_to_sibling"		"ULTRA_REVAMPImage"
+			}
+
+			"BenjaminImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "BenjaminImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"			"100"
+				"tall"			"56"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/benjamin"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"ULTRA_REVAMPImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"BenjaminButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"BenjaminButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"56"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_benjamin;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"BenjaminImage"
+			}
+
+			"EncoresImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "EncoresImage"
+				"xpos"             "3"
+				"ypos"             "0"
+				"zpos"             "1"
+				"wide"			"100"
+				"tall"			"56"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/encores"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"BenjaminImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"EncoresButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"EncoresButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"56"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine menu_bg_encores;  fullhudreload"
+				"actionsignallevel"		"4"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"EncoresImage"
 			}
 
 			"StreamerLabel"

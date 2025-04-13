@@ -191,12 +191,12 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Sheet"
-		"tabxindent"		"80"
-		"tabxdelta"			"10"
-		"tabwidth"			"240"
+		"tabxindent"		"140"
+		"tabxdelta"			"5"
+		"tabwidth"			"100"
 		"tabheight"			"20"
 		"transition_time" 	"0"
-		"yoffset"			"14"
+		"yoffset"			"32"
 
 		"HeaderLine"
 		{
@@ -218,12 +218,12 @@
 			"ypos"						"r100"
 			"textinsetx"				"25"
 			"textinsety"				"5"
-			"textAlignment"				"north"
-			"font"						"HudFontSmall"
-			"selectedcolor"				"TanLight"
-			"unselectedcolor"			"TanDark"
+			"textAlignment"				"center"
+			"font"						"Tahoma16"
+			"selectedcolor"				"ColorWhite"
+			"unselectedcolor"			"AmmoInReserve"
 			"defaultBgColor_override"	"DarkGrey"
-			"paintbackground"			"1"
+			"paintbackground"			"0"
 			"activeborder_override"		"255 255 255 255"
 			"normalborder_override"		"255 255 255 255"
 			"armedBgColor_override"		"10 10 10 255"
@@ -258,6 +258,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 	}
 
 	"NotificationsPresentPanel"

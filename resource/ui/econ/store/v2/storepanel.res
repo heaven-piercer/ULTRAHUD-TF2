@@ -29,19 +29,99 @@
 		"sheetinset_bottom"					"40"
 	}
 
-	"BackgroundHeader"
+	"TerminalBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader"
+		"fieldName"		"TerminalBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-2"
+		"zpos"			"-4"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
-		"tileImage"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+	}
+
+	"TerminalBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG2"
+		"xpos"			"30"
+		"ypos"			"30"
+		"zpos"			"-3"
+		"wide"			"f60"
+		"tall"			"420"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+	}
+
+	"BackgroundHeader"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackgroundHeader"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"f0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/header"
+		"tileImage"			"1"
+	}
+
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"rs1-5"
+		"ypos"			"3"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
+
+	"headerlabel"				
+	{
+		"ControlName"	"Label"	
+		"FieldName"	"headerlabel"				
+		"xpos"	"5"	
+		"ypos"	"3"
+		"zpos"			"53"	
+		"wide"	"400"	
+		"tall"	"12"				
+		"font"			"Tahoma16"
+		"labelText"	"SmileOS 2.0"	
+		"textAlignment"	"west"				
+		"fgcolor_override"		"ColorWhite"
+				
+	}
+	"headerlabelshadow"				
+	{
+		"ControlName"	"Label"	
+		"FieldName"	"headerlabelshadow"				
+		"xpos"	"-1"	
+		"ypos"	"-1"
+		"zpos"			"53"	
+		"wide"	"400"	
+		"tall"	"12"				
+		"font"			"Tahoma16"
+		"labelText"	"SmileOS 2.0"	
+		"textAlignment"	"west"				
+		"fgcolor_override"		"TransparentBlack"
+		"pin_to_sibling"		"headerlabel"
+				
 	}
 
 	"BackgroundHeader2"
@@ -135,10 +215,10 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"HudFontSmall"
-			"selectedcolor"		"TanLight"
-			"unselectedcolor"	"TanDark"
-			"defaultBgColor_override"	"DarkGrey"
+			"font"				"Tahoma12"
+			"selectedcolor"		"ColorWhite"
+			"unselectedcolor"	"AmmoInReserve"
+			"defaultBgColor_override"	"Transparent"
 			"paintbackground"			"1"
 			"activeborder_override"		"CyanBorderTabs"
 			"normalborder_override" 	"CyanBorderTabsInactive"
@@ -152,7 +232,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"CloseButton"
 		"xpos"				"c-300"
-		"ypos"				"437"
+		"ypos"				"407"
 		"zpos"				"2"
 		"wide"				"130"
 		"tall"				"25"
@@ -161,8 +241,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"(Q) Exit Store"
-		"font"				"HudFontSmall"
+		"labelText"			"Exit Store (&Q)"
+		"font"				"Tahoma16"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -170,6 +250,10 @@
 		"Command"			"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 	}
 
 	"armory_panel"
@@ -232,7 +316,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"CheckoutButton"
 		"xpos"				"c170"
-		"ypos"				"437"
+		"ypos"				"407"
 		"zpos"				"2"
 		"wide"				"130"
 		"tall"				"25"
@@ -250,5 +334,9 @@
 		"Command"			"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 	}
 }

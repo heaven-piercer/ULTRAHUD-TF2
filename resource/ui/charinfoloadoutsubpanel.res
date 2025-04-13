@@ -66,6 +66,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -91,6 +92,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -119,6 +121,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -147,6 +150,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -174,6 +178,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -202,6 +207,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -230,6 +236,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -258,6 +265,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -285,6 +293,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -543,6 +552,22 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
+	"SmileOSLogo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SmileOSLogo"
+		"xpos"			"40"
+		"ypos"			"210"
+		"zpos"			"53"
+		"wide"			"80"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_logo"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}
+
 	"ShowBackpackButton"
 	{
 		"ControlName"		"CExImageButton"
@@ -554,7 +579,7 @@
 		"tall"			"20"
 		"labeltext"		"#BackpackTitle"
 		"textalignment"		"center"
-		"font"			"Tahoma16"
+		"font"			"Tahoma12"
 		"command"		"backpack"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -562,6 +587,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -596,7 +622,7 @@
 		"tall"			"20"
 		"labeltext"		"#CraftingExplanation_Title"
 		"textalignment"		"center"
-		"font"			"Tahoma16"
+		"font"			"Tahoma14"
 		"command"		"crafting"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -604,6 +630,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -642,7 +669,7 @@
 		"tall"			"20"
 		"labeltext"		"#Armory"
 		"textalignment"		"center"
-		"font"			"Tahoma16"
+		"font"			"Tahoma14"
 		"allcaps"		"1"
 		"command"		"armory"
 		"visible"		"1"
@@ -651,6 +678,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -688,7 +716,7 @@
 		"tall"			"20"
 		"labeltext"		"#TradingExplanation_Title"
 		"textalignment"		"center"
-		"font"			"Tahoma16"
+		"font"			"Tahoma14"
 		"command"		"trading"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -696,6 +724,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"
@@ -743,6 +772,7 @@
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"	"255 255 255 255"

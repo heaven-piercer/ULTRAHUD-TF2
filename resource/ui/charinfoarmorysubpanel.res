@@ -68,7 +68,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"ArmoryLabel"
 		"font"					"Tahoma40"
-		"labelText"				"#Armory"
+		"labelText"				"CATALOG"
 		"textAlignment"			"west"
 		"xpos"					"175"
 		"ypos"					"42"

@@ -158,7 +158,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
 		"font"				"Tahoma40"
-		"labelText"			"#ClassBeingEquipped"
+		"labelText"			"BACKPACK"
 		"textAlignment"		"west"
 		"xpos"				"175"
 		"ypos"				"42"

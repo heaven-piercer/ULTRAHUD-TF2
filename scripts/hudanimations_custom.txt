@@ -200,9 +200,20 @@ event CompetitiveGame_RestoreChatWindow
 {
 	RunEvent HudLowAmmoPulseStop 0.0 
 	RunEvent Startup 0.0
+	RunEvent engie 0.2
 	//RunEvent Radiant 0.0
 }
 event HudTournament_MoveChatWindow { }
+
+event HintMessageHide
+{
+    RunEvent  Engie  0.0
+
+	Animate Sentry Position "10 0" "linear" 0.0 0.0
+	Animate Dispenser Position "76 0" "linear" 0.0 0.0
+	Animate TeleEntrance Position "10 42" "linear" 0.0 0.0
+	Animate TeleExit Position "76 42" "linear" 0.0 0.0
+}
 
 event Startup
 {
@@ -212,7 +223,7 @@ event Startup
 	Animate HudWeaponAmmo wide 60 linear 0.32 0.42
 	Animate classmodelpanel wide 0 linear 0.0 0.0
 	Animate classmodelpanel wide 128 linear 0.0 0.3
-	RunEvent engie 0.0
+	
 }
 
 event Radiant

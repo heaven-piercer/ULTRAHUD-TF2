@@ -7,16 +7,20 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		"ColorRed"					"255 0 0 255"
-		"ULTRARed"					"181 31 31 255"
+		"ColorRedDark"			"150 0 0 255"
 		"ColorYellow"				"255 255 0 255"
+		"ColorYellowDark"				"150 150 0 255"
 		"ColorGreen"				"48 255 48 255"
+		"ColorGreenDark"				"28 150 28 255"
 		"ColorCyan"					"72 255 255 255"
-		"ULTRACyan"					"39 217 217 255"
-		"ColorCyanShadow"			"72 100 100 255"
-		"ColorRedShadow"			"100 0 0 255"
+		"ColorCyanDark"			"72 100 100 255"
+		
 		"ColorBlue"					"0 0 255 255"
+		"ColorBlueDark"					"0 0 150 255"
 		"ColorPurple"				"128 0 255 255"
+		"ColorPurpleDark"				"75 0 150 255"
 		"ColorMagenta"				"255 0 255 255"
+		"ColorMagentaDark"				"150 0 150 255"
 		"ColorBlack"				"0 0 0 255"
 		"ColorGreyMid"				"128 128 128 255"
 		"ColorWhite"				"255 255 255 255"
@@ -26,6 +30,7 @@ Scheme
 		"DarkerGrey"				"22 22 22 255"
 		"TextColor"					"117 107 94 255"
 		"ColorOrange"				"255 149 0 255"
+		"ColorOrangeDark"				"150 87 0 255"
 		//---------------------------------------------
 		//Custom Color Status
 		"CustomColorStatus"		"255 0 0 255"

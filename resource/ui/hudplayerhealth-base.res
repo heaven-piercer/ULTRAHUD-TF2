@@ -123,7 +123,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"150 0 0 255"
+		"fillcolor"		"ColorRedDark"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 

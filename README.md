@@ -11,7 +11,7 @@
 A TF2 Mod that ports the UI seen in ULTRAKILL by Arsi "Hakita" Patala.
 Features completely reworked menus and HUD faithful to ULTRAKILL.
 
-## *THE ADMINISTRATOR IS DEAD.*
+## *AUSTRALIUM IS FUEL.*
 
 ULTRAHUD features a variety of color customizations to alter the look and feel of the HUD, with a variety of possible color combinations.
 There also exists a modular streamer mode, to hide whatever you need to. The main menu background can be customized between many of the official album art seen in ULTRAKILL (and some fanmade ones!).

@@ -248,7 +248,8 @@
 		"labelText"			"Back (&Q) "
 		"font"				"Tahoma16"
 		"default"			"0"
-		"textAlignment"		"center"
+		"textinsetx"		"2"
+		"textAlignment"		"east"
 		"Command"			"back"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -259,6 +260,24 @@
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 		"depressedBgColor_override"	"ColorRed"
+	}
+
+	"BackIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackIcon"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"3"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/buttons/back"
+		"mouseinputenabled"		"0"
+		
+		pin_to_sibling	"BackButton"
 	}
 
 	"NotificationsPresentPanel"

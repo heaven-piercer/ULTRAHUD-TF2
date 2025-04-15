@@ -25,23 +25,100 @@
 			"proportionaltoparent"	"1"
 
 		
-
-			"SubImage"
+			"TerminalBG"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"fieldName"		"TerminalBG"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
+				"zpos"			"-4"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/teamselect_background"
+				"scaleImage"	"1"
+				"image"		"replay/thumbnails/content"
+			}
+
+			"TerminalBG2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TerminalBG2"
+				"xpos"			"150"
+				"ypos"			"30"
+				"zpos"			"-3"
+				"wide"			"670"
+				"tall"			"420"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"		"replay/thumbnails/inset"
+				"alpha"		"200"
+			}
+			
+			"BackgroundHeader"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"BackgroundHeader"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"f0"
+				"tall"				"20"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"image"				"replay/thumbnails/header"
+				"tileImage"			"1"
+			}
+
+			"buttons"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"buttons"
+				"xpos"			"rs1-5"
+				"ypos"			"3"
+				"zpos"			"53"
+				"wide"			"60"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/smileos_buttons"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"alpha"			"253"
-			}				
+			}
+
+			"headerlabel"				
+			{
+				"ControlName"	"Label"	
+				"FieldName"	"headerlabel"				
+				"xpos"	"5"	
+				"ypos"	"3"
+				"zpos"			"53"	
+				"wide"	"400"	
+				"tall"	"12"				
+				"font"			"Tahoma16"
+				"labelText"	"HUD Calibration"	
+				"textAlignment"	"west"				
+				"fgcolor_override"		"ColorWhite"
+						
+			}
+			"headerlabelshadow"				
+			{
+				"ControlName"	"Label"	
+				"FieldName"	"headerlabelshadow"				
+				"xpos"	"-1"	
+				"ypos"	"-1"
+				"zpos"			"53"	
+				"wide"	"400"	
+				"tall"	"12"				
+				"font"			"Tahoma16"
+				"labelText"	"HUD Calibration"	
+				"textAlignment"	"west"				
+				"fgcolor_override"		"TransparentBlack"
+				"pin_to_sibling"		"headerlabel"
+						
+			}		
 
 
 	
@@ -64,42 +141,6 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"		"0"
 		}
-
-		"TitleLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"TitleLabel"
-			"xpos"					"30"
-			"ypos"					"20"
-			"zpos"					"100"
-			"wide"					"260"
-			"tall"					"30"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica40"
-			"labeltext"				"HUD CALIBRATION"
-			"textAlignment"		"center"
-			"fgcolor"				"ColorRed"
-
-		}
-
-		"MainFiller"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"MainFiller"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"100"
-			"wide"					"793"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-
-			"pin_to_sibling"		"TitleLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-		}
 		
 	
 
@@ -118,7 +159,7 @@
 			"enabled"		"1"
 			"default"		"0"
 			"actionsignallevel"	"2"
-			"font"		"Cerbetica32Alt"
+			"font"		"Tahoma32"
 			"labelText"		"X"
 			"Command"			"engine cl_mainmenu_safemode 0"
 			
@@ -181,7 +222,7 @@
 		"fieldName"		"Customization"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"743"
+		"wide"		"770"
 		"tall"		"1300"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -189,426 +230,465 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
-
-	"TitleLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"TitleLabel"
-			"xpos"					"2"
-			"ypos"					"0"
-			"zpos"					"100"
-			"wide"					"360"
-			"tall"					"30"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica32Alt"
-			"labeltext"				"customization"
-			"fgcolor"				"ColorRed"
-
-		}
-
-	"filler"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"filler"
-			"xpos"					"2"
-			"ypos"					"30"
-			"zpos"					"100"
-			"wide"					"f0"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-		}
 		//MARK:CROSSHAIR
-		"CrosshairSelectLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"CrosshairSelectLabel"
-			"xpos"					"2"
-			"ypos"					"40"
-			"zpos"					"100"
-			"wide"					"360"
-			"tall"					"28"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Cerbetica28"
-			"labeltext"				"Crosshairs"
-			"fgcolor"				"ColorRed"
+		
+		"Crosshairs"{
+			ControlName "EditablePanel"
+				fieldName Crosshairs
+				xpos	0
+				ypos	0
+				wide 770
+				tall 100
+				visible 1
+				enabled 1
 
-		}
-
-		"CrosshairFiller"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"CrosshairFiller"
-			"xpos"					"2"
-			"ypos"					"-5"
-			"zpos"					"100"
-			"wide"					"400"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-
-			"pin_to_sibling"		"CrosshairSelectLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-		}
-
-		"Crosshair 1"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 1"
-			
-			"xpos"	"0"	
-			"ypos"	"5"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:15 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair1"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	")"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"	
-
-			"pin_to_sibling"		"CrosshairSelectLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"	
-			
-		}
-
-		"Crosshair 2"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 2"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair2"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"1"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"	
-
-			"pin_to_sibling"		"Crosshair 1"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			
-		}
-
-		"Crosshair 3"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 3"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair3"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"6"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"	
-
-			"pin_to_sibling"		"Crosshair 2"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			
-		}
-
-		"Crosshair 4"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 4"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair4"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	","	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"Crosshair 3"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			
-		}
-
-	
-		"Crosshair 5"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 5"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair5"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"5"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"Crosshair 4"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			
-		}
-
-		"Crosshair 6"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 6"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair6"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"'"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"Crosshair 5"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		}
-
-		"Crosshair 7"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 7"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file crosshair7"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"#"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"Crosshair 6"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		}
-
-		"Crosshair 8"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"Crosshair 8"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"26"	
-			"tall"	"26"
-			
-			"font"	"Size:10 | Outline:OFF"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine cl_crosshair_file default"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"?"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"Crosshair 7"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		}
-
-		"crosshairToggle"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"crosshairToggle"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"70"	
-			"tall"	"26"
-			
-			"font"	"Cerbetica16Alt"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine toggle crosshair"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"ON/OFF"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/buttonclick.wav"	
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"armedBgColor_override"		"255 255 255 3"	
-			"defaultBgColor_override"	"ColorBlack"	
-
-			"fgcolor_override"		"ColorWhite"
-
-			"pin_to_sibling"		"Crosshair 8"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		}
-
-			"CrosshairSize"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"CrosshairSize"
-
-				"xpos"	"10"	
-				"ypos"	"-2"	
-				"zpos"	"15"	
-				"wide"	"400"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"crosshairToggle"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
-				"SubButton"
+				"Header2"
 				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Cerbetica20Alt"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"SIZE:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-					
-					"defaultFgColor_override"	"ColorWhite"
-					"armedFgColor_override"	"ColorWhite"
+					"ControlName"	"ImagePanel"
+					"fieldName"		"Header2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-7"
+					"wide"			"770"
+					"tall"			"10"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/header"
+					"alpha"		"200"
+				}
+
+				"TerminalBG2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"TerminalBG2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-8"
+					"wide"			"770"
+					"tall"			"90"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/content"
+					"alpha"		"200"
+
+					"pin_to_sibling"	"Header2"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 				}
 				
-				"Slider"
+
+				"buttons2"
 				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
+					"ControlName"	"ImagePanel"
+					"fieldName"		"buttons2"
+					"xpos"			"-3"
+					"ypos"			"-2"
+					"zpos"			"53"
+					"wide"			"28"
+					"tall"			"7"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"replay/thumbnails/smileos_buttons"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+
+					"pin_to_sibling"	"header2"
+					"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+					"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+				}
+
+				"inset2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"inset2"
+					"xpos"			"-5"
+					"ypos"			"-5"
+					"zpos"			"-8"
+					"wide"			"760"
+					"tall"			"80"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/inset"
+					"alpha"		"200"
+
+					"pin_to_sibling"		"TerminalBG2"
+				}
+
+				"CrosshairSelectLabel"
+				{
+					"ControlName"			"CExLabel"
+					"fieldName"				"CrosshairSelectLabel"
+					"xpos"					"1"
+					"ypos"					"0"
+					"zpos"					"100"
+					"wide"					"360"
+					"tall"					"10"
+					"visible"				"1"
+					"enabled"				"1"
+					"font"					"Tahoma8"
+					"labeltext"				"Crosshairs"
+					"textAlignment"			"west"
+					"fgcolor"				"ColorWhite"
+
+
+				}
+
+				"Crosshair 1"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 1"
 					
-					"xpos"	"70"	
-					"ypos"	"5"	
-					"wide"	"300"	
-					"tall"	"20"
+					"xpos"	"10"	
+					"ypos"	"20"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
 					
-					"leftText"	"0"	
-					"rightText"	"100"
+					"font"	"Size:15 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair1"	
+					"actionsignallevel"	"4"
 					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
+					"labeltext"	")"	
+					"textAlignment"	"center"	
 					
-					"cvar_name"	"cl_crosshair_scale"
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
 					
-					"allowoutofrange"	"0"		
-				}		
-			}	
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"		
+					
+				}
+
+				"Crosshair 2"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 2"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair2"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"1"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"	
+
+					"pin_to_sibling"		"Crosshair 1"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					
+				}
+
+				"Crosshair 3"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 3"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair3"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"6"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"	
+
+					"pin_to_sibling"		"Crosshair 2"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					
+				}
+
+				"Crosshair 4"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 4"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair4"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	","	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 3"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					
+				}
+
+			
+				"Crosshair 5"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 5"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair5"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"5"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 4"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					
+				}
+
+				"Crosshair 6"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 6"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair6"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"'"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 5"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+
+				"Crosshair 7"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 7"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file crosshair7"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"#"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 6"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+
+				"Crosshair 8"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 8"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"26"	
+					"tall"	"26"
+					
+					"font"	"Size:10 | Outline:OFF"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine cl_crosshair_file default"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"?"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 7"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+
+				"crosshairToggle"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"crosshairToggle"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"70"	
+					"tall"	"26"
+					
+					"font"	"Tahoma16"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine toggle crosshair"	
+					"actionsignallevel"	"4"
+					
+					"labeltext"	"ON/OFF"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 8"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+
+					"CrosshairSize"
+					{
+						"ControlName"	"EditablePanel"	
+						"fieldName"	"CrosshairSize"
+
+						"xpos"	"10"	
+						"ypos"	"-2"	
+						"zpos"	"15"	
+						"wide"	"400"	
+						"tall"	"20"
+
+						"pin_to_sibling"		"crosshairToggle"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+						"SubButton"
+						{
+							"ControlName"	"CExImageButton"	
+							"fieldName"	"SubButton"
+						
+							"xpos"	"-2"	
+							"ypos"	"0"	
+							"wide"	"100"	
+							"tall"	"20"
+							
+							"font"	"Tahoma20"	
+							"visible"	"1"
+							"enabled"	"1"	
+							
+							"labelText"	"SIZE:"
+							"textAlignment"	"west"
+					
+							"paintborder"	"0"	
+							
+							"paintbackground"	"0"
+							
+							"defaultFgColor_override"	"ColorWhite"
+							"armedFgColor_override"	"ColorWhite"
+						}
+						
+						"Slider"
+						{
+							"ControlName"	"CCvarSlider"	
+							"fieldName"	"Slider"
+							
+							"xpos"	"70"	
+							"ypos"	"5"	
+							"wide"	"300"	
+							"tall"	"20"
+							
+							"leftText"	"0"	
+							"rightText"	"100"
+							
+							"minvalue"	"0"	
+							"maxvalue"	"100"
+							
+							"cvar_name"	"cl_crosshair_scale"
+							
+							"allowoutofrange"	"0"		
+						}		
+					}
+		}
+		
+			
 
 		"ColorLabel"
 		{
@@ -621,7 +701,7 @@
 			"tall"					"28"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Cerbetica28"
+			"font"					"Tahoma28"
 			"labeltext"				"Colors"
 			"fgcolor"				"ColorRed"
 
@@ -655,7 +735,7 @@
 			"tall"					"20"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Cerbetica20"
+			"font"					"Tahoma20"
 			"labeltext"				"Crosshair Color"
 			"fgcolor"				"ColorRed"
 
@@ -1411,7 +1491,7 @@
 			"tall"					"20"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Cerbetica20"
+			"font"					"Tahoma20"
 			"labeltext"				"damage color"
 			"fgcolor"				"ColorRed"
 
@@ -2180,7 +2260,7 @@
 				"tall"					"20"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica24"
+				"font"					"Tahoma24"
 				"labeltext"				"health colors"
 				"fgcolor"				"ColorRed"
 
@@ -2208,7 +2288,7 @@
 						"tall"					"20"
 						"visible"				"1"
 						"enabled"				"1"
-						"font"					"Cerbetica20"
+						"font"					"Tahoma20"
 						"labeltext"				"Healthbar"
 						"fgcolor"				"ColorRed"
 
@@ -2556,7 +2636,7 @@
 						"tall"					"20"
 						"visible"				"1"
 						"enabled"				"1"
-						"font"					"Cerbetica20"
+						"font"					"Tahoma20"
 						"labeltext"				"Value"
 						"fgcolor"				"ColorRed"
 
@@ -2904,7 +2984,7 @@
 						"tall"					"20"
 						"visible"				"1"
 						"enabled"				"1"
-						"font"					"Cerbetica20"
+						"font"					"Tahoma20"
 						"labeltext"				"Overheal"
 						"fgcolor"				"ColorRed"
 
@@ -3252,7 +3332,7 @@
 						"tall"					"20"
 						"visible"				"1"
 						"enabled"				"1"
-						"font"					"Cerbetica20"
+						"font"					"Tahoma20"
 						"labeltext"				"Damage"
 						"fgcolor"				"ColorRed"
 
@@ -3601,7 +3681,7 @@
 					"tall"					"20"
 					"visible"				"1"
 					"enabled"				"1"
-					"font"					"Cerbetica24"
+					"font"					"Tahoma24"
 					"labeltext"				"Ammo colors"
 					"fgcolor"				"ColorRed"
 
@@ -3630,7 +3710,7 @@
 						"tall"					"20"
 						"visible"				"1"
 						"enabled"				"1"
-						"font"					"Cerbetica20"
+						"font"					"Tahoma20"
 						"labeltext"				"clip"
 						"fgcolor"				"ColorRed"
 
@@ -4009,7 +4089,7 @@
 						"tall"					"20"
 						"visible"				"1"
 						"enabled"				"1"
-						"font"					"Cerbetica20"
+						"font"					"Tahoma20"
 						"labeltext"				"reserve"
 						"fgcolor"				"ColorRed"
 
@@ -4351,7 +4431,7 @@
 			"tall"					"28"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Cerbetica28"
+			"font"					"Tahoma28"
 			"labeltext"				"VIEWMODELS"
 			"fgcolor"				"ColorRed"
 
@@ -4401,7 +4481,7 @@
 					"wide"	"200"	
 					"tall"	"20"
 					
-					"font"	"Cerbetica20Alt"	
+					"font"	"Tahoma20"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
@@ -4447,7 +4527,7 @@
 			"wide"	"70"	
 			"tall"	"26"
 			
-			"font"	"Cerbetica8Alt"	
+			"font"	"Tahoma8"	
 			"visible"	"1"
 			"enabled"	"1"	
 			"command"	"engine toggle r_drawviewmodel"	
@@ -4479,7 +4559,7 @@
 			"wide"	"70"	
 			"tall"	"26"
 			
-			"font"	"Cerbetica10Alt"	
+			"font"	"Tahoma10"	
 			"visible"	"1"
 			"enabled"	"1"	
 			"command"	"engine toggle tf_use_min_viewmodels"	
@@ -4512,7 +4592,7 @@
 			"tall"					"28"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Cerbetica28"
+			"font"					"Tahoma28"
 			"labeltext"				"SOUND"
 			"fgcolor"				"ColorRed"
 
@@ -4563,7 +4643,7 @@
 					"wide"	"100"	
 					"tall"	"20"
 					
-					"font"	"Cerbetica20Alt"	
+					"font"	"Tahoma20"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
@@ -4622,7 +4702,7 @@
 					"wide"	"100"	
 					"tall"	"20"
 					
-					"font"	"Cerbetica20Alt"	
+					"font"	"Tahoma20"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
@@ -4681,7 +4761,7 @@
 					"wide"	"100"	
 					"tall"	"20"
 					
-					"font"	"Cerbetica20Alt"	
+					"font"	"Tahoma20"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
@@ -4740,7 +4820,7 @@
 					"wide"	"100"	
 					"tall"	"20"
 					
-					"font"	"Cerbetica20Alt"	
+					"font"	"Tahoma20"	
 					"visible"	"1"
 					"enabled"	"1"	
 					
@@ -4785,7 +4865,7 @@
 				"tall"					"28"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica28"
+				"font"					"Tahoma28"
 				"labeltext"				"BACKGROUNDS"
 				"fgcolor"				"ColorRed"
 
@@ -4914,7 +4994,7 @@
 				"enabled"			"1"
 				"labeltext"			"ERR 404 IMAGE NOT FOUND"
 				"fgcolor_override"		"ColorRed"
-				"font"			"Cerbetica14Alt"
+				"font"			"Tahoma14"
 				"scaleImage"		"1"
 
 				"pin_to_sibling"		"ActTwoImage"
@@ -5454,7 +5534,7 @@
 				"tall"					"28"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica28"
+				"font"					"Tahoma28"
 				"labeltext"				"STREAMER MODE"
 				"fgcolor"				"ColorRed"
 
@@ -5491,7 +5571,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"labeltext"				"Friends List"
 				"textAlignment"			"center"
 				"fgcolor"				"ColorWhite"
@@ -5531,7 +5611,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Default"
 				"fgcolor"				"ColorWhite"
@@ -5598,7 +5678,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Hidden"
 				"fgcolor"				"ColorWhite"
@@ -5646,7 +5726,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"labeltext"				"Rank"
 				"textAlignment"			"center"
 				"fgcolor"				"ColorWhite"
@@ -5686,7 +5766,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Default"
 				"fgcolor"				"ColorWhite"
@@ -5753,7 +5833,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Hidden"
 				"fgcolor"				"ColorWhite"
@@ -5804,7 +5884,7 @@
 				"tall"					"28"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica28"
+				"font"					"Tahoma28"
 				"labeltext"				"MISC."
 				"fgcolor"				"ColorRed"
 
@@ -5823,7 +5903,7 @@
 				"tall"					"10"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica10Alt"
+				"font"					"Tahoma10"
 				"labeltext"				"(Options with a * require a game restart)"
 				"fgcolor"				"ColorYellow"
 
@@ -5860,7 +5940,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"labeltext"				"Loadout Preview"
 				"textAlignment"			"center"
 				"fgcolor"				"ColorWhite"
@@ -5900,7 +5980,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Default"
 				"fgcolor"				"ColorWhite"
@@ -5967,7 +6047,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Full Body"
 				"fgcolor"				"ColorWhite"
@@ -6015,7 +6095,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"labeltext"				"SmileOS Font Style*"
 				"textAlignment"			"center"
 				"fgcolor"				"ColorWhite"
@@ -6055,7 +6135,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Default"
 				"fgcolor"				"ColorWhite"
@@ -6123,7 +6203,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"High Quality"
 				"fgcolor"				"ColorWhite"
@@ -6171,7 +6251,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"labeltext"				"Speedometer"
 				"textAlignment"			"center"
 				"fgcolor"				"ColorWhite"
@@ -6210,7 +6290,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"On"
 				"fgcolor"				"ColorWhite"
@@ -6261,7 +6341,7 @@
 				"enabled"		"1"
 				"labelText"		"???"
 				"textAlignment"		"center"
-				"font"			"Cerbetica20Alt"
+				"font"			"Tahoma20"
 				"fgcolor_override"		"ColorRed"
 
 				"pin_to_sibling"		"SpeedoOnExample"
@@ -6279,7 +6359,7 @@
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
-				"font"					"Cerbetica14Alt"
+				"font"					"Tahoma14"
 				"textAlignment"			"center"
 				"labeltext"				"Off"
 				"fgcolor"				"ColorWhite"
@@ -6346,7 +6426,7 @@
 			"tall"					"30"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Cerbetica32Alt"
+			"font"					"Tahoma32"
 			"labeltext"				"utilities"
 			"fgcolor"				"ColorRed"
 
@@ -6385,7 +6465,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Itemtest"
 		"allcaps"		"1"
-		"font"			"Cerbetica10Alt"
+		"font"			"Tahoma10"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6417,7 +6497,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"walkway"
 		"allcaps"		"1"
-		"font"			"Cerbetica8Alt"
+		"font"			"Tahoma8"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6449,7 +6529,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Drawtree"
 		"allcaps"		"1"
-		"font"			"Cerbetica16Alt"
+		"font"			"Tahoma16"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6480,7 +6560,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Reload HUD"
 		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
+		"font"			"Tahoma12"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6513,7 +6593,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"hud reload +"
 		"allcaps"		"1"
-		"font"			"Cerbetica10Alt"
+		"font"			"Tahoma10"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6545,7 +6625,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"target.pos."
 		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
+		"font"			"Tahoma12"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6579,7 +6659,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"chat toggle"
 		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
+		"font"			"Tahoma12"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -6636,7 +6716,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"classmodel"
 		"allcaps"		"1"
-		"font"			"Cerbetica12Alt"
+		"font"			"Tahoma12"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	

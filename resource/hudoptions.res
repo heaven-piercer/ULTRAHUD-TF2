@@ -148,11 +148,11 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"exitbutton"
-			"xpos"			"r80"
-			"ypos"			"7"
+			"xpos"			"rs1-5"
+			"ypos"			"3"
 			"zpos"			"10"
-			"wide"			"56"
-			"tall"			"56"
+			"wide"			"60"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -160,14 +160,15 @@
 			"default"		"0"
 			"actionsignallevel"	"2"
 			"font"		"Tahoma32"
-			"labelText"		"X"
+			"labelText"		""
 			"Command"			"engine cl_mainmenu_safemode 0"
 			
 			"defaultfgcolor_override"	"ColorWhite"	
 			"armedfgcolor_override"		"ColorRed"
 
 			"defaultbgcolor_override"		"Transparent"
-			"armedbgcolor_override"		"Transparent"
+			"armedbgcolor_override"		"255 255 255 3"
+			"depressedBgColor_override"		"ColorRed"
 		}	
 
 		
@@ -343,16 +344,16 @@
 					"xpos"	"10"	
 					"ypos"	"20"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:15 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair1"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_1"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	")"	
+					"labeltext"	"a"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -373,16 +374,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair2"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_2"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	"1"	
+					"labeltext"	"b"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -406,16 +407,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair3"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_3"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	"6"	
+					"labeltext"	"c"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -439,16 +440,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair4"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_4"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	","	
+					"labeltext"	"d"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -473,16 +474,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair5"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_5"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	"5"	
+					"labeltext"	"e"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -506,16 +507,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair6"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_6"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	"'"	
+					"labeltext"	"f"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -538,16 +539,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file crosshair7"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_7"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	"#"	
+					"labeltext"	"g"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -570,16 +571,16 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"26"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Size:10 | Outline:OFF"	
+					"font"	"Size:10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine cl_crosshair_file default"	
-					"actionsignallevel"	"4"
+					"command"	"engine hud_crosshair_8"	
+					"actionsignallevel"	"5"	
 					
-					"labeltext"	"?"	
+					"labeltext"	"h"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -591,6 +592,255 @@
 					"fgcolor_override"		"ColorWhite"
 
 					"pin_to_sibling"		"Crosshair 7"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+
+				"Crosshair 9"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 9"
+					
+					"xpos"	"0"	
+					"ypos"	"5"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_9"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"i"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 1"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+				"Crosshair 10"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 10"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_10"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"j"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 9"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 11"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 11"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_11"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"k"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 10"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 12"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 12"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_12"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"l"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 11"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 13"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 13"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_13"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"m"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 12"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 14"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 14"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_14"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"n"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 13"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 15"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 15"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_15"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"o"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 14"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 16"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 16"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size:10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_16"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"p"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 15"
 					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 				}
 
@@ -609,7 +859,7 @@
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine toggle crosshair"	
-					"actionsignallevel"	"4"
+					"actionsignallevel"	"5"	
 					
 					"labeltext"	"ON/OFF"	
 					"textAlignment"	"center"	
@@ -821,7 +1071,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 255; cl_crosshair_green 255; cl_crosshair_blue 255"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -853,7 +1103,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 0"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -884,7 +1134,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -916,7 +1166,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 117; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -948,7 +1198,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 154; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -980,7 +1230,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 177; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1012,7 +1262,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 177; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1044,7 +1294,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 203; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1076,7 +1326,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 151; cl_crosshair_green 231; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1108,7 +1358,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 91; cl_crosshair_green 231; cl_crosshair_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1140,7 +1390,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 231; cl_crosshair_blue 113"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1172,7 +1422,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 231; cl_crosshair_blue 169"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1204,7 +1454,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 231; cl_crosshair_blue 222"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1236,7 +1486,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 188; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1268,7 +1518,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 143; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1300,7 +1550,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 87; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1332,7 +1582,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 109; cl_crosshair_green 72; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1364,7 +1614,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 132; cl_crosshair_green 72; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1396,7 +1646,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 169; cl_crosshair_green 72; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1428,7 +1678,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 203; cl_crosshair_green 72; cl_crosshair_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1460,7 +1710,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 225"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1492,7 +1742,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 143"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1524,7 +1774,7 @@
 						"enabled"	"1"	
 						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 113"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1579,7 +1829,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 255"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1611,7 +1861,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 0; hud_combattext_green 0; hud_combattext_blue 0"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1642,7 +1892,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 72; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1674,7 +1924,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 117; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1706,7 +1956,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 154; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1738,7 +1988,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 177; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1770,7 +2020,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 177; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1802,7 +2052,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 203; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1834,7 +2084,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 151; hud_combattext_green 231; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1866,7 +2116,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 91; hud_combattext_green 231; hud_combattext_blue 72"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1898,7 +2148,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 72; hud_combattext_green 231; hud_combattext_blue 113"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1930,7 +2180,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 72; hud_combattext_green 231; hud_combattext_blue 169"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1962,7 +2212,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 72; hud_combattext_green 231; hud_combattext_blue 222"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -1994,7 +2244,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 72; hud_combattext_green 188; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2026,7 +2276,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 72; hud_combattext_green 143; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2058,7 +2308,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 72; hud_combattext_green 87; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2090,7 +2340,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 109; hud_combattext_green 72; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2122,7 +2372,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 132; hud_combattext_green 72; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2154,7 +2404,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 169; hud_combattext_green 72; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2186,7 +2436,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 203; hud_combattext_green 72; hud_combattext_blue 231"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2218,7 +2468,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 72; hud_combattext_blue 225"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2250,7 +2500,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 72; hud_combattext_blue 143"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2282,7 +2532,7 @@
 						"enabled"	"1"	
 						"command"	"engine hud_combattext_red 231; hud_combattext_green 72; hud_combattext_blue 113"	
 						"textinsetx"	"9999"	
-						"actionsignallevel"	"4"	
+						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
 						
 						"sound_depressed"	"UI/buttonclick.wav"	
@@ -2373,7 +2623,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_red;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2405,7 +2655,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_orange;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2436,7 +2686,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_yellow;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2468,7 +2718,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_green;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2499,7 +2749,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_blue;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2530,7 +2780,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_magenta;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2561,7 +2811,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_health_purple;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2593,7 +2843,7 @@
 										"enabled"	"1"	
 										"command"	"engine hud_health_white;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -2625,7 +2875,7 @@
 										"enabled"	"1"	
 										"command"	"engine hud_health_grey;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -2657,7 +2907,7 @@
 										"enabled"	"1"	
 										"command"	"engine hud_health_black;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -2721,7 +2971,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_red;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2753,7 +3003,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_orange;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2784,7 +3034,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_yellow;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2816,7 +3066,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_green;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2847,7 +3097,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_blue;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2878,7 +3128,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_magenta;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2909,7 +3159,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_label_purple;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -2941,7 +3191,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_label_white;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -2973,7 +3223,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_label_grey;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3005,7 +3255,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_label_black;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3069,7 +3319,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_red;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3101,7 +3351,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_orange;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3132,7 +3382,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_yellow;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3164,7 +3414,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_green;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3195,7 +3445,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_blue;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3226,7 +3476,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_magenta;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3257,7 +3507,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_buff_purple;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3289,7 +3539,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_buff_white;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3321,7 +3571,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_buff_grey;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3353,7 +3603,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_buff_black;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3417,7 +3667,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_red;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3449,7 +3699,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_orange;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3480,7 +3730,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_yellow;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3512,7 +3762,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_green;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3543,7 +3793,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_blue;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3574,7 +3824,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_magenta;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3605,7 +3855,7 @@
 								"enabled"	"1"	
 								"command"	"engine health_hurt_purple;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3637,7 +3887,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_hurt_white;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3669,7 +3919,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_hurt_grey;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3701,7 +3951,7 @@
 										"enabled"	"1"	
 										"command"	"engine health_hurt_black;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -3796,7 +4046,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_red;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3828,7 +4078,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_orange;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3859,7 +4109,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_yellow;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3891,7 +4141,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_green;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3922,7 +4172,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_blue;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3953,7 +4203,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_magenta;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -3984,7 +4234,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_purple;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4016,7 +4266,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_white;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4048,7 +4298,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_grey;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4080,7 +4330,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_clip_grey;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4112,7 +4362,7 @@
 										"enabled"	"1"	
 										"command"	"engine hud_clip_black;hud_reloadscheme"	
 										"textinsetx"	"9999"	
-										"actionsignallevel"	"6"	
+										"actionsignallevel"	"7"	
 										"proportionaltoparent"	"1"	
 										
 										"sound_depressed"	"UI/buttonclick.wav"	
@@ -4175,7 +4425,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_red;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4207,7 +4457,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_orange;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4238,7 +4488,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_yellow;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4270,7 +4520,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_green;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4301,7 +4551,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_blue;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4332,7 +4582,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_magenta;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4363,7 +4613,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_purple;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4395,7 +4645,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_white;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4427,7 +4677,7 @@
 								"enabled"	"1"	
 								"command"	"engine hud_reserve_grey;hud_reloadscheme"	
 								"textinsetx"	"9999"	
-								"actionsignallevel"	"6"	
+								"actionsignallevel"	"7"	
 								"proportionaltoparent"	"1"	
 								
 								"sound_depressed"	"UI/buttonclick.wav"	
@@ -4459,7 +4709,7 @@
 											"enabled"	"1"	
 											"command"	"engine hud_reserve_black;hud_reloadscheme"	
 											"textinsetx"	"9999"	
-											"actionsignallevel"	"6"	
+											"actionsignallevel"	"7"	
 											"proportionaltoparent"	"1"	
 											
 											"sound_depressed"	"UI/buttonclick.wav"	
@@ -4491,7 +4741,7 @@
 				xpos	0
 				ypos	320
 				wide 770
-				tall 230
+				tall 100
 				visible 1
 				enabled 1
 
@@ -4611,7 +4861,7 @@
 							"visible"	"1"
 							"enabled"	"1"	
 							
-							"labelText"	"VMODEL FOV:"
+							"labelText"	"V-Model FOV:"
 							"textAlignment"	"west"
 					
 							"paintborder"	"0"	
@@ -4657,7 +4907,7 @@
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine toggle r_drawviewmodel"	
-					"actionsignallevel"	"4"
+					"actionsignallevel"	"5"	
 					
 					"labeltext"	"VMODEL TOGGLE"	
 					"textAlignment"	"center"	
@@ -4689,7 +4939,7 @@
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine toggle tf_use_min_viewmodels"	
-					"actionsignallevel"	"4"
+					"actionsignallevel"	"5"	
 					
 					"labeltext"	"MIN VMODELS"	
 					"textAlignment"	"center"	
@@ -4708,956 +4958,1087 @@
 		}	
 			
 
-		//MARK: SOUND
-		"SoundLabel"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"SoundLabel"
-			"xpos"					"0"
-			"ypos"					"500"
-			"zpos"					"100"
-			"wide"					"360"
-			"tall"					"28"
-			"visible"				"1"
-			"enabled"				"1"
-			"font"					"Tahoma28"
-			"labeltext"				"SOUND"
-			"fgcolor"				"ColorRed"
+		"Sound"{
+			ControlName "EditablePanel"
+				fieldName Sound
+				xpos	0
+				ypos	5
+				wide 770
+				tall 100
+				visible 1
+				enabled 1
 
-			"pin_to_sibling"		"ViewmodelLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				"pin_to_sibling"	"VModels"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
+				"Header2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"Header2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-7"
+					"wide"			"770"
+					"tall"			"10"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/header"
+					"alpha"		"200"
+				}
+
+				"TerminalBG2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"TerminalBG2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-8"
+					"wide"			"770"
+					"tall"			"90"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/content"
+					"alpha"		"200"
+
+					"pin_to_sibling"	"Header2"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+				
+
+				"buttons2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"buttons2"
+					"xpos"			"-3"
+					"ypos"			"-2"
+					"zpos"			"53"
+					"wide"			"28"
+					"tall"			"7"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"replay/thumbnails/smileos_buttons"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+
+					"pin_to_sibling"	"header2"
+					"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+					"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+				}
+
+				"inset2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"inset2"
+					"xpos"			"-5"
+					"ypos"			"-5"
+					"zpos"			"-8"
+					"wide"			"760"
+					"tall"			"80"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/inset"
+					"alpha"		"200"
+
+					"pin_to_sibling"		"TerminalBG2"
+				}
+
+				"SoundLabel"
+				{
+					"ControlName"			"CExLabel"
+					"fieldName"				"SoundLabel"
+					"xpos"					"1"
+					"ypos"					"0"
+					"zpos"					"100"
+					"wide"					"360"
+					"tall"					"10"
+					"visible"				"1"
+					"enabled"				"1"
+					"font"					"Tahoma10"
+					"labeltext"				"Sound"
+					"fgcolor"				"ColorWhite"
+
+					"pin_to_sibling"		"ViewmodelLabel"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+				}
+
+					//MARK: GAME VOLUME
+					"volume"
+					{
+						"ControlName"	"EditablePanel"	
+						"fieldName"	"volume"
+
+						"xpos"	"3"	
+						"ypos"	"17"	
+						"zpos"	"15"	
+						"wide"	"350"	
+						"tall"	"20"
+
+						"SubButton"
+						{
+							"ControlName"	"CExImageButton"	
+							"fieldName"	"SubButton"
+						
+							"xpos"	"-2"	
+							"ypos"	"0"	
+							"wide"	"100"	
+							"tall"	"20"
+							
+							"font"	"Tahoma20"	
+							"visible"	"1"
+							"enabled"	"1"	
+							
+							"labelText"	"Master:"
+							"textAlignment"	"west"
+					
+							"paintborder"	"0"	
+							
+							"paintbackground"	"0"
+						}
+						
+						"Slider"
+						{
+							"ControlName"	"CCvarSlider"	
+							"fieldName"	"Slider"
+							
+							"xpos"	"80"	
+							"ypos"	"5"	
+							"wide"	"270"	
+							"tall"	"20"
+							
+							"leftText"	"0"	
+							"rightText"	"100"
+							
+							"minvalue"	"0"	
+							"maxvalue"	"100"
+							
+							"cvar_name"	"volume"
+							
+							"allowoutofrange"	"0"		
+						}	
+					}	
+
+					//MARK: MUSIC VOLUME
+					"MusicVolume"
+					{
+						"ControlName"	"EditablePanel"	
+						"fieldName"	"MusicVolume"
+
+						"xpos"	"10"	
+						"ypos"	"0"	
+						"zpos"	"15"	
+						"wide"	"350"	
+						"tall"	"20"
+
+						"pin_to_sibling"		"volume"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+						"SubButton"
+						{
+							"ControlName"	"CExImageButton"	
+							"fieldName"	"SubButton"
+						
+							"xpos"	"-2"	
+							"ypos"	"0"	
+							"wide"	"100"	
+							"tall"	"20"
+							
+							"font"	"Tahoma20"	
+							"visible"	"1"
+							"enabled"	"1"	
+							
+							"labelText"	"Music:"
+							"textAlignment"	"west"
+					
+							"paintborder"	"0"	
+							
+							"paintbackground"	"0"
+						}
+						
+						"Slider"
+						{
+							"ControlName"	"CCvarSlider"	
+							"fieldName"	"Slider"
+							
+							"xpos"	"80"	
+							"ypos"	"5"	
+							"wide"	"270"	
+							"tall"	"20"
+							
+							"leftText"	"0"	
+							"rightText"	"100"
+							
+							"minvalue"	"0"	
+							"maxvalue"	"100"
+							
+							"cvar_name"	"snd_musicvolume"
+							
+							"allowoutofrange"	"0"		
+						}	
+					}	
+
+					//MARK: HITSOUND VOLUME
+					"HitVolume"
+					{
+						"ControlName"	"EditablePanel"	
+						"fieldName"	"HitVolume"
+
+						"xpos"	"0"	
+						"ypos"	"2"	
+						"zpos"	"15"	
+						"wide"	"350"	
+						"tall"	"20"
+
+						"pin_to_sibling"		"volume"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+						"SubButton"
+						{
+							"ControlName"	"CExImageButton"	
+							"fieldName"	"SubButton"
+						
+							"xpos"	"-2"	
+							"ypos"	"0"	
+							"wide"	"100"	
+							"tall"	"20"
+							
+							"font"	"Tahoma20"	
+							"visible"	"1"
+							"enabled"	"1"	
+							
+							"labelText"	"Hitsound:"
+							"textAlignment"	"west"
+					
+							"paintborder"	"0"	
+							
+							"paintbackground"	"0"
+						}
+						
+						"Slider"
+						{
+							"ControlName"	"CCvarSlider"	
+							"fieldName"	"Slider"
+							
+							"xpos"	"80"	
+							"ypos"	"5"	
+							"wide"	"270"	
+							"tall"	"20"
+							
+							"leftText"	"0"	
+							"rightText"	"100"
+							
+							"minvalue"	"0"	
+							"maxvalue"	"100"
+							
+							"cvar_name"	"tf_dingaling_volume"
+							
+							"allowoutofrange"	"0"		
+						}	
+					}
+
+					//MARK: HITSOUND VOLUME
+					"KillVolume"
+					{
+						"ControlName"	"EditablePanel"	
+						"fieldName"	"KillVolume"
+
+						"xpos"	"10"	
+						"ypos"	"0"	
+						"zpos"	"15"	
+						"wide"	"350"	
+						"tall"	"20"
+
+						"pin_to_sibling"		"HitVolume"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+						"SubButton"
+						{
+							"ControlName"	"CExImageButton"	
+							"fieldName"	"SubButton"
+						
+							"xpos"	"-2"	
+							"ypos"	"0"	
+							"wide"	"100"	
+							"tall"	"20"
+							
+							"font"	"Tahoma20"	
+							"visible"	"1"
+							"enabled"	"1"	
+							
+							"labelText"	"Killsound:"
+							"textAlignment"	"west"
+					
+							"paintborder"	"0"	
+							
+							"paintbackground"	"0"
+						}
+						
+						"Slider"
+						{
+							"ControlName"	"CCvarSlider"	
+							"fieldName"	"Slider"
+							
+							"xpos"	"80"	
+							"ypos"	"5"	
+							"wide"	"270"	
+							"tall"	"20"
+							
+							"leftText"	"0"	
+							"rightText"	"100"
+							
+							"minvalue"	"0"	
+							"maxvalue"	"100"
+							
+							"cvar_name"	"tf_dingaling_lasthit_volume"
+							
+							"allowoutofrange"	"0"		
+						}	
+					}
 		}
+		
+		"Backgrounds"{
+			ControlName "EditablePanel"
+				fieldName Backgrounds
+				xpos	0
+				ypos	5
+				wide 770
+				tall 140
+				visible 1
+				enabled 1
 
-		"SoundFiller"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SoundFiller"
-			"xpos"					"2"
-			"ypos"					"-5"
-			"zpos"					"100"
-			"wide"					"400"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
+				"pin_to_sibling"	"Sound"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
-			"pin_to_sibling"		"SoundLabel"
-			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				"Header2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"Header2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-7"
+					"wide"			"770"
+					"tall"			"10"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/header"
+					"alpha"		"200"
+				}
+
+				"TerminalBG2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"TerminalBG2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-8"
+					"wide"			"770"
+					"tall"			"130"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/content"
+					"alpha"		"200"
+
+					"pin_to_sibling"	"Header2"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+				
+
+				"buttons2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"buttons2"
+					"xpos"			"-3"
+					"ypos"			"-2"
+					"zpos"			"53"
+					"wide"			"28"
+					"tall"			"7"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"replay/thumbnails/smileos_buttons"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+
+					"pin_to_sibling"	"header2"
+					"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+					"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+				}
+
+				"inset2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"inset2"
+					"xpos"			"-5"
+					"ypos"			"-5"
+					"zpos"			"-8"
+					"wide"			"760"
+					"tall"			"120"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/inset"
+					"alpha"		"200"
+
+					"pin_to_sibling"		"TerminalBG2"
+				}
+
+					"BGLabel"
+					{
+						"ControlName"			"CExLabel"
+						"fieldName"				"BGLabel"
+						"xpos"					"1"
+						"ypos"					"0"
+						"zpos"					"100"
+						"wide"					"360"
+						"tall"					"10"
+						"visible"				"1"
+						"enabled"				"1"
+						"font"					"Tahoma10"
+						"labeltext"				"Backgrounds"
+						"fgcolor"				"ColorWhite"
+
+					}
+					"ActOneImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "ActOneImage"
+						"xpos"             "25"
+						"ypos"             "17"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/background_upward"
+						"scaleImage"		"1"
+					}
+
+					"ActOneButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"ActOneButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_actone;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"ActOneImage"
+					}
+
+					"ActTwoImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "ActTwoImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/background_gabe"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"ActOneImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"ActTwoButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"ActTwoButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_acttwo;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"ActTwoImage"
+					}
+
+					"ActThreePlaceholder"
+					{
+						"ControlName"      "label"
+						"fieldName"        "ActThreePlaceholder"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"labeltext"			"ERR 404"
+						"textAlignment"		"center"
+						"fgcolor_override"		"ColorRed"
+						"font"			"Tahoma14"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"ActTwoImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"DemoSmokeButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"DemoSmokeButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_demosmoke;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"ActThreePlaceholder"
+					}
+
+					"MannequinsImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "MannequinsImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/mannequins"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"ActThreePlaceholder"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"MannequinsButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"MannequinsButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_mannequins;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"MannequinsImage"
+					}
+					
+					"SirenSongImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "SirenSongImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/background_sirencallsong"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"MannequinsImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"SirenSongButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"SirenSongButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_sirensong;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"SirenSongImage"
+					}
+
+					"SufferingLeavesImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "SufferingLeavesImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/sufferingleaves"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"SirenSongImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"SufferingLeavesButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"SufferingLeavesButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_sufferingleaves;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"SufferingLeavesImage"
+					}
+
+					"DeepBlueImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "DeepBlueImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/deepblue"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"SufferingLeavesImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"DeepBlueButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"DeepBlueButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_deepblue;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"DeepBlueImage"
+					}
+
+					"DeathOdysseyImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "DeathOdysseyImage"
+						"xpos"             "0"
+						"ypos"             "3"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/deathodyssey"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"ActOneImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+					}
+
+					"DeathOdysseyButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"DeathOdysseyButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_deathodyssey;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"DeathOdysseyImage"
+					}
+
+					"GooseAct3Image"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "GooseAct3Image"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/gooseact3"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"DeathOdysseyImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"GooseAct3Button"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"GooseAct3Button"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_gooseact3;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"GooseAct3Image"
+					}
+
+					"GooseFraudImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "GooseFraudImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/goosefraud"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"GooseAct3Image"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"GooseFraudButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"GooseFraudButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_goosefraud;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"GooseFraudImage"
+					}
+
+					"GooseTreacheryImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "GooseTreacheryImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/goosetreachery"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"GooseFraudImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"GooseTreacheryButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"GooseTreacheryButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_goosetreachery;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"GooseTreacheryImage"
+					}
+
+					"ULTRA_REVAMPImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "ULTRA_REVAMPImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/revamp"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"GooseTreacheryImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"ULTRA_REVAMPButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"ULTRA_REVAMPButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_revamp;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"ULTRA_REVAMPImage"
+					}
+
+					"BenjaminImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "BenjaminImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/benjamin"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"ULTRA_REVAMPImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"BenjaminButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"BenjaminButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_benjamin;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"BenjaminImage"
+					}
+
+					"EncoresImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "EncoresImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/encores"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"BenjaminImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"EncoresButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"EncoresButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_encores;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"EncoresImage"
+					}
 		}
-
-			//MARK: GAME VOLUME
-			"volume"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"volume"
-
-				"xpos"	"0"	
-				"ypos"	"10"	
-				"zpos"	"15"	
-				"wide"	"350"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"SoundFiller"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Tahoma20"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"GAME:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"70"	
-					"ypos"	"5"	
-					"wide"	"270"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"volume"
-					
-					"allowoutofrange"	"0"		
-				}	
-			}	
-
-			//MARK: MUSIC VOLUME
-			"MusicVolume"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"MusicVolume"
-
-				"xpos"	"10"	
-				"ypos"	"0"	
-				"zpos"	"15"	
-				"wide"	"350"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"volume"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Tahoma20"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"MUSIC:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"80"	
-					"ypos"	"5"	
-					"wide"	"270"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"snd_musicvolume"
-					
-					"allowoutofrange"	"0"		
-				}	
-			}	
-
-			//MARK: HITSOUND VOLUME
-			"HitVolume"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"HitVolume"
-
-				"xpos"	"0"	
-				"ypos"	"2"	
-				"zpos"	"15"	
-				"wide"	"350"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"volume"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Tahoma20"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"HIT:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"70"	
-					"ypos"	"5"	
-					"wide"	"270"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"tf_dingaling_volume"
-					
-					"allowoutofrange"	"0"		
-				}	
-			}
-
-			//MARK: HITSOUND VOLUME
-			"KillVolume"
-			{
-				"ControlName"	"EditablePanel"	
-				"fieldName"	"KillVolume"
-
-				"xpos"	"10"	
-				"ypos"	"0"	
-				"zpos"	"15"	
-				"wide"	"350"	
-				"tall"	"20"
-
-				"pin_to_sibling"		"HitVolume"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
-				"SubButton"
-				{
-					"ControlName"	"CExImageButton"	
-					"fieldName"	"SubButton"
-				
-					"xpos"	"-2"	
-					"ypos"	"0"	
-					"wide"	"100"	
-					"tall"	"20"
-					
-					"font"	"Tahoma20"	
-					"visible"	"1"
-					"enabled"	"1"	
-					
-					"labelText"	"KILL:"
-					"textAlignment"	"west"
-			
-					"paintborder"	"0"	
-					
-					"paintbackground"	"0"
-				}
-				
-				"Slider"
-				{
-					"ControlName"	"CCvarSlider"	
-					"fieldName"	"Slider"
-					
-					"xpos"	"80"	
-					"ypos"	"5"	
-					"wide"	"270"	
-					"tall"	"20"
-					
-					"leftText"	"0"	
-					"rightText"	"100"
-					
-					"minvalue"	"0"	
-					"maxvalue"	"100"
-					
-					"cvar_name"	"tf_dingaling_lasthit_volume"
-					
-					"allowoutofrange"	"0"		
-				}	
-			}
-			//MARK: BACKGROUNDS
-			"BGLabel"
-			{
-				"ControlName"			"CExLabel"
-				"fieldName"				"BGLabel"
-				"xpos"					"0"
-				"ypos"					"70"
-				"zpos"					"100"
-				"wide"					"360"
-				"tall"					"28"
-				"visible"				"1"
-				"enabled"				"1"
-				"font"					"Tahoma28"
-				"labeltext"				"BACKGROUNDS"
-				"fgcolor"				"ColorRed"
-
-				"pin_to_sibling"		"SoundLabel"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-
-			}
-
-			"BGFiller"
-			{
-				"ControlName"			"ImagePanel"
-				"fieldName"				"BGFiller"
-				"xpos"					"2"
-				"ypos"					"-5"
-				"zpos"					"100"
-				"wide"					"400"
-				"tall"					"3"
-				"visible"				"1"
-				"enabled"				"1"
-				"fillcolor"				"ColorWhite"
-
-				"pin_to_sibling"		"BGLabel"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-			}
-
-			"ActOneImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "ActOneImage"
-				"xpos"             "0"
-				"ypos"             "15"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/background_upward"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"BGFiller"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-			}
-
-			"ActOneButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"ActOneButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_actone;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"ActOneImage"
-			}
-
-			"ActTwoImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "ActTwoImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/background_gabe"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"ActOneImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"ActTwoButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"ActTwoButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_acttwo;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"ActTwoImage"
-			}
-
-			"ActThreePlaceholder"
-			{
-				"ControlName"      "label"
-				"fieldName"        "ActThreePlaceholder"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"labeltext"			"ERR 404"
-				"textAlignment"		"center"
-				"fgcolor_override"		"ColorRed"
-				"font"			"Tahoma14"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"ActTwoImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"DemoSmokeButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"DemoSmokeButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_demosmoke;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"ActThreePlaceholder"
-			}
-
-			"MannequinsImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "MannequinsImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/mannequins"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"ActThreePlaceholder"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"MannequinsButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"MannequinsButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_mannequins;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"MannequinsImage"
-			}
-			
-			"SirenSongImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "SirenSongImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/background_sirencallsong"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"MannequinsImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"SirenSongButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SirenSongButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_sirensong;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"SirenSongImage"
-			}
-
-			"SufferingLeavesImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "SufferingLeavesImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/sufferingleaves"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"SirenSongImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"SufferingLeavesButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SufferingLeavesButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_sufferingleaves;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"SufferingLeavesImage"
-			}
-
-			"DeepBlueImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "DeepBlueImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/deepblue"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"SufferingLeavesImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"DeepBlueButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"DeepBlueButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_deepblue;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"DeepBlueImage"
-			}
-
-			"DeathOdysseyImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "DeathOdysseyImage"
-				"xpos"             "0"
-				"ypos"             "3"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/deathodyssey"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"ActOneImage"
-				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-			}
-
-			"DeathOdysseyButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"DeathOdysseyButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_deathodyssey;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"DeathOdysseyImage"
-			}
-
-			"GooseAct3Image"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "GooseAct3Image"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/gooseact3"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"DeathOdysseyImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"GooseAct3Button"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"GooseAct3Button"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_gooseact3;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"GooseAct3Image"
-			}
-
-			"GooseFraudImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "GooseFraudImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/goosefraud"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"GooseAct3Image"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"GooseFraudButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"GooseFraudButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_goosefraud;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"GooseFraudImage"
-			}
-
-			"GooseTreacheryImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "GooseTreacheryImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/goosetreachery"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"GooseFraudImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"GooseTreacheryButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"GooseTreacheryButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_goosetreachery;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"GooseTreacheryImage"
-			}
-
-			"ULTRA_REVAMPImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "ULTRA_REVAMPImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/revamp"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"GooseTreacheryImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"ULTRA_REVAMPButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"ULTRA_REVAMPButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_revamp;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"ULTRA_REVAMPImage"
-			}
-
-			"BenjaminImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "BenjaminImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/benjamin"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"ULTRA_REVAMPImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"BenjaminButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"BenjaminButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_benjamin;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"BenjaminImage"
-			}
-
-			"EncoresImage"
-			{
-				"ControlName"      "ImagePanel"
-				"fieldName"        "EncoresImage"
-				"xpos"             "3"
-				"ypos"             "0"
-				"zpos"             "1"
-				"wide"			"100"
-				"tall"			"56"
-				"visible"          "1"
-				"enabled"			"1"
-				"image"				"../console/encores"
-				"scaleImage"		"1"
-
-				"pin_to_sibling"		"BenjaminImage"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-			}
-
-			"EncoresButton"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"EncoresButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"56"
-				"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				"Command"		"engine menu_bg_encores;  fullhudreload"
-				"actionsignallevel"		"4"
-				"labelText"		""
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
-
-				"fgcolor_override"		"ColorWhite"
-
-				"pin_to_sibling"		"EncoresImage"
-			}
 
 			"StreamerLabel"
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"StreamerLabel"
 				"xpos"					"0"
-				"ypos"					"140"
+				"ypos"					"800"
 				"zpos"					"100"
 				"wide"					"360"
 				"tall"					"28"

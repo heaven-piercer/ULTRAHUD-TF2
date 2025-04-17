@@ -9,19 +9,19 @@
 	// Change xpos and ypos values if not perfectly centered.
 	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
 	//--------------------------------------------------------------
-	"CustomCrosshair"
+	"crosshair"
 	{
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"5"
 		"controlName"		"CExLabel"
-		"fieldName"			"CustomCrosshair"
+		"fieldName"			"crosshair"
 		"zpos"				"0"
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5"
 		"wide"				"f0"
 		"tall"				"f0"
-		"font"				"Size:18 | Outline:ON"
+		"font"				"Size:10"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
 	}

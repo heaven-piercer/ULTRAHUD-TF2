@@ -239,7 +239,7 @@
 				xpos	0
 				ypos	0
 				wide 770
-				tall 100
+				tall 130
 				visible 1
 				enabled 1
 
@@ -267,7 +267,7 @@
 					"ypos"			"0"
 					"zpos"			"-8"
 					"wide"			"770"
-					"tall"			"90"
+					"tall"			"120"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -307,7 +307,7 @@
 					"ypos"			"-5"
 					"zpos"			"-8"
 					"wide"			"760"
-					"tall"			"80"
+					"tall"			"110"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -328,7 +328,7 @@
 					"tall"					"10"
 					"visible"				"1"
 					"enabled"				"1"
-					"font"					"Tahoma8"
+					"font"					"Tahoma10"
 					"labeltext"				"Crosshairs"
 					"textAlignment"			"west"
 					"fgcolor"				"ColorWhite"
@@ -347,7 +347,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_1;hud_reloadscheme"	
@@ -377,7 +377,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_2;hud_reloadscheme"	
@@ -410,7 +410,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_3;hud_reloadscheme"	
@@ -443,7 +443,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_4;hud_reloadscheme"	
@@ -477,7 +477,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_5;hud_reloadscheme"	
@@ -510,7 +510,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_6;hud_reloadscheme"	
@@ -542,7 +542,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_7;hud_reloadscheme"	
@@ -574,7 +574,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_8;hud_reloadscheme"	
@@ -606,7 +606,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_9;hud_reloadscheme"	
@@ -637,7 +637,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_10;hud_reloadscheme"	
@@ -668,7 +668,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_11;hud_reloadscheme"	
@@ -699,7 +699,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_12;hud_reloadscheme"	
@@ -730,7 +730,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_13;hud_reloadscheme"	
@@ -761,7 +761,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_14;hud_reloadscheme"	
@@ -792,7 +792,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_15;hud_reloadscheme"	
@@ -823,7 +823,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_16;hud_reloadscheme"	
@@ -855,7 +855,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_17;hud_reloadscheme"	
@@ -887,7 +887,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_18;hud_reloadscheme"	
@@ -919,7 +919,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_19;hud_reloadscheme"	
@@ -951,7 +951,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_20;hud_reloadscheme"	
@@ -983,7 +983,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_21;hud_reloadscheme"	
@@ -1014,7 +1014,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_22;hud_reloadscheme"	
@@ -1045,7 +1045,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_23;hud_reloadscheme"	
@@ -1076,7 +1076,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_24;hud_reloadscheme"	
@@ -1107,7 +1107,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_25;hud_reloadscheme"	
@@ -1138,7 +1138,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_26;hud_reloadscheme"	
@@ -1169,7 +1169,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_27;hud_reloadscheme"	
@@ -1200,7 +1200,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_28;hud_reloadscheme"	
@@ -1231,7 +1231,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_29;hud_reloadscheme"	
@@ -1262,7 +1262,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_30;hud_reloadscheme"	
@@ -1294,7 +1294,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_31;hud_reloadscheme"	
@@ -1326,7 +1326,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_32;hud_reloadscheme"	
@@ -1358,7 +1358,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_33;hud_reloadscheme"	
@@ -1390,7 +1390,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_34;hud_reloadscheme"	
@@ -1421,7 +1421,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_35;hud_reloadscheme"	
@@ -1452,7 +1452,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_36;hud_reloadscheme"	
@@ -1484,7 +1484,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_37;hud_reloadscheme"	
@@ -1515,7 +1515,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_38;hud_reloadscheme"	
@@ -1546,7 +1546,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_39;hud_reloadscheme"	
@@ -1577,7 +1577,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_40;hud_reloadscheme"	
@@ -1608,7 +1608,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_41;hud_reloadscheme"	
@@ -1639,7 +1639,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_42;hud_reloadscheme"	
@@ -1670,7 +1670,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_43;hud_reloadscheme"	
@@ -1701,7 +1701,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_44;hud_reloadscheme"	
@@ -1732,7 +1732,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_45;hud_reloadscheme"	
@@ -1763,7 +1763,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_46;hud_reloadscheme"	
@@ -1794,7 +1794,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_47;hud_reloadscheme"	
@@ -1825,7 +1825,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_48;hud_reloadscheme"	
@@ -1856,7 +1856,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_49;hud_reloadscheme"	
@@ -1887,7 +1887,7 @@
 					"wide"	"16"	
 					"tall"	"16"
 					
-					"font"	"Size:10"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
 					"command"	"engine hud_crosshair_50;hud_reloadscheme"	
@@ -1907,25 +1907,24 @@
 					"pin_to_sibling"		"Crosshair 49"
 					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 				}
-
-				"crosshairToggle"
+				"Crosshair 51"
 				{
 					"ControlName"	"CExButton"	
-					"fieldname"	"crosshairToggle"
+					"fieldname"	"Crosshair 51"
 					
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"70"	
-					"tall"	"26"
+					"wide"	"16"	
+					"tall"	"16"
 					
-					"font"	"Tahoma16"	
+					"font"	"Size10"	
 					"visible"	"1"
 					"enabled"	"1"	
-					"command"	"engine toggle crosshair"	
+					"command"	"engine hud_crosshair_51;hud_reloadscheme"	
 					"actionsignallevel"	"5"	
 					
-					"labeltext"	"ON/OFF"	
+					"labeltext"	"O"	
 					"textAlignment"	"center"	
 					
 					"sound_depressed"	"UI/buttonclick.wav"	
@@ -1936,81 +1935,701 @@
 
 					"fgcolor_override"		"ColorWhite"
 
-					"pin_to_sibling"		"Crosshair 8"
+					"pin_to_sibling"		"Crosshair 50"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 52"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 52"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_52;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"P"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 51"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 53"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 53"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_53;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"Q"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 52"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 54"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 54"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_54;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"R"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 53"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 55"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 55"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_55;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"S"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 54"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 56"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 56"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_56;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"T"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 55"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 57"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 57"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_57;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"U"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 56"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 58"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 58"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_58;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"V"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 57"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 59"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 59"
+					
+					"xpos"	"0"	
+					"ypos"	"5"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_59;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"W"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 30"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+				"Crosshair 60"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 60"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_60;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"X"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 59"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 61"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 61"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_61;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"Y"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 60"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Crosshair 62"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Crosshair 62"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Size10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_62;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"Z"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Crosshair 61"
 					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 				}
 
-					"CrosshairSize"
-					{
-						"ControlName"	"EditablePanel"	
-						"fieldName"	"CrosshairSize"
-
-						"xpos"	"10"	
-						"ypos"	"-2"	
-						"zpos"	"15"	
-						"wide"	"400"	
-						"tall"	"20"
-
-						"pin_to_sibling"		"crosshairToggle"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-
-						"SubButton"
-						{
-							"ControlName"	"CExImageButton"	
-							"fieldName"	"SubButton"
-						
-							"xpos"	"-2"	
-							"ypos"	"0"	
-							"wide"	"100"	
-							"tall"	"20"
-							
-							"font"	"Tahoma20"	
-							"visible"	"1"
-							"enabled"	"1"	
-							
-							"labelText"	"SIZE:"
-							"textAlignment"	"west"
+				"CrosshairOff"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"CrosshairOff"
 					
-							"paintborder"	"0"	
-							
-							"paintbackground"	"0"
-							
-							"defaultFgColor_override"	"ColorWhite"
-							"armedFgColor_override"	"ColorWhite"
-						}
-						
-						"Slider"
-						{
-							"ControlName"	"CCvarSlider"	
-							"fieldName"	"Slider"
-							
-							"xpos"	"70"	
-							"ypos"	"5"	
-							"wide"	"300"	
-							"tall"	"20"
-							
-							"leftText"	"0"	
-							"rightText"	"100"
-							
-							"minvalue"	"0"	
-							"maxvalue"	"100"
-							
-							"cvar_name"	"cl_crosshair_scale"
-							
-							"allowoutofrange"	"0"		
-						}		
-					}
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"640"	
+					"tall"	"16"
+					
+					"font"	"Tahoma16"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_off;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"Crosshair Off"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
+
+					"defaultfgcolor_override"		"ColorRed"
+					"armedfgcolor_override"		"ColorRed"
+					"depressedfgcolor_override"		"colorwhite"
+
+					"pin_to_sibling"		"Crosshair 62"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+
+					"CrosshairSizeLabel"
+				{
+					"ControlName"			"CExLabel"
+					"fieldName"				"CrosshairSizeLabel"
+					"xpos"					"0"
+					"ypos"					"5"
+					"zpos"					"100"
+					"wide"					"360"
+					"tall"					"16"
+					"visible"				"1"
+					"enabled"				"1"
+					"font"					"Tahoma16"
+					"labeltext"				"Xhair Size:"
+					"textAlignment"			"west"
+					"fgcolor"				"ColorWhite"
+
+					"pin_to_sibling"	"crosshair 59"
+					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+				}
+
+				"Size 10"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 10"
+					
+					"xpos"	"0"	
+					"ypos"	"5"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_10;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"10"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"CrosshairSizeLabel"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+				"Size 15"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 15"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_15;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"15"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 10"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 20"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 20"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_20;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"20"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 15"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 25"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 25"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_25;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"25"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 20"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 30"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 30"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_30;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"30"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 25"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 35"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 35"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_35;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"35"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 30"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 40"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 40"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_40;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"40"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 35"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 45"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 45"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_45;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"45"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 40"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
+				"Size 50"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"Size 50"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"16"	
+					"tall"	"16"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine hud_crosshair_size_50;hud_reloadscheme"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"50"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"Size 45"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}
 		}
 
 		"Colors"{
 				ControlName "EditablePanel"
 				fieldName Colors
 				xpos	0
-				ypos	105
+				ypos	5
 				wide 770
 				tall 210
 				visible 1
 				enabled 1
+
+								
+				pin_to_sibling	"Crosshairs"
+				pin_to_sibling_corner	pin_bottomleft
 
 				"Header2"
 				{
@@ -2097,7 +2716,7 @@
 					"tall"					"10"
 					"visible"				"1"
 					"enabled"				"1"
-					"font"					"Tahoma8"
+					"font"					"Tahoma10"
 					"labeltext"				"Colors"
 					"textAlignment"		"west"
 					"fgcolor"				"ColorWhite"
@@ -2133,7 +2752,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 255; cl_crosshair_green 255; cl_crosshair_blue 255"	
+						"command"	"engine hud_xhair_red;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2143,9 +2762,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"255 255 255 255"	
-						"armedBgColor_override"	"255 255 255 255"	
-						"depressedBgColor_override"	"255 255 255 255"
+						"defaultBgColor_override"	"ColorRed"	
+						"armedBgColor_override"	"255 47 47 255"	
+						"depressedBgColor_override"	"255 47 47 255"
 						
 						"border_default"	"noborder"
 
@@ -2165,7 +2784,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 0"	
+						"command"	"engine hud_xhair_orange;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2175,7 +2794,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"0 0 0 255"	
+						"defaultBgColor_override"	"ColorOrange"	
+						"armedBgColor_override"	"255 176 67 255"	
+						"depressedBgColor_override"	"ColorOrange"	
 						
 						
 						"border_default"	"noborder"
@@ -2196,7 +2817,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_yellow;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2206,9 +2827,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"231 72 72 255"	
-						"armedBgColor_override"	"231 72 72 255"	
-						"depressedBgColor_override"	"231 72 72 255"
+						"defaultBgColor_override"	"ColorYellow"	
+						"armedBgColor_override"	"255 255 69 255"	
+						"depressedBgColor_override"	"ColorYellow"
 						
 						"border_default"	"noborder"
 
@@ -2228,7 +2849,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 117; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_green;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2238,9 +2859,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"231 117 72 255"	
-						"armedBgColor_override"	"231 117 72 255"	
-						"depressedBgColor_override"	"231 117 72 255"
+						"defaultBgColor_override"	"ColorGreen"	
+						"armedBgColor_override"	"76 255 76 255"	
+						"depressedBgColor_override"	"ColorGreen"
 						
 						"border_default"	"noborder"
 
@@ -2260,7 +2881,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 154; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_blue;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2270,9 +2891,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"231 154 72 255"	
-						"armedBgColor_override"	"231 154 72 255"	
-						"depressedBgColor_override"	"231 154 72 255"
+						"defaultBgColor_override"	"ColorBlue"	
+						"armedBgColor_override"	"50 50 255 255"	
+						"depressedBgColor_override"	"50 50 255 255"
 						
 						"border_default"	"noborder"
 
@@ -2292,7 +2913,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 177; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_magenta;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2302,9 +2923,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"231 177 72 255"	
-						"armedBgColor_override"	"231 177 72 255"	
-						"depressedBgColor_override"	"231 177 72 255"
+						"defaultBgColor_override"	"ColorMagenta"	
+						"armedBgColor_override"	"255 79 255 255"	
+						"depressedBgColor_override"	"ColorMagenta"
 						
 						"border_default"	"noborder"
 
@@ -2324,7 +2945,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 177; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_purple;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2334,9 +2955,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"231 203 72 255"	
-						"armedBgColor_override"	"231 203 72 255"	
-						"depressedBgColor_override"	"231 177 72 255"
+						"defaultBgColor_override"	"ColorPurple"	
+						"armedBgColor_override"	"156 58 255 255"	
+						"depressedBgColor_override"	"ColorPurple"
 						
 						"border_default"	"noborder"
 
@@ -2356,7 +2977,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 203; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_white;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2366,9 +2987,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"203 231 72 255"	
-						"armedBgColor_override"	"203 231 72 255"	
-						"depressedBgColor_override"	"203 231 72 255"
+						"defaultBgColor_override"	"ColorWhite"	
+						"armedBgColor_override"	"197 197 197 255"	
+						"depressedBgColor_override"	"ColorWhite"
 						
 						"border_default"	"noborder"
 
@@ -2388,7 +3009,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 151; cl_crosshair_green 231; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_grey;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2398,9 +3019,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"151 231 72 255"	
-						"armedBgColor_override"	"151 231 72 255"	
-						"depressedBgColor_override"	"151 231 72 255"
+						"defaultBgColor_override"	"AmmoInReserve"	
+										"armedBgColor_override"	"197 197 197 255"	
+										"depressedBgColor_override"	"AmmoInReserve"
 						
 						"border_default"	"noborder"
 
@@ -2420,7 +3041,7 @@
 						
 						"visible"	"1"	
 						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 91; cl_crosshair_green 231; cl_crosshair_blue 72"	
+						"command"	"engine hud_xhair_black;hud_reloadscheme"	
 						"textinsetx"	"9999"	
 						"actionsignallevel"	"5"		
 						"proportionaltoparent"	"1"	
@@ -2430,429 +3051,13 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"91 231 72 255"	
-						"armedBgColor_override"	"91 231 72 255"	
-						"depressedBgColor_override"	"91 231 72 255"
+						"defaultBgColor_override"	"ColorBlack"	
+						"armedBgColor_override"	"49 49 49 255"	
+						"depressedBgColor_override"	"ColorBlack"
 						
 						"border_default"	"noborder"
 
 						"pin_to_sibling"	"Crosshaircolor 9"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor11"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor11"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 231; cl_crosshair_blue 113"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"72 231 113 255"	
-						"armedBgColor_override"	"72 231 113 255"	
-						"depressedBgColor_override"	"27 231 113 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor10"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor12"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor12"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 231; cl_crosshair_blue 169"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"72 231 169 255"	
-						"armedBgColor_override"	"72 231 169 255"	
-						"depressedBgColor_override"	"72 231 169 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor11"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor13"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor13"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 231; cl_crosshair_blue 222"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"72 231 222 255"	
-						"armedBgColor_override"	"72 231 222 255"	
-						"depressedBgColor_override"	"72 231 222 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor12"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor14"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor14"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 188; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"72 188 231 255"	
-						"armedBgColor_override"	"72 188 231 255"	
-						"depressedBgColor_override"	"72 188 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor13"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-				"Crosshaircolor15"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor15"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 143; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"72 143 231 255"	
-						"armedBgColor_override"	"72 143 231 255"	
-						"depressedBgColor_override"	"72 143 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor14"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor16"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor16"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 72; cl_crosshair_green 87; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"72 87 231 255"	
-						"armedBgColor_override"	"72 87 231 255"	
-						"depressedBgColor_override"	"72 87 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor15"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor17"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor17"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 109; cl_crosshair_green 72; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"109 72 231 255"	
-						"armedBgColor_override"	"109 72 231 255"	
-						"depressedBgColor_override"	"109 72 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor16"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor18"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor18"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 132; cl_crosshair_green 72; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"132 72 231 255"	
-						"armedBgColor_override"	"132 72 231 255"	
-						"depressedBgColor_override"	"132 72 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor17"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor19"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor19"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 169; cl_crosshair_green 72; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"169 72 231 255"	
-						"armedBgColor_override"	"169 72 231 255"	
-						"depressedBgColor_override"	"169 72 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor18"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor20"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor20"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 203; cl_crosshair_green 72; cl_crosshair_blue 231"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"203 72 231 255"	
-						"armedBgColor_override"	"203 72 231 255"	
-						"depressedBgColor_override"	"203 72 231 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor19"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor21"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor21"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 225"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"231 72 225 255"	
-						"armedBgColor_override"	"231 72 225 255 "	
-						"depressedBgColor_override"	"231 72 225 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor20"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor22"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor22"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 143"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"231 72 143 255"	
-						"armedBgColor_override"	"231 72 143 255"	
-						"depressedBgColor_override"	"231 72 143 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor21"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-					}
-
-					"Crosshaircolor23"
-					{
-						"ControlName"	"CExImageButton"	
-						"fieldname"	"Crosshaircolor23"
-						"xpos"	"0"	
-						"ypos"	"0"		
-						"zpos"	"100"	
-						"wide"	"14"	
-						"tall"	"20"
-						
-						"visible"	"1"	
-						"enabled"	"1"	
-						"command"	"engine cl_crosshair_red 231; cl_crosshair_green 72; cl_crosshair_blue 113"	
-						"textinsetx"	"9999"	
-						"actionsignallevel"	"5"		
-						"proportionaltoparent"	"1"	
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"		
-						
-						"paintbackground"	"1"
-						
-						"defaultBgColor_override"	"231 72 113 255"	
-						"armedBgColor_override"	"231 72 113 255"	
-						"depressedBgColor_override"	"231 72 113 255"
-						
-						"border_default"	"noborder"
-
-						"pin_to_sibling"	"Crosshaircolor22"
 						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 					//MARK: DAMAGE COLORS
@@ -5803,11 +6008,14 @@
 				ControlName "EditablePanel"
 				fieldName VModels
 				xpos	0
-				ypos	320
+				ypos	5
 				wide 770
 				tall 100
 				visible 1
 				enabled 1
+				
+				pin_to_sibling	"Colors"
+				pin_to_sibling_corner	pin_bottomleft
 
 				"Header2"
 				{

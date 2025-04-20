@@ -7720,7 +7720,7 @@
 				xpos	0
 				ypos	5
 				wide 770
-				tall 160
+				tall 300
 				visible 1
 				enabled 1
 
@@ -7751,7 +7751,7 @@
 					"ypos"			"0"
 					"zpos"			"-8"
 					"wide"			"770"
-					"tall"			"150"
+					"tall"			"290"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -7791,7 +7791,7 @@
 					"ypos"			"-5"
 					"zpos"			"-8"
 					"wide"			"760"
-					"tall"			"140"
+					"tall"			"280"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -7887,7 +7887,7 @@
 				"enabled"				"1"
 				"font"					"Tahoma14"
 				"textAlignment"			"center"
-				"labeltext"				"Default"
+				"labeltext"				"Head Shot"
 				"fgcolor"				"ColorWhite"
 
 				"pin_to_sibling"		"DefaultClassModelImage"
@@ -8301,6 +8301,317 @@
 				"pin_to_sibling"		"SpeedoOffExample"
 			}
 
+			"MainFontLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"MainFontLabel"
+				"xpos"					"0"
+				"ypos"					"70"
+				"zpos"					"100"
+				"wide"					"245"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"labeltext"				"Main Font Style*"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"TahomaStyleLabel"
+				"pin_to_sibling_corner"		"PIN_BottomLeft"
+
+			}
+
+			"DefaultMainFontExample"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"		"DefaultMainFontExample"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"40"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"Aa"
+				"textAlignment"	"center"
+				"font"			"Cerbetica32vcr"
+
+				"pin_to_sibling"		"MainFontLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DefaultMainFontLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DefaultMainFontLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"textAlignment"			"center"
+				"labeltext"				"VCR OSD Mono"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"DefaultMainFontExample"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultMainFontButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultMainFontButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"60"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine mainfont_vcr"
+				"actionsignallevel"		"5"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DefaultMainFontExample"
+			}
+
+			"AltMainFontExample"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"		"AltMainFontExample"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"40"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"Aa"
+				"textAlignment"		"center"
+				"font"			"Cerbetica32alagard"
+
+				"pin_to_sibling"		"DefaultMainFontExample"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"AltMainFontLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"AltMainFontLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"textAlignment"			"center"
+				"labeltext"				"Alagard"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"AltMainFontExample"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"AltMainFontButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"AltMainFontButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"60"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine mainfont_alagard"
+				"actionsignallevel"		"5"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"AltMainFontExample"
+			}
+
+			"TeamHeadLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"TeamHeadLabel"
+				"xpos"					"0"
+				"ypos"					"120"
+				"zpos"					"100"
+				"wide"					"205"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"labeltext"				"Team Select Heads"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"	"ClassModelLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultTeamHeadImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DefaultTeamHeadImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"100"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/heads/v2_head"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"TeamHeadLabel"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"DefaultTeamHeadLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"DefaultTeamHeadLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"textAlignment"			"center"
+				"labeltext"				"V-Models"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"DefaultTeamHeadImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"DefaultTeamHeadButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DefaultTeamHeadButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"120"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine heads_vmodel;fullhudreload"
+				"actionsignallevel"		"5"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"DefaultTeamHeadImage"
+			}
+
+			"FullTeamHeadImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FullTeamHeadImage"
+				"xpos"			"5"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"100"
+				"tall"			"100"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/heads/gabehead_blue"
+				"scaleImage"	"1"
+
+				"pin_to_sibling"		"DefaultTeamHeadImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			"FullTeamHeadLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"FullTeamHeadLabel"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"100"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"textAlignment"			"center"
+				"labeltext"				"Gabriel"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"		"FullTeamHeadImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+			}
+
+			"FullTeamHeadButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"FullTeamHeadButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"100"
+				"tall"			"120"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"Command"		"engine heads_gabe;fullhudreload"
+				"actionsignallevel"		"5"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"Transparent"	
+
+				"fgcolor_override"		"ColorWhite"
+
+				"pin_to_sibling"		"FullTeamHeadImage"
+			}
+
 		}
 			
 			
@@ -8309,13 +8620,13 @@
 		
 		}
 
-		"Utilities" //MARK: UTILITIES
-{
+	"Utilities" //MARK: UTILITIES
+	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
-		"xpos"		"0"
-		"ypos"		"1150"
-		"wide"		"743"
+		"xpos"		"cs-0.5-20"
+		"ypos"		"1200"
+		"wide"		"770"
 		"tall"		"160"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -8324,48 +8635,105 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 
+		"Header2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"Header2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-7"
+					"wide"			"770"
+					"tall"			"10"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/header"
+					"alpha"		"200"
+				}
+
+				"TerminalBG2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"TerminalBG2"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"-8"
+					"wide"			"770"
+					"tall"			"120"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/content"
+					"alpha"		"200"
+
+					"pin_to_sibling"	"Header2"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+				
+
+				"buttons2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"buttons2"
+					"xpos"			"-3"
+					"ypos"			"-2"
+					"zpos"			"53"
+					"wide"			"28"
+					"tall"			"7"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"replay/thumbnails/smileos_buttons"
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
+
+					"pin_to_sibling"	"header2"
+					"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+					"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+				}
+
+				"inset2"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"inset2"
+					"xpos"			"-5"
+					"ypos"			"-5"
+					"zpos"			"-8"
+					"wide"			"760"
+					"tall"			"110"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"		"replay/thumbnails/inset"
+					"alpha"		"200"
+
+					"pin_to_sibling"		"TerminalBG2"
+				}
+
 
 
 	"TitleLabel"
 		{
 			"ControlName"			"CExLabel"
 			"fieldName"				"TitleLabel"
-			"xpos"					"2"
+			"xpos"					"1"
 			"ypos"					"0"
 			"zpos"					"100"
 			"wide"					"360"
-			"tall"					"30"
+			"tall"					"10"
 			"visible"				"1"
 			"enabled"				"1"
-			"font"					"Tahoma32"
+			"font"					"Tahoma10"
 			"labeltext"				"utilities"
-			"fgcolor"				"ColorRed"
+			"fgcolor"				"ColorWhite"
 
-		}
-
-		
-	
-	"filler"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"filler"
-			"xpos"					"2"
-			"ypos"					"30"
-			"zpos"					"100"
-			"wide"					"f0"
-			"tall"					"3"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"ColorWhite"
-			"fgcolor_override"		"ColorWhite"
 		}
 
 	"ItemTestButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ItemTestButton"
-		"xpos"			"0"
-		"ypos"			"20"
+		"xpos"			"7"
+		"ypos"			"17"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"30"
@@ -8376,7 +8744,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Itemtest"
 		"allcaps"		"1"
-		"font"			"Tahoma10"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8386,9 +8754,6 @@
 		"defaultBgColor_override"	"ColorBlack"	
 
 		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"filler"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		
 	}
 
@@ -8408,7 +8773,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"walkway"
 		"allcaps"		"1"
-		"font"			"Tahoma8"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8440,7 +8805,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Drawtree"
 		"allcaps"		"1"
-		"font"			"Tahoma16"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8471,7 +8836,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"Reload HUD"
 		"allcaps"		"1"
-		"font"			"Tahoma12"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8502,9 +8867,9 @@
 		"enabled"		"1"
 		"Command"		"engine fullhudreload"
 		"actionsignallevel"		"4"
-		"labelText"		"hud reload +"
+		"labelText"		"Reload All"
 		"allcaps"		"1"
-		"font"			"Tahoma10"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8536,7 +8901,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"target.pos."
 		"allcaps"		"1"
-		"font"			"Tahoma12"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8570,7 +8935,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"chat toggle"
 		"allcaps"		"1"
-		"font"			"Tahoma12"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	
@@ -8627,7 +8992,7 @@
 		"actionsignallevel"		"4"
 		"labelText"		"classmodel"
 		"allcaps"		"1"
-		"font"			"Tahoma12"
+		"font"			"Tahoma14"
 		"textAlignment"	"center"
 		
 		"sound_depressed"	"UI/buttonclick.wav"	

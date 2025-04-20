@@ -1,2 +1,2 @@
-"#base" "../../_customizations/ENABLED/Gabriel Pack/teammenu-gabe.res"
+"#base" "../../../../cfg/teammenu_heads.txt"
 "#base" "teammenu-base.res"

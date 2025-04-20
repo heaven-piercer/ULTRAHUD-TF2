@@ -2,7 +2,7 @@
 #base "scheme/clientscheme_borders.res"
 #base "scheme/clientscheme_colors.res"
 #base "../../../cfg/tahoma-style.txt"
+#base "../../../cfg/mainfont-style.txt"
 #base "scheme/clientscheme_fonts.res"
 #base "scheme/clientscheme_icons.res"
 #base "scheme/clientscheme_xhairs.res"
-#base "scheme/clientscheme_xhairs_outline.res"

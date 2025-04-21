@@ -65,6 +65,21 @@
 	}
 	//--------------------------------------------------------------
 
+	"Dead"
+	{
+		"visible"			"0"
+		"enabled"			"0"
+		"controlName"		"ImagePanel"
+		"fieldName"			"Dead"
+		"zpos"				"-100"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"image"				"replay/thumbnails/content"
+		"scaleImage"		"1"
+	}
+
 	"HudWeaponAmmo"
 	{
 		"fieldName"			"HudWeaponAmmo"

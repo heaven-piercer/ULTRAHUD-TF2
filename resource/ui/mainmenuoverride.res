@@ -3,6 +3,7 @@
 #base "../../_welcome/welcome_screen.res"
 "#base" "mainmenuoverride-base.res"
 #base "../hudoptions.res"
+#base "../quickplay.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

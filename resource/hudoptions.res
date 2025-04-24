@@ -169,6 +169,35 @@
 			"defaultbgcolor_override"		"Transparent"
 			"armedbgcolor_override"		"255 255 255 3"
 			"depressedBgColor_override"		"ColorRed"
+		}
+
+		"exitbutton2"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"exitbutton2"
+			"xpos"			"rs1-30"
+			"ypos"			"25"
+			"zpos"			"91"
+			"wide"			"30"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"default"		"0"
+			"actionsignallevel"	"2"
+			"textAlignment"		"center"
+			"font"		"Tahoma32"
+			"labelText"		"X"
+			"Command"			"engine cl_mainmenu_safemode 0"
+			
+			"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"Transparent"	
+					"depressedBgColor_override"		"ColorRed"
+
+					"defaultfgcolor_override"		"ColorRed"
+					"armedfgcolor_override"		"ColorRed"
+					"depressedfgcolor_override"		"colorwhite"
 		}	
 
 		

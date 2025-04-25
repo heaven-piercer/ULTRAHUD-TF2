@@ -7517,7 +7517,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"Command"		"engine friends_show;fullhudreload"
-				"actionsignallevel"		"4"
+				"actionsignallevel"		"5"
 				"labelText"		""
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -7584,7 +7584,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"Command"		"engine friends_hide;fullhudreload"
-				"actionsignallevel"		"4"
+				"actionsignallevel"		"5"
 				"labelText"		""
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -7669,7 +7669,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"Command"		"engine rank_show;fullhudreload"
-				"actionsignallevel"		"4"
+				"actionsignallevel"		"5"
 				"labelText"		""
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -7736,7 +7736,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"Command"		"engine rank_hide;fullhudreload"
-				"actionsignallevel"		"4"
+				"actionsignallevel"		"5"
 				"labelText"		""
 				
 				"sound_depressed"	"UI/buttonclick.wav"	
@@ -8788,7 +8788,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 		
@@ -8817,7 +8818,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
@@ -8849,7 +8851,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
@@ -8880,7 +8883,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
@@ -8913,7 +8917,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
@@ -8945,7 +8950,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
@@ -8979,7 +8985,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
@@ -9036,12 +9043,46 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
 
 		"fgcolor_override"		"ColorWhite"
 
 		"pin_to_sibling"		"chat on/off"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		
+	}
+
+	"FixCustomizationsButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"FixCustomizationsButton"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"710"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine exec hud_commands;exec hud_customizations;exec menu_customizations"
+		"actionsignallevel"		"4"
+		"labelText"		"FIX CUSTOMIZATIONS"
+		"allcaps"		"1"
+		"font"			"Tahoma24"
+		"textAlignment"	"center"
+		
+		"sound_depressed"	"UI/buttonclick.wav"	
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"armedBgColor_override"		"255 255 255 3"	
+		"defaultBgColor_override"	"ColorBlack"
+		"depressedBgColor_override"		"ColorRed"	
+
+		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"		"ItemTestButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 		
 	}
 

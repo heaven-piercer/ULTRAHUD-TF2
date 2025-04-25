@@ -8,7 +8,7 @@
 		"ypos"				"25"
 		"zpos"				"0"
 		"wide"				"640"
-		"tall"				"20"
+		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"TransparentBlack"
@@ -19,12 +19,12 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
 		"xpos"				"0"
-		"ypos"				"48"
+		"ypos"				"35"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"	 			"35"
-		"visible"			"1"
-		"enabled"			"1"
+		"tall"	 			"2"
+		"visible"			"0"
+		"enabled"			"0"
 		"image"				"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"			"../hud/color_panel_brown"
@@ -45,7 +45,7 @@
 		"ypos"				"45"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"	 			"35"
+		"tall"	 			"2"
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"72 112 125 255"
@@ -64,7 +64,7 @@
 		"ypos"				"45"
 		"zpos"				"1"
 		"wide"				"f0"
-		"tall"	 			"35"
+		"tall"	 			"2"
 		"visible"			"0"
 		"enabled"			"1"
 		"fillcolor"			"158 64 61 255"
@@ -79,12 +79,12 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabel"
-		"font"				"HudClassHealth"
+		"font"				"Cerbetica8Alt"
 		"xpos"				"45"
 		"ypos"				"25"
 		"zpos"				"1"
 		"wide"				"640"
-		"tall"				"20"
+		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetname%"
@@ -100,7 +100,7 @@
 		"ypos"				"-1"
 		"zpos"				"1"
 		"wide"				"640"
-		"tall"				"20"
+		"tall"				"10"
 		"visible"			"0"
 		"enabled"			"0"
 		"labelText"			"%targetname%"
@@ -109,13 +109,25 @@
 		"pin_to_sibling"	"TargetNameLabel"
 	}
 
+	"dataPin"
+	{
+		ControlName editablepanel
+		fieldName dataPin
+		wide 0
+		tall 0
+		xpos 12
+		ypos 23
+		visible 0
+		enabled 1
+	}
+
 	"TargetDataLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"HudFontSmall"
+		"font"				"Cerbetica8Alt"
 		"xpos"				"0"
-		"ypos"				"10"
+		"ypos"				"00"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"15"
@@ -123,6 +135,8 @@
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
 		"textAlignment"		"west"
+
+		"pin_to_sibling"	"dataPin"
 	}
 
 	"SpectatorGUIHealth"
@@ -130,7 +144,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
 		"xpos"				"0"
-		"ypos"				"10"
+		"ypos"				"7"
 		"zpos"				"10"
 		"wide"				"45"
 		"tall"				"40"

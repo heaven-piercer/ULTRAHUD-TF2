@@ -173,12 +173,12 @@
 
 		"exitbutton2"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"exitbutton2"
 			"xpos"			"rs1-30"
 			"ypos"			"25"
 			"zpos"			"91"
-			"wide"			"30"
+			"wide"			"32"
 			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -188,7 +188,7 @@
 			"actionsignallevel"	"2"
 			"textAlignment"		"center"
 			"font"		"Tahoma32"
-			"labelText"		"X"
+			"labelText"		""
 			"Command"			"engine cl_mainmenu_safemode 0"
 			
 			"armedBgColor_override"		"255 255 255 3"	
@@ -198,6 +198,14 @@
 					"defaultfgcolor_override"		"ColorRed"
 					"armedfgcolor_override"		"ColorRed"
 					"depressedfgcolor_override"		"colorwhite"
+
+				"SubImage"
+				{
+					image replay/thumbnails/buttons/back
+					scaleImage 1
+					wide 32
+					tall 32
+				}
 		}	
 
 		

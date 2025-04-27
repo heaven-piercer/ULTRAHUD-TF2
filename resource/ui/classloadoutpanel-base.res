@@ -101,25 +101,124 @@
 
 	
 
+	
+
+	"BackgroundHeader"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackgroundHeader"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-2"
+		"wide"				"650"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/header"
+		"tileImage"			"1"
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-4"
+		"wide"			"650"
+		"tall"			"360"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+		
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+
+	"TerminalBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG2"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-3"
+		"wide"			"640"
+		"tall"			"350"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+
+		"pin_to_sibling"	"TerminalBG"
+	}
+
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"-5"
+		"ypos"			"-3"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+	}
+
+	
+
 	"ClassLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"Tahoma40"
+		"font"				"Tahoma16"
 		"labelText"			"#ClassBeingEquipped"
 		"textAlignment"		"west"
-		"xpos"				"175"
-		"ypos"				"42"
+		"xpos"				"-5"
+		"ypos"				"1"
 		"zpos"				"1"
 		"wide"				"350"
-		"tall"				"40"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"allcaps"			"1"
 
 		"fgcolor_override"	"ColorWhite"
+
+		"pin_to_sibling"	"BackgroundHeader"
+	}
+
+	"ClassLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ClassLabelShadow"
+		"font"				"Tahoma16"
+		"labelText"			"#ClassBeingEquipped"
+		"textAlignment"		"west"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"350"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"fgcolor_override"	"TransparentBlack"
+
+		"pin_to_sibling"	"Classlabel"
 	}
 
 	"TauntCaratLabel"
@@ -154,10 +253,10 @@
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
 		"xpos"				"c-255"
-		"ypos"				"80"
+		"ypos"				"30"
 		"zpos"				"-1"
 		"wide"				"320"
-		"tall"				"300"
+		"tall"				"350"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -339,7 +438,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedButton"
 		"xpos"				"173"
-		"ypos"				"c-159"
+		"ypos"				"32"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -350,13 +449,13 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"Cerbetica28"
+		"font"				"Tahoma28"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"180 92 77 127"
-		"armedFgColor_override"		"236 79 52 127"
+		"defaultFgColor_override"	"ColorRed"
+		"armedFgColor_override"		"ColorRedDark"
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -383,13 +482,13 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"Cerbetica28"
+		"font"				"Tahoma28"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"104 124 155 127"
-		"armedFgColor_override"		"56 127 233 127"
+		"defaultFgColor_override"	"ColorBlue"
+		"armedFgColor_override"		"ColorBlueDark"
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"

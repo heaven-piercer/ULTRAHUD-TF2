@@ -21,9 +21,26 @@
 		"ypos"				"cs-0.5"
 		"wide"				"f0"
 		"tall"				"f0"
-		"font"				"Size:10"
+		"font"				"Size10"
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
+	}
+	"Ultrahitmarker"
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"5"
+		"controlName"		"CExLabel"
+		"fieldName"			"Ultrahitmarker"
+		"zpos"				"0"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"f0"
+		"tall"				"f0"
+		"font"				"Size50"
+		"textAlignment"		"center"
+		"fgcolor"			"ColorRed"
+		"alpha"				"0"
 	}
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL

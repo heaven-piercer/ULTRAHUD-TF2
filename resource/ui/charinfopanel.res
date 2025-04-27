@@ -52,11 +52,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TerminalBG2"
-		"xpos"			"150"
+		"xpos"			"cs-0.5"
 		"ypos"			"30"
 		"zpos"			"-3"
-		"wide"			"670"
-		"tall"			"420"
+		"wide"			"f30"
+		"tall"			"f40"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -253,7 +253,6 @@
 		"Command"			"back"
 
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"fgcolor_override"		"ColorWhite"
 

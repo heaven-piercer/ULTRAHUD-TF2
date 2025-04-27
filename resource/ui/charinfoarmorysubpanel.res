@@ -21,8 +21,8 @@
 		"thumbnail_bgcolor_selected"	"176 166 148 255"
 		"thumbnails_rows"				"4"
 		"thumbnails_columns"			"4"
-		"thumbnails_x"					"c-250"
-		"thumbnails_y"					"100"
+		"thumbnails_x"					"c-223"
+		"thumbnails_y"					"110"
 		"thumbnails_delta_x"			"2"
 		"thumbnails_delta_y"			"2"
 
@@ -56,6 +56,78 @@
 		}
 	}
 
+	"BackgroundHeader"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackgroundHeader"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-2"
+		"wide"				"650"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/header"
+		"tileImage"			"1"
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-4"
+		"wide"			"650"
+		"tall"			"360"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+		
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+
+	"inset"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"inset"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-3"
+		"wide"			"640"
+		"tall"			"350"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+
+		"pin_to_sibling"	"TerminalBG"
+	}
+
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"-5"
+		"ypos"			"-3"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+	}
+
 	"CaratLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -67,20 +139,42 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ArmoryLabel"
-		"font"					"Tahoma40"
-		"labelText"				"CATALOG"
+		"font"					"Tahoma16"
+		"labelText"				"Catalog"
 		"textAlignment"			"west"
-		"xpos"					"175"
-		"ypos"					"42"
+		"xpos"					"-5"
+		"ypos"					"1"
 		"zpos"					"1"
-		"allcaps"				"1"
 		"wide"					"560"
-		"tall"					"40"
+		"tall"					"20"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"	"BackgroundHeader"
+	}
+
+	"ArmoryLabelShadow"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"ArmoryLabelShadow"
+		"font"					"Tahoma16"
+		"labelText"				"Catalog"
+		"textAlignment"			"west"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		"wide"					"560"
+		"tall"					"20"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"	"ArmoryLabel"
 	}
 
 	"FiltersLabel"
@@ -90,8 +184,8 @@
 		"font"					"Tahoma16"
 		"labelText"				"#Store_FilterLabel"
 		"textAlignment"			"west"
-		"xpos"					"c-250"
-		"ypos"					"77"
+		"xpos"					"c-220"
+		"ypos"					"87"
 		"zpos"					"1"
 		"wide"					"65"
 		"tall"					"20"
@@ -256,9 +350,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Header2"
-		"xpos"			"c100"
-		"ypos"			"40"
-		"zpos"			"-7"
+		"xpos"			"c102"
+		"ypos"			"32"
+		"zpos"			"-2"
 		"wide"			"280"
 		"tall"			"10"
 		"visible"		"1"
@@ -274,9 +368,9 @@
 		"fieldName"		"TerminalBG2"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-8"
+		"zpos"			"-3"
 		"wide"			"280"
-		"tall"			"310"
+		"tall"			"335"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -314,9 +408,9 @@
 		"fieldName"		"inset2"
 		"xpos"			"-5"
 		"ypos"			"-5"
-		"zpos"			"-8"
+		"zpos"			"-2"
 		"wide"			"270"
-		"tall"			"300"
+		"tall"			"325"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -366,7 +460,7 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"PrevPageButton"
-		"xpos"					"8"
+		"xpos"					"30"
 		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"10"
@@ -459,7 +553,7 @@
 		"ControlName"			"CExButton"
 		"fieldName"				"WikiButton"
 		"xpos"					"-2"
-		"ypos"					"-234"
+		"ypos"					"-35"
 		"zpos"					"20"
 		"wide"					"266"
 		"tall"					"30"
@@ -486,6 +580,8 @@
 		"depressedBgColor_override"	"ColorRed"
 
 		"pin_to_sibling"	"inset2"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 	}
 
 	"ViewSetButton"
@@ -524,8 +620,8 @@
 	{
 		"ControlName"			"CExButton"
 		"fieldName"				"StoreButton"
-		"xpos"					"-2"
-		"ypos"					"-266"
+		"xpos"					"0"
+		"ypos"					"2"
 		"zpos"					"20"
 		"wide"					"266"
 		"tall"					"30"
@@ -551,6 +647,8 @@
 		"armedBgColor_override"		"255 255 255 3"
 		"depressedBgColor_override"	"ColorRed"
 
-		"pin_to_sibling"	"inset2"
+		"pin_to_sibling"	"WikiButton"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
 	}
 }

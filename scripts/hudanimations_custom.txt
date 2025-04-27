@@ -140,14 +140,14 @@ event HudMedicChargedStop
 
 event DamagedPlayer
 {
-	StopEvent HitMarker 				0.0
-	RunEvent HitMarker 					0.01
+	StopEvent HitMarkerpulse 				0.0
+	RunEvent HitMarkerpulse 					0.01
 }
 
-event HitMarker
+event HitMarkerpulse
 {
-	Animate		CustomCrosshair			FgColor		"CrosshairDamage"	Linear 0.0	0.0
-	Animate		CustomCrosshair			FgColor		"Crosshair"			Linear 0.15	0.0
+	Animate	Ultrahitmarker 	Alpha		"255"		Linear 0.0 0.0
+	Animate	Ultrahitmarker 	Alpha		"0"		Linear 0.5 0.1
 }
 //==================================================================================
 

@@ -117,7 +117,7 @@
 		}
 
 		"filter_xoffset"	"-240"
-		"filter_ypos"		"347"
+		"filter_ypos"		"327"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
 
@@ -142,31 +142,127 @@
 		}
 	}
 
+	"BackgroundHeader"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackgroundHeader"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-2"
+		"wide"				"650"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/header"
+		"tileImage"			"1"
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-4"
+		"wide"			"650"
+		"tall"			"360"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+		
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+
+	"TerminalBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG2"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-3"
+		"wide"			"640"
+		"tall"			"350"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+
+		"pin_to_sibling"	"TerminalBG"
+	}
+
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"-5"
+		"ypos"			"-3"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+	}
+
 	"ClassLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ClassLabel"
-		"font"				"Tahoma40"
-		"labelText"			"CRAFTING"
+		"font"				"Tahoma16"
+		"labelText"			"Crafting"
 		"textAlignment"		"west"
-		"xpos"				"175"
-		"ypos"				"42"
+		"xpos"				"-5"
+		"ypos"				"1"
 		"zpos"				"1"
 		"wide"				"160"
-		"tall"				"40"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"fgcolor_override"		"ColorWhite"
+
+		"pin_to_sibling"	"BackgroundHeader"
 	}
+
+	"ClassLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ClassLabelShadow"
+		"font"				"Tahoma16"
+		"labelText"			"Crafting"
+		"textAlignment"		"west"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"160"
+		"tall"				"20"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"	"ClassLabel"
+	}
+
 
 	"selectedrecipecontainer"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"selectedrecipecontainer"
-		"xpos"				"c60"
-		"ypos"				"40"
+		"xpos"				"c80"
+		"ypos"				"32"
 		"zpos"				"5"
 		"wide"				"300"
 		"tall"				"350"
@@ -258,7 +354,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"CraftButton"
 			"xpos"			"7"
-			"ypos"			"310"
+			"ypos"			"307"
 			"zpos"			"20"
 			"wide"			"286"
 			"tall"			"30"
@@ -361,7 +457,7 @@
 		"ypos"			"0"
 		"zpos"			"-8"
 		"wide"			"300"
-		"tall"			"340"
+		"tall"			"335"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -401,7 +497,7 @@
 		"ypos"			"-5"
 		"zpos"			"-8"
 		"wide"			"290"
-		"tall"			"330"
+		"tall"			"325"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -417,7 +513,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"recipecontainerscroller"
 		"xpos"					"c-240"
-		"ypos"					"79"
+		"ypos"					"32"
 		"zpos"					"5"
 		"wide"					"280"
 		"tall"					"262"

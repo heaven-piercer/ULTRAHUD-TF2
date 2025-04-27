@@ -62,7 +62,7 @@
 		"command"		"loadout scout"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -88,7 +88,7 @@
 		"command"		"loadout soldier"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -117,7 +117,7 @@
 		"command"		"loadout pyro"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -146,7 +146,7 @@
 		"command"		"loadout demoman"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -174,7 +174,7 @@
 		"command"		"loadout heavy"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -203,7 +203,7 @@
 		"command"		"loadout engineer"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -232,7 +232,7 @@
 		"command"		"loadout medic"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -261,7 +261,7 @@
 		"command"		"loadout sniper"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -289,7 +289,7 @@
 		"command"		"loadout spy"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -583,7 +583,7 @@
 		"command"		"backpack"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -626,7 +626,7 @@
 		"command"		"crafting"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -674,7 +674,7 @@
 		"command"		"armory"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -720,7 +720,7 @@
 		"command"		"trading"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -768,7 +768,7 @@
 		"command"		"paintkit_preview"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
@@ -959,7 +959,7 @@
 		"default"		"0"
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
 	}
 
 	"StartExplanation"
@@ -1046,7 +1046,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -1094,7 +1094,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1204,7 +1204,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -1235,7 +1235,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1302,7 +1302,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1411,7 +1411,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -1442,7 +1442,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1509,7 +1509,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1618,7 +1618,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -1649,7 +1649,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1716,7 +1716,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -1825,7 +1825,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -1856,7 +1856,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
@@ -1923,7 +1923,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "LightRed"
@@ -2032,7 +2032,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -2063,7 +2063,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -2130,7 +2130,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"
@@ -2238,7 +2238,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" 	"TanLight"
 			"armedFgColor_override" 	"LightRed"
@@ -2269,7 +2269,7 @@
 			"paintbackground"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
 
 			"defaultFgColor_override" "TanDarker"
 			"armedFgColor_override" "TanLight"

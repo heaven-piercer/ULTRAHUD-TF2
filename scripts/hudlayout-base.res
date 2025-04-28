@@ -25,13 +25,12 @@
 		"textAlignment"		"center"
 		"fgcolor"			"Crosshair"
 	}
-	"Ultrahitmarker"
+	"hitmarker"
 	{
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"5"
 		"controlName"		"CExLabel"
-		"fieldName"			"Ultrahitmarker"
+		"fieldName"			"hitmarker"
 		"zpos"				"0"
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5"

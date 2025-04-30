@@ -41,6 +41,134 @@
 		"xpos"			"9999"
 	}
 
+	"BackgroundHeader"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BackgroundHeader"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-2"
+		"wide"				"650"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/header"
+		"tileImage"			"1"
+	}
+
+	"HeaderIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HeaderIcon"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-1"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/smileos/stats"
+		"tileImage"			"1"
+	}
+
+	"TerminalBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TerminalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-11"
+		"wide"			"650"
+		"tall"			"360"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/content"
+		
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+	}
+
+	"inset"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"inset"
+		"xpos"			"-5"
+		"ypos"			"-5"
+		"zpos"			"-10"
+		"wide"			"640"
+		"tall"			"350"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"		"replay/thumbnails/inset"
+		"alpha"		"200"
+
+		"pin_to_sibling"	"TerminalBG"
+	}
+
+	"buttons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"buttons"
+		"xpos"			"-5"
+		"ypos"			"-3"
+		"zpos"			"53"
+		"wide"			"60"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/smileos_buttons"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"		"BackgroundHeader"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+	}
+
+	"AveragesLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"AveragesLabel"
+		"font"			"Tahoma16"
+		"labelText"		"#StatSummary_Label_PerformanceReport"
+		"textAlignment"	"west"
+		"xpos"			"-22"
+		"ypos"			"1"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"BackgroundHeader"
+	}
+
+	"AveragesLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"AveragesLabelShadow"
+		"font"			"Tahoma16"
+		"labelText"		"#StatSummary_Label_PerformanceReport"
+		"textAlignment"	"west"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"-1"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"		"AveragesLabel"
+		}
+
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -210,8 +338,8 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"ClassBarBG1A"
 		{

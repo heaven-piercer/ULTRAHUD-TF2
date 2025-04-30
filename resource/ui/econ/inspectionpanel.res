@@ -16,6 +16,22 @@
 		"tileImage"			"1"
 	}
 
+	"HeaderIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HeaderIcon"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-2"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/smileos/paint"
+		"tileImage"			"1"
+	}
+
 	"TerminalBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -92,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ScreenName"
-		"xpos"			"-5"
+		"xpos"			"-22"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"200"

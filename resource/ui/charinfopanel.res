@@ -80,6 +80,22 @@
 		"tileImage"			"1"
 	}
 
+	"HeaderIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HeaderIcon"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-2"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/smileos/smile"
+		"tileImage"			"1"
+	}
+
 	"buttons"
 	{
 		"ControlName"	"ImagePanel"
@@ -100,7 +116,7 @@
 	{
 		"ControlName"	"Label"	
 		"FieldName"	"headerlabel"				
-		"xpos"	"5"	
+		"xpos"	"22"	
 		"ypos"	"3"
 		"zpos"			"53"	
 		"wide"	"400"	

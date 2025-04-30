@@ -119,6 +119,22 @@
 		"tileImage"			"1"
 	}
 
+	"HeaderIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HeaderIcon"
+		"xpos"				"166"
+		"ypos"				"5"
+		"zpos"				"-1"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/smileos/magnifying_glass"
+		"tileImage"			"1"
+	}
+
 	"TerminalBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -184,7 +200,7 @@
 		"font"				"Tahoma16"
 		"labelText"			"#ClassBeingEquipped"
 		"textAlignment"		"west"
-		"xpos"				"-5"
+		"xpos"				"-21"
 		"ypos"				"1"
 		"zpos"				"1"
 		"wide"				"350"

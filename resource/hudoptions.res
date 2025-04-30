@@ -72,6 +72,22 @@
 				"tileImage"			"1"
 			}
 
+			"HeaderIcon"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"HeaderIcon"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"20"
+				"tall"				"20"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"image"				"replay/thumbnails/smileos/gear"
+				"tileImage"			"1"
+			}
+
 			"buttons"
 			{
 				"ControlName"	"ImagePanel"
@@ -92,7 +108,7 @@
 			{
 				"ControlName"	"Label"	
 				"FieldName"	"headerlabel"				
-				"xpos"	"5"	
+				"xpos"	"22"	
 				"ypos"	"3"
 				"zpos"			"53"	
 				"wide"	"400"	
@@ -261,7 +277,7 @@
 		"xpos"		"cs-0.5-20"
 		"ypos"		"0"
 		"wide"		"770"
-		"tall"		"1300"
+		"tall"		"1330"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -10573,7 +10589,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
 		"xpos"		"cs-0.5-20"
-		"ypos"		"1200"
+		"ypos"		"1500"
 		"wide"		"770"
 		"tall"		"160"
 		"autoResize"		"0"

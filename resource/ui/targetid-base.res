@@ -11,7 +11,7 @@
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"TransparentBlack"
+		"fillcolor"			"hudelementBG"
 	}
 
 	"TargetIDBG"
@@ -116,7 +116,7 @@
 		wide 0
 		tall 0
 		xpos 12
-		ypos 23
+		ypos 14
 		visible 0
 		enabled 1
 	}
@@ -129,12 +129,14 @@
 		"xpos"				"0"
 		"ypos"				"00"
 		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"15"
+		"wide"				"100"
+		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
+		"textinsetx"		"2"
 		"textAlignment"		"west"
+		"bgcolor_override"		"HudElementBG"
 
 		"pin_to_sibling"	"dataPin"
 	}

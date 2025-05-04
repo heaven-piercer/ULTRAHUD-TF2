@@ -881,8 +881,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"separator_width"	"1"
-		"separator_height"	"4"
-		"height_offset"		"408"
+		"separator_height"	"1"
+		"height_offset"		"387"
 		"paintBackgroundType"	"2"
 
 		"bgcolor_override"		"HudElementBG"

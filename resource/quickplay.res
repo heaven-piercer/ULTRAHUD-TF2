@@ -54,7 +54,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+			"paintbackground" "1"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
 		}
@@ -303,6 +303,50 @@
 		"defaultBgColor_override"	"0 0 0 200"
 		"armedBgColor_override"		"255 255 255 3"
 		"depressedBgColor_override"	"ColorRed"
+
+		"defaultFgColor_override"	"ColorRed"
+		"armedFgColor_override"	"ColorRed"
+	
+		"actionsignallevel"	"2"
+		
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"fillcolor"      "0 0 0 0"
+			}
+		
+	}
+
+	"CLOSE-button2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CLOSE-button2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"		"4000" //Absurly large num to make life easy
+		"wide"					"f0"
+		"tall"					"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"			" "
+		"font"				"Tahoma32"
+		"command"		"motd_hide"
+		"sound_depressed"	"ui/buttonclick.wav"
+
+		"defaultBgColor_override"	"Transparent"
+		"armedBgColor_override"		"Transparent"
+		"depressedBgColor_override"	"Transparent"
 
 		"defaultFgColor_override"	"ColorRed"
 		"armedFgColor_override"	"ColorRed"

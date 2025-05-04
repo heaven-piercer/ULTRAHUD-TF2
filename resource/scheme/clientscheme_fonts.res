@@ -13,7 +13,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"56"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica56Alt" //Alt version that uses BroshK
@@ -23,7 +23,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"56"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica40"
@@ -33,7 +33,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"40"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica40Alt" //Alt version that uses VCR OSD
@@ -43,7 +43,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"40"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica32"
@@ -53,7 +53,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica32vcr"
@@ -63,7 +63,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica32alagard"
@@ -73,7 +73,7 @@ Scheme
 				"name"			"Alagard"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -84,7 +84,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"32"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -96,7 +96,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica28Alt" //Alt version that uses VCR OSD
@@ -106,7 +106,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica24"
@@ -116,7 +116,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica24Alt" //Alt version that uses VCR OSD
@@ -126,7 +126,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica24Outline"
@@ -136,7 +136,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"outline"		"1"
 			}
 		}
@@ -147,7 +147,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"outline"		"1"
 			}
 		}
@@ -158,7 +158,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"20"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica20Alt" //Alt version that uses VCR OSD
@@ -168,7 +168,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"20"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica18"
@@ -178,7 +178,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"18"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica18Alt" //Alt version that uses VCR OSD
@@ -188,7 +188,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"18"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica16"
@@ -198,7 +198,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"16"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica16Alt" //Alt version that uses VCR OSD
@@ -208,7 +208,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"16"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica14"
@@ -218,7 +218,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"14"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica14Alt" //Alt version that uses VCR OSD
@@ -228,7 +228,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"14"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica12"
@@ -238,7 +238,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica12Alt" //Alt version that uses VCR OSD
@@ -248,7 +248,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica10"
@@ -258,7 +258,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica10Alt" //Alt version that uses VCR OSD
@@ -268,7 +268,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica8"
@@ -278,7 +278,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"8"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica8Alt" //Alt version that uses VCR OSD
@@ -288,7 +288,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"8"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica6"
@@ -298,7 +298,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"6"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica6Alt" //Alt version that uses VCR OSD
@@ -308,7 +308,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"6"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica4"
@@ -318,7 +318,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"4"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica4Alt" //Alt version that uses VCR OSD
@@ -328,7 +328,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"4"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica2"
@@ -338,7 +338,7 @@ Scheme
 				"name"			"BroshKill"
 				"tall"			"8"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Cerbetica2Alt" //Alt version that uses VCR OSD
@@ -348,7 +348,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"2"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -369,7 +369,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"56"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma40"
@@ -379,7 +379,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"40"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma32" 
@@ -389,7 +389,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"32"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma32p" 
@@ -399,7 +399,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"32"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma32r" 
@@ -409,7 +409,7 @@ Scheme
 				"name"			"Tahoma"
 				"tall"			"32"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma28" 
@@ -419,7 +419,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"28"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma24" 
@@ -429,7 +429,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"24"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma20" 
@@ -439,7 +439,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"20"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma18" 
@@ -449,7 +449,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"18"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma16"
@@ -459,7 +459,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"16"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma14" 
@@ -469,7 +469,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"14"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma12" 
@@ -479,7 +479,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma10" 
@@ -489,7 +489,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma8" 
@@ -499,7 +499,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"8"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma6" 
@@ -509,7 +509,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"6"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma4" 
@@ -519,7 +519,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"4"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"Tahoma2"
@@ -529,7 +529,7 @@ Scheme
 				"name"			"fs Tahoma 8px"
 				"tall"			"2"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -541,7 +541,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"12"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -605,7 +605,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"768 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"4"
 			{
@@ -614,7 +614,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"5"
 			{
@@ -623,7 +623,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"6"
 			{
@@ -658,7 +658,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"768 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"4"
 			{
@@ -667,7 +667,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"5"
 			{
@@ -676,7 +676,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"DefaultLarge"
@@ -704,7 +704,7 @@ Scheme
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 				"yres"			"768 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"4"
 			{
@@ -713,7 +713,7 @@ Scheme
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"5"
 			{
@@ -722,7 +722,7 @@ Scheme
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"6"
 			{
@@ -748,7 +748,7 @@ Scheme
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
-				"antialias"		"1"
+				"antialias"		"0"
 				"additive"		"1"
 			}
 		}
@@ -812,7 +812,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"yres"			"480 599"
 			}
 			"2"
@@ -821,7 +821,7 @@ Scheme
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"yres"			"600 767"
 			}
 			"3"
@@ -830,7 +830,7 @@ Scheme
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"yres"			"768 1023"
 			}
 			"4"
@@ -871,7 +871,7 @@ Scheme
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"HudFontBig"
@@ -893,7 +893,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"HudFontMediumBigBold"
@@ -904,7 +904,7 @@ Scheme
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"HudFontMedium"
@@ -915,7 +915,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"HudFontMediumSecondary"
@@ -1061,7 +1061,7 @@ Scheme
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -1072,7 +1072,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"10"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -1524,7 +1524,7 @@ Scheme
 			{
 				"name"			"VCR OSD Mono"
 				"tall"			"28"
-				"antialias"		"1"
+				"antialias"		"0"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
@@ -1535,7 +1535,7 @@ Scheme
 			{
 				"name"			"VCR OSD Mono"
 				"tall"			"40"
-				"antialias"		"1"
+				"antialias"		"0"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
@@ -1558,7 +1558,7 @@ Scheme
 				"name"			"VCR OSD Mono"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
-				"antialias"		"1"
+				"antialias"		"0"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 			}
@@ -1594,7 +1594,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"ScoreboardMediumSmall"
@@ -1653,7 +1653,7 @@ Scheme
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
-				"antialias"		"1"
+				"antialias"		"0"
 				"additive"		"0"
 			}
 		}
@@ -1689,7 +1689,7 @@ Scheme
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
 				"yres"			"1 599"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -1784,7 +1784,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"ControlPointTimerSmaller"
@@ -1950,7 +1950,7 @@ Scheme
 				"tall"			"8"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"MenuSmallFont"
@@ -1961,7 +1961,7 @@ Scheme
 				"tall"			"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -2195,7 +2195,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -2209,7 +2209,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"480 599"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -2218,7 +2218,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"600 1199"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"3"
 			{
@@ -2227,7 +2227,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -2292,7 +2292,7 @@ Scheme
 			{
 				"name"			"VCR OSD Mono"
 				"tall"			"8"
-				"antialias"		"1"
+				"antialias"		"0"
 				"weight"		"500"
 			}
 		}
@@ -2338,7 +2338,7 @@ Scheme
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"AchievementTracker_NameGlow"
@@ -2419,7 +2419,7 @@ Scheme
 				"weight"		"400"
 				"yres"			"480 599"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -2428,7 +2428,7 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"yres"			"600 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"3"
 			{
@@ -2437,7 +2437,7 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"yres"			"1024 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"QuestObjectiveText"
@@ -2449,7 +2449,7 @@ Scheme
 				"weight"		"800"
 				"yres"			"480 599"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -2458,7 +2458,7 @@ Scheme
 				"weight"		"800"
 				"additive"		"0"
 				"yres"			"600 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"3"
 			{
@@ -2467,7 +2467,7 @@ Scheme
 				"weight"		"800"
 				"additive"		"0"
 				"yres"			"1024 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"QuestLargeText"
@@ -2478,7 +2478,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"QuestStickyText"
@@ -2501,7 +2501,7 @@ Scheme
 				"weight"		"400"
 				"yres"			"480 599"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -2510,7 +2510,7 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"yres"			"600 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"3"
 			{
@@ -2519,7 +2519,7 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"yres"			"1024 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"QuestFlavorText_Merasmus"
@@ -2531,7 +2531,7 @@ Scheme
 				"weight"		"400"
 				"yres"			"480 599"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 				"italic"		"1"
 			}
 			"2"
@@ -2541,7 +2541,7 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"yres"			"600 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 				"italic"		"1"
 			}
 			"3"
@@ -2551,7 +2551,7 @@ Scheme
 				"weight"		"400"
 				"additive"		"0"
 				"yres"			"1024 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 				"italic"		"1"
 			}
 		}
@@ -2564,7 +2564,7 @@ Scheme
 				"weight"		"800"
 				"yres"			"480 599"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"2"
 			{
@@ -2573,7 +2573,7 @@ Scheme
 				"weight"		"800"
 				"additive"		"0"
 				"yres"			"600 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"3"
 			{
@@ -2582,7 +2582,7 @@ Scheme
 				"weight"		"800"
 				"additive"		"0"
 				"yres"			"1024 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"QuestMediumText_Merasmus"
@@ -2593,7 +2593,7 @@ Scheme
 				"tall"			"13"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"QuestLargeText_Merasmus"
@@ -2604,7 +2604,7 @@ Scheme
 				"tall"			"16"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 
@@ -2627,7 +2627,7 @@ Scheme
 				"tall"			"8"
 				"weight"		"400"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -2648,7 +2648,7 @@ Scheme
 				"name"			"Verdana"
 				"tall"			"8"
 				"weight"		"400"
-				"antialias"		"1"
+				"antialias"		"0"
 				"additive"		"0"
 			}
 		}
@@ -2691,7 +2691,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"768 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"4"
 			{
@@ -2700,7 +2700,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"5"
 			{
@@ -2709,7 +2709,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"ReplayBrowserSmallest"
@@ -2748,7 +2748,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"768 1023"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"4"
 			{
@@ -2757,7 +2757,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1024 1199"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"5"
 			{
@@ -2766,7 +2766,7 @@ Scheme
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
 				"yres"			"1200 6000"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 			"6"
 			{
@@ -2806,7 +2806,7 @@ Scheme
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"ReplayBrowserTab"
@@ -2817,7 +2817,7 @@ Scheme
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
-				"antialias"		"1"
+				"antialias"		"0"
 			}
 		}
 		"ReplayLarger"
@@ -2864,7 +2864,7 @@ Scheme
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
-				"antialias"		"1"
+				"antialias"		"0"
 				"additive"		"0"
 			}
 		}

@@ -212,7 +212,7 @@
 		"tabwidth"			"100"
 		"tabheight"			"20"
 		"transition_time" 	"0"
-		"yoffset"			"32"
+		"yoffset"			"0"
 
 		"HeaderLine"
 		{

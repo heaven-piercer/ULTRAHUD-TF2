@@ -6,6 +6,7 @@
 	{
 		// For some reason this doesnt obey the xpos set in HUD Layout
 		"xpos"					"r200"
+		"ypos"					"cs-0.5"
 	}
 
 	"FreezePanel"
@@ -172,16 +173,16 @@
 		{
 			"ControlName"		"CTFFreezePanelHealth"
 			"fieldName"			"FreezePanelHealth"
-			"xpos"				"0"
-			"ypos"				"10"
+			"xpos"				"rs2.5"
+			"ypos"				"rs0.85"
 			"zpos"				"1"
-			"wide"				"45"
-			"tall"				"25"
+			"wide"				"50"
+			"tall"				"32"
 			"visible"			"1"
 			"enabled"			"1"
 			"HealthBonusPosAdj"			"0"
 			"HealthDeathWarning"		"0.40"
-			"TFFont"					"HudFontSmall"
+			"TFFont"					"Cerbetica24"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
 		}
@@ -191,7 +192,7 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"			"FreezeLabelKillerAnchor"
 			"xpos"				"rs0.7"
-			"ypos"				"rs1"
+			"ypos"				"rs1.1"
 			"zpos"				"1"
 			"wide"				"50"
 			"tall"				"50"

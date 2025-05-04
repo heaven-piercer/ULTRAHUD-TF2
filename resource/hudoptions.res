@@ -8541,7 +8541,7 @@
 				xpos	0
 				ypos	5
 				wide 770
-				tall 205
+				tall 264
 				visible 1
 				enabled 1
 
@@ -8572,7 +8572,7 @@
 					"ypos"			"0"
 					"zpos"			"-8"
 					"wide"			"770"
-					"tall"			"195"
+					"tall"			"254"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -8612,7 +8612,7 @@
 					"ypos"			"-5"
 					"zpos"			"-8"
 					"wide"			"760"
-					"tall"			"185"
+					"tall"			"244"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -9312,6 +9312,547 @@
 
 						"pin_to_sibling"		"CrematorImage"
 					}
+
+					"AltarsImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "AltarsImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/altarsofapostasy"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"CrematorImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"AltarsButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"AltarsButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_altars;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"AltarsImage"
+					}
+
+					"DeathOfGodsWillImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "DeathOfGodsWillImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/deathofgodswill"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"AltarsImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"DeathOfGodsWillButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"DeathOfGodsWillButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_deathofgodswill;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"DeathOfGodsWillImage"
+					}
+
+					"LeviathanImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "LeviathanImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/leviathan"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"DeathOfGodsWillImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"LeviathanButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"LeviathanButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_leviathan;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"LeviathanImage"
+					}
+
+					"ScoutImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "ScoutImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/scout"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"LeviathanImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"ScoutButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"ScoutButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_scout;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"ScoutImage"
+					}
+
+					"SoldierImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "SoldierImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/soldier"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"ScoutImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"SoldierButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"SoldierButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_soldier;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"SoldierImage"
+					}
+
+					"PyroImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "PyroImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/pyro"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"SoldierImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"PyroButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"PyroButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_pyro;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"PyroImage"
+					}
+
+					"DemomanImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "DemomanImage"
+						"xpos"             "0"
+						"ypos"             "3"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/demoman"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"CrematorImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+					}
+
+					"DemomanButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"DemomanButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_demoman;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"DemomanImage"
+					}
+
+					"HeavyImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "HeavyImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/heavy"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"DemomanImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"HeavyButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"HeavyButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_heavy;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"HeavyImage"
+					}
+
+					"EngineerImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "EngineerImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/engineer"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"HeavyImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"EngineerButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"EngineerButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_engineer;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"EngineerImage"
+					}
+
+					"MedicImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "MedicImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/medic"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"EngineerImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"MedicButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"MedicButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_medic;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"MedicImage"
+					}
+
+					"SniperImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "SniperImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/sniper"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"MedicImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"SniperButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"SniperButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_sniper;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"SniperImage"
+					}
+
+					"SpyImage"
+					{
+						"ControlName"      "ImagePanel"
+						"fieldName"        "SpyImage"
+						"xpos"             "3"
+						"ypos"             "0"
+						"zpos"             "1"
+						"wide"			"100"
+						"tall"			"56"
+						"visible"          "1"
+						"enabled"			"1"
+						"image"				"../console/spy"
+						"scaleImage"		"1"
+
+						"pin_to_sibling"		"SniperImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+					}
+
+					"SpyButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"SpyButton"
+						"xpos"			"0"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"100"
+						"tall"			"56"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_spy;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		""
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"Transparent"	
+
+						"fgcolor_override"		"ColorWhite"
+
+						"pin_to_sibling"		"SpyImage"
+					}
+					
 		}
 
 		"StreamerMode"{

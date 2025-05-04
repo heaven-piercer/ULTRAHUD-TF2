@@ -86,10 +86,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"20"
 		"zpos"			"50"
 		"wide"			"245"
-		"tall"			"300"
+		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/content"
@@ -101,11 +101,11 @@
     {
         "ControlName"	"imagePanel"
 		"fieldname"		"fillbg"
-		"xpos"			"15"
-		"ypos"			"10"
+		"xpos"			"5"
+		"ypos"			"25"
 		"zpos"			"51"
-		"wide"			"215"
-		"tall"			"272"
+		"wide"			"235"
+		"tall"			"270"
 		"visible"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/inset"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"	"ImagePanel"
 	    "fieldName"		"logohud"
-		"xpos"			"20"
+		"xpos"			"7"
 		"ypos"			"25"
 		"zpos"			"52"
 		"wide"			"95"
@@ -202,8 +202,8 @@
 				"wide"	"200"
 				"tall"	"20"
 				"font"			"Tahoma16"
-				"labelText"	"FOR ASSISTANCE, JOIN THE"
-				"textAlignment"	"center"
+				"labelText"	"JOIN THE"
+				"textAlignment"	"west"
 				"fgcolor_override"		"ColorWhite"
 				
 				
@@ -214,9 +214,9 @@
 				"ControlName"			"EditablePanel"
 				"fieldName"				"DiscordLinkUrl"
 				"xpos"	"20"
-		        "ypos"	"140"
+		        "ypos"	"135"
 		        "zpos"			"100"
-				"wide"	"200"
+				"wide"	"60"
 				"tall"	"20"
 				"PaintBackgroundType"	"0"
 				
@@ -231,7 +231,7 @@
 					"tall"					"f0"
 					"font"		    	  	"Tahoma16"
 					"labelText"				"DISCORD"
-					"textAlignment"			"center"
+					"textAlignment"			"west"
 					"fgcolor_override"		"106 88 242 255"
 					"proportionaltoparent"	"1"
 					"urlText"				"https://discord.gg/v8nmUKRX62"
@@ -243,10 +243,56 @@
 			{
 				"ControlName"			"EditablePanel"
 				"fieldName"				"line"
-				"xpos"	"30"
-		        "ypos"	"160"
+				"xpos"	"20"
+		        "ypos"	"155"
 		        "zpos"			"100"
-				"wide"	"180"
+				"wide"	"55"
+				"tall"	"2"
+				"PaintBackgroundType"	"0"
+				
+				"fillcolor"		"106 88 242 255"
+				"bgcolor_override"	"106 88 242 255"
+
+			}
+
+        "kofibutton"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"Kofi"
+				"xpos"	"180"
+		        "ypos"	"130"
+		        "zpos"			"100"
+				"wide"	"200"
+				"tall"	"20"
+				"PaintBackgroundType"	"0"
+				
+				"DiscordUrl"
+				{
+					"ControlName"			"URLLabel"
+					"fieldName"				"Kofi"
+					"xpos"					"0"
+					"ypos"					"0"
+					"zpos"					"2"
+					"wide"					"f0"
+					"tall"					"f0"
+					"font"		    	  	"Tahoma16"
+					"labelText"				"Ko-Fi"
+					"textAlignment"			"west"
+					"fgcolor_override"		"242 106 45 255"
+					"proportionaltoparent"	"1"
+					"urlText"				"https://ko-fi.com/heavenpiercer"
+			
+				}
+			}
+
+			"line"
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"line"
+				"xpos"	"20"
+		        "ypos"	"155"
+		        "zpos"			"100"
+				"wide"	"55"
 				"tall"	"2"
 				"PaintBackgroundType"	"0"
 				
@@ -328,6 +374,20 @@
 				"labelText"	"VillageGreenPreserver"
 				"textAlignment"	"west"
 				"fgcolor_override"		"ColorGreen"
+			}
+			"label8"
+			{
+				"ControlName"	"Label"
+				"FieldName"	"label8"
+				"xpos"	"165"
+		        "ypos"	"205"
+		        "zpos"			"52"
+				"wide"	"200"
+				"tall"	"20"
+				"font"			"Tahoma14"
+				"labelText"	"HUDS.TF"
+				"textAlignment"	"west"
+				"fgcolor_override"		"101 153 253 255"
 			}
 
 

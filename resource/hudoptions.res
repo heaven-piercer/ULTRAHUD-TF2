@@ -433,6 +433,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"	
 
@@ -465,7 +466,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"	
 
@@ -498,7 +500,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"	
 
@@ -531,7 +534,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -566,6 +570,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"	"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -599,6 +604,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"	"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -630,7 +636,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -662,7 +669,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -694,7 +702,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -726,6 +735,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"	"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -756,7 +766,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -787,7 +798,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -819,6 +831,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"	"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -849,7 +862,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -880,7 +894,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -911,7 +926,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -943,7 +959,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"	"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -976,6 +993,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"	"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -8638,12 +8656,42 @@
 						"fgcolor"				"ColorWhite"
 
 					}
+
+					"RandomButton"
+					{
+						"ControlName"	"CExButton"
+						"fieldName"		"RandomButton"
+						"xpos"			"25"
+						"ypos"			"17"
+						"zpos"			"2"
+						"wide"			"718"
+						"tall"			"28"
+						"pinCorner"		"3"
+						"visible"		"1"
+						"enabled"		"1"
+						"Command"		"engine menu_bg_random;  fullhudreload"
+						"actionsignallevel"		"5"
+						"labelText"		"RANDOM"
+						"font"			"tahoma24"
+						"textAlignment"		"center"	
+						
+						"sound_depressed"	"UI/buttonclick.wav"	
+						"sound_released"	"UI/buttonclickrelease.wav"
+
+						"fgcolor"				"ColorWhite"
+
+						"armedBgColor_override"		"255 255 255 3"	
+						"defaultBgColor_override"	"ColorBlack"
+						"depressedBgColor_override"		"ColorRed"
+
+						"fgcolor_override"		"ColorWhite"
+					}
 					"ActOneImage"
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "ActOneImage"
-						"xpos"             "25"
-						"ypos"             "17"
+						"xpos"             "0"
+						"ypos"             "2"
 						"zpos"             "1"
 						"wide"			"100"
 						"tall"			"56"
@@ -8651,6 +8699,9 @@
 						"enabled"			"1"
 						"image"				"../console/background_upward"
 						"scaleImage"		"1"
+
+						"pin_to_sibling"	"RandomButton"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"ActOneButton"

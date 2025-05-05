@@ -1,4 +1,3 @@
-#base "mainmenuoverride_backgrounds.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -113,8 +112,8 @@
 		"zpos"			"-199"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"ActualImage"
         {

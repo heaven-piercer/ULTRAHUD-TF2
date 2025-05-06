@@ -277,7 +277,7 @@
 		"xpos"		"cs-0.5-20"
 		"ypos"		"0"
 		"wide"		"770"
-		"tall"		"1330"
+		"tall"		"1530"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1025,7 +1025,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1057,7 +1058,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1089,7 +1091,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1121,6 +1124,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1152,6 +1156,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1183,6 +1188,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1214,6 +1220,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1245,6 +1252,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1276,6 +1284,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1307,6 +1316,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1337,7 +1347,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1368,7 +1379,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1401,6 +1413,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1432,7 +1445,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1464,7 +1478,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1496,7 +1511,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1527,7 +1543,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1558,7 +1575,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1591,6 +1609,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1621,7 +1640,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1653,6 +1673,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1683,7 +1704,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1715,6 +1737,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1746,6 +1769,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1777,6 +1801,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1807,7 +1832,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1839,6 +1865,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1870,6 +1897,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1901,6 +1929,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1931,7 +1960,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1962,7 +1992,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -1994,6 +2025,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2024,7 +2056,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2056,6 +2089,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2086,7 +2120,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2118,6 +2153,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2149,6 +2185,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2179,7 +2216,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2210,7 +2248,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2242,6 +2281,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2273,6 +2313,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2304,6 +2345,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2334,7 +2376,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2366,6 +2409,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2453,7 +2497,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2484,7 +2529,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2515,7 +2561,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2547,6 +2594,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2578,6 +2626,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2608,7 +2657,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2639,7 +2689,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2671,6 +2722,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2702,6 +2754,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2754,7 +2807,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"	
 
@@ -2788,6 +2842,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"	
 
@@ -2821,6 +2876,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"	
 
@@ -2854,6 +2910,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2888,6 +2945,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2921,6 +2979,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2953,6 +3012,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -2985,6 +3045,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3017,6 +3078,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3048,6 +3110,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3079,6 +3142,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3110,6 +3174,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3141,6 +3206,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3172,6 +3238,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3203,6 +3270,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3234,6 +3302,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3266,6 +3335,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3298,6 +3368,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3330,6 +3401,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3362,6 +3434,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3394,6 +3467,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3425,6 +3499,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3456,6 +3531,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3487,6 +3563,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3518,6 +3595,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3549,6 +3627,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3580,6 +3659,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3611,6 +3691,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3642,6 +3723,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3673,6 +3755,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3705,6 +3788,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3737,6 +3821,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3769,6 +3854,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3801,6 +3887,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3832,6 +3919,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3863,6 +3951,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3895,6 +3984,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3926,6 +4016,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3957,6 +4048,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -3988,6 +4080,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4019,6 +4112,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4050,6 +4144,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4081,6 +4176,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4112,6 +4208,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4143,6 +4240,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4174,6 +4272,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4205,6 +4304,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4236,6 +4336,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4267,6 +4368,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4298,6 +4400,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4329,6 +4432,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4360,6 +4464,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4391,6 +4496,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4422,6 +4528,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4453,6 +4560,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4483,7 +4591,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4514,7 +4623,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4546,6 +4656,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4577,6 +4688,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4608,6 +4720,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4638,7 +4751,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4669,7 +4783,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4758,6 +4873,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4789,6 +4905,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4820,6 +4937,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4851,6 +4969,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4882,6 +5001,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4913,6 +5033,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4944,6 +5065,7 @@
 					
 					"armedBgColor_override"		"255 255 255 3"	
 					"defaultBgColor_override"	"ColorBlack"	
+					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -4974,7 +5096,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -5005,7 +5128,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorRed"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -5416,9 +5540,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"AmmoInReserve"	
+						"defaultBgColor_override"	"ColorGrey"	
 										"armedBgColor_override"	"197 197 197 255"	
-										"depressedBgColor_override"	"AmmoInReserve"
+										"depressedBgColor_override"	"ColorGrey"
 						
 						"border_default"	"noborder"
 
@@ -5760,9 +5884,9 @@
 						
 						"paintbackground"	"1"
 						
-						"defaultBgColor_override"	"AmmoInReserve"	
+						"defaultBgColor_override"	"ColorGrey"	
 										"armedBgColor_override"	"197 197 197 255"	
-										"depressedBgColor_override"	"AmmoInReserve"
+										"depressedBgColor_override"	"ColorGrey"
 						
 						"border_default"	"noborder"
 
@@ -6134,9 +6258,9 @@
 										
 										"paintbackground"	"1"
 										
-										"defaultBgColor_override"	"AmmoInReserve"	
+										"defaultBgColor_override"	"ColorGrey"	
 										"armedBgColor_override"	"197 197 197 255"	
-										"depressedBgColor_override"	"AmmoInReserve"
+										"depressedBgColor_override"	"ColorGrey"
 										
 										"border_default"	"noborder"
 
@@ -6482,9 +6606,9 @@
 										
 										"paintbackground"	"1"
 										
-										"defaultBgColor_override"	"AmmoInReserve"	
+										"defaultBgColor_override"	"ColorGrey"	
 										"armedBgColor_override"	"197 197 197 255"	
-										"depressedBgColor_override"	"AmmoInReserve"
+										"depressedBgColor_override"	"ColorGrey"
 										
 										"border_default"	"noborder"
 
@@ -6830,9 +6954,9 @@
 										
 										"paintbackground"	"1"
 										
-										"defaultBgColor_override"	"AmmoInReserve"	
+										"defaultBgColor_override"	"ColorGrey"	
 										"armedBgColor_override"	"197 197 197 255"	
-										"depressedBgColor_override"	"AmmoInReserve"
+										"depressedBgColor_override"	"ColorGrey"
 										
 										"border_default"	"noborder"
 
@@ -7178,9 +7302,9 @@
 										
 										"paintbackground"	"1"
 										
-										"defaultBgColor_override"	"AmmoInReserve"	
+										"defaultBgColor_override"	"ColorGrey"	
 										"armedBgColor_override"	"197 197 197 255"	
-										"depressedBgColor_override"	"AmmoInReserve"
+										"depressedBgColor_override"	"ColorGrey"
 										
 										"border_default"	"noborder"
 
@@ -7557,9 +7681,9 @@
 								
 								"paintbackground"	"1"
 								
-								"defaultBgColor_override"	"AmmoInReserve"	
+								"defaultBgColor_override"	"ColorGrey"	
 								"armedBgColor_override"	"197 197 197 255"	
-								"depressedBgColor_override"	"AmmoInReserve"
+								"depressedBgColor_override"	"ColorGrey"
 								
 								"border_default"	"noborder"
 
@@ -7589,9 +7713,9 @@
 								
 								"paintbackground"	"1"
 								
-								"defaultBgColor_override"	"AmmoInReserve"	
+								"defaultBgColor_override"	"ColorGrey"	
 								"armedBgColor_override"	"197 197 197 255"	
-								"depressedBgColor_override"	"AmmoInReserve"
+								"depressedBgColor_override"	"ColorGrey"
 								
 								"border_default"	"noborder"
 
@@ -7936,9 +8060,9 @@
 								
 								"paintbackground"	"1"
 								
-								"defaultBgColor_override"	"AmmoInReserve"	
+								"defaultBgColor_override"	"ColorGrey"	
 								"armedBgColor_override"	"197 197 197 255"	
-								"depressedBgColor_override"	"AmmoInReserve"
+								"depressedBgColor_override"	"ColorGrey"
 								
 								"border_default"	"noborder"
 

@@ -237,7 +237,7 @@
 			"textAlignment"				"center"
 			"font"						"Tahoma16"
 			"selectedcolor"				"ColorWhite"
-			"unselectedcolor"			"AmmoInReserve"
+			"unselectedcolor"			"ColorGrey"
 			"defaultBgColor_override"	"DarkGrey"
 			"paintbackground"			"0"
 			"activeborder_override"		"255 255 255 255"

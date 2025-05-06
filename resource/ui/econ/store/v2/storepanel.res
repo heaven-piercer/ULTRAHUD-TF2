@@ -217,7 +217,7 @@
 			"textAlignment"		"center"
 			"font"				"Tahoma12"
 			"selectedcolor"		"ColorWhite"
-			"unselectedcolor"	"AmmoInReserve"
+			"unselectedcolor"	"ColorGrey"
 			"defaultBgColor_override"	"Transparent"
 			"paintbackground"			"1"
 			"activeborder_override"		"CyanBorderTabs"

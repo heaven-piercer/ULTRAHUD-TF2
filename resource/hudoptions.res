@@ -8559,7 +8559,7 @@
 				xpos	0
 				ypos	5
 				wide 770
-				tall 264
+				tall 290
 				visible 1
 				enabled 1
 
@@ -8590,7 +8590,7 @@
 					"ypos"			"0"
 					"zpos"			"-8"
 					"wide"			"770"
-					"tall"			"254"
+					"tall"			"280"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -8630,7 +8630,7 @@
 					"ypos"			"-5"
 					"zpos"			"-8"
 					"wide"			"760"
-					"tall"			"244"
+					"tall"			"270"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -9319,57 +9319,12 @@
 						"pin_to_sibling"		"EncoresImage"
 					}
 
-					"CrematorImage"
-					{
-						"ControlName"      "ImagePanel"
-						"fieldName"        "CrematorImage"
-						"xpos"             "0"
-						"ypos"             "3"
-						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
-						"visible"          "1"
-						"enabled"			"1"
-						"image"				"../console/cremator"
-						"scaleImage"		"1"
-
-						"pin_to_sibling"		"DeathOdysseyImage"
-						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-					}
-
-					"CrematorButton"
-					{
-						"ControlName"	"CExButton"
-						"fieldName"		"CrematorButton"
-						"xpos"			"0"
-						"ypos"			"0"
-						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
-						"pinCorner"		"3"
-						"visible"		"1"
-						"enabled"		"1"
-						"Command"		"engine menu_bg_cremator;  fullhudreload"
-						"actionsignallevel"		"5"
-						"labelText"		""
-						
-						"sound_depressed"	"UI/buttonclick.wav"	
-						"sound_released"	"UI/buttonclickrelease.wav"
-
-						"armedBgColor_override"		"255 255 255 3"	
-						"defaultBgColor_override"	"Transparent"	
-
-						"fgcolor_override"		"ColorWhite"
-
-						"pin_to_sibling"		"CrematorImage"
-					}
-
 					"AltarsImage"
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "AltarsImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
 						"wide"			"100"
 						"tall"			"56"
@@ -9378,8 +9333,8 @@
 						"image"				"../console/altarsofapostasy"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"CrematorImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"DeathOdysseyImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"AltarsButton"
@@ -9638,8 +9593,8 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "DemomanImage"
-						"xpos"             "0"
-						"ypos"             "3"
+						"xpos"             "3"
+						"ypos"             "0"
 						"zpos"             "1"
 						"wide"			"100"
 						"tall"			"56"
@@ -9648,8 +9603,8 @@
 						"image"				"../console/demoman"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"CrematorImage"
-						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+						"pin_to_sibling"		"PyroImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 
 					"DemomanButton"
@@ -9683,8 +9638,8 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "HeavyImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
 						"wide"			"100"
 						"tall"			"56"
@@ -9693,8 +9648,8 @@
 						"image"				"../console/heavy"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"DemomanImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"AltarsImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"HeavyButton"

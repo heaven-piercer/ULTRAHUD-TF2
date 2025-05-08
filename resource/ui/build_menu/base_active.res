@@ -4,12 +4,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemNameLabel"
-		"font"				"HudFontSmall"
+		"font"				"Tahoma18"
 		"xpos"				"0"
-		"ypos"				"4"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"100"
-		"tall"				"15"
+		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -18,6 +18,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"ColorGreen"
 	}
 
 	"ItemBackground"
@@ -72,19 +73,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CostLabel"
-		"font"				"HudFontSmall"
-		"fgcolor"			"TanLight"
+		"font"				"Tahoma16"
+		"fgcolor"			"ColorWhite"
 		"xpos"				"50"
-		"ypos"				"22"
+		"ypos"				"19"
 		"zpos"				"4"
 		"wide"				"50"
-		"tall"				"10"
+		"tall"				"16"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%metal%"
-		"textAlignment"		"Left"
 	}
 
 	"CostLabelShadow"
@@ -149,8 +149,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"HudFontMediumSecondary"
-		"fgcolor"			"TanLight"
+		"font"				"Tahoma24"
+		"fgcolor"			"ColorWhite"
 		"xpos"				"0"
 		"ypos"				"95"
 		"zpos"				"1"

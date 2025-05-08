@@ -1020,12 +1020,11 @@
 		"fieldName" 		"HudMenuEngyBuild"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"xpos"				"c-200"
-		"ypos"				"c-75"
-		"ypos_minmode"		"c105"
+		"xpos"				"c100"
+		"ypos"				"cs-0.5"
 		"zpos"				"1"
-		"wide"				"400"
-		"tall"				"150"
+		"wide"				"200"
+		"tall"				"280"
 		"PaintBackgroundType"	"0"
 	}
 

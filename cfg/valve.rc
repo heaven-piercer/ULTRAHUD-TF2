@@ -23,3 +23,6 @@ stuffcmds
 // display the startup level
 startupmenu
 sv_unlockedchapters 99
+
+//refit dimmer
+hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials

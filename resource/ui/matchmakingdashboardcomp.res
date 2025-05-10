@@ -6,10 +6,10 @@
 	{
 		"fieldName"				"CompStats"
 		"xpos"					"r0"
-		"ypos"					"10"
+		"ypos"					"0"
 		"zpos"					"1002"
 		"wide"					"270"
-		"tall"					"f70"
+		"tall"					"f00"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
 	}
@@ -19,7 +19,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"Title"
 		"xpos"					"0"
-		"ypos"					"25"
+		"ypos"					"10"
 		"zpos"					"99"
 		"wide"					"f0"
 		"tall"					"20"
@@ -27,7 +27,7 @@
 		"labeltext"				"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"			"center"
 		"font"					"HudFontMedium"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"ColorWhite"
 		"mouseinputenabled"		"0"
 		"allcaps"				"1"
 	}
@@ -84,7 +84,7 @@
 		"ypos"					"40"
 		"zpos"					"100"
 		"wide"					"305"
-		"tall"					"340"
+		"tall"					"480"
 		"visible"				"1"
 		"proportionaltoparent"	"1"
 	}

@@ -269,6 +269,7 @@
 		"Command"			"back"
 
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 
 		"fgcolor_override"		"ColorWhite"
 

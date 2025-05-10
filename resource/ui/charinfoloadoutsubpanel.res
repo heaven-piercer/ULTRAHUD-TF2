@@ -62,6 +62,7 @@
 		"command"		"loadout scout"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -88,6 +89,7 @@
 		"command"		"loadout soldier"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -117,6 +119,7 @@
 		"command"		"loadout pyro"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -146,6 +149,7 @@
 		"command"		"loadout demoman"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -174,6 +178,7 @@
 		"command"		"loadout heavy"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -203,6 +208,7 @@
 		"command"		"loadout engineer"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -232,6 +238,7 @@
 		"command"		"loadout medic"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -261,6 +268,7 @@
 		"command"		"loadout sniper"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -289,6 +297,7 @@
 		"command"		"loadout spy"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -583,6 +592,7 @@
 		"command"		"backpack"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -626,6 +636,7 @@
 		"command"		"crafting"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -674,6 +685,7 @@
 		"command"		"armory"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -720,6 +732,7 @@
 		"command"		"trading"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"
@@ -768,6 +781,7 @@
 		"command"		"paintkit_preview"
 		"visible"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 
 		"defaultBgColor_override"	"0 0 0 200"

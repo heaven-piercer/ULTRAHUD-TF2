@@ -16,10 +16,10 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
-		"xpos"					"r165"
-		"ypos"					"5"
+		"xpos"					"5"
+		"ypos"					"cs-1-2"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"290"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_casual"
 		"button_token"			"#MMenu_PlayList_Casual_Button"
@@ -32,10 +32,10 @@
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CompetitiveEntry"
-		"xpos"					"5"
-		"ypos"					"0"
+		"xpos"					"0"
+		"ypos"					"5"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"290"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_competitive"
 		"button_token"			"#MMenu_PlayList_Competitive_Button"
@@ -44,8 +44,7 @@
 		"matchgroup"			"2" // k_eTFMatchGroup_Ladder_6v6
 
 		"pin_to_sibling"		"CasualEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"MvMEntry"
@@ -53,29 +52,25 @@
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"MvMEntry"
 		"xpos"					"5"
-		"ypos"					"0"
+		"ypos"					"c110"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"290"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_mvm"
 		"button_token"			"#MMenu_PlayList_MvM_Button"
 		"button_command"		"play_mvm"
 		"desc_token"			"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"			"1" // k_eTFMatchGroup_MvM_MannUp
-
-		"pin_to_sibling"		"CompetitiveEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"ServerBrowserEntry"
 	{
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"ServerBrowserEntry"
-		"xpos"					"5"
-		"ypos"					"0"
+		"xpos"					"0"
+		"ypos"					"5"
 		"tall"					"50"
-		"wide"					"140"
+		"wide"					"290"
 		"proportionaltoparent"	"0"
 		"image_name"			"main_menu/main_menu_button_community_server"
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
@@ -83,8 +78,7 @@
 		"desc_token"			"#MMenu_PlayList_ServerBrowser_Desc"
 
 		"pin_to_sibling"		"MvMEntry"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"TrainingEntry"

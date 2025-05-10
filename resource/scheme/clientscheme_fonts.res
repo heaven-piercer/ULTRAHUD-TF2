@@ -539,14 +539,14 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"12"
+				"tall"			"6"
 				"additive"		"0"
 				"antialias"		"0"
 			}
 			"2"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"14"
+				"tall"			"8"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}

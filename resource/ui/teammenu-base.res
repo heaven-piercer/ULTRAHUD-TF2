@@ -58,8 +58,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/smileos_buttons"
-		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"scaleImage"			"1"
 
 		"pin_to_sibling"	"header"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"

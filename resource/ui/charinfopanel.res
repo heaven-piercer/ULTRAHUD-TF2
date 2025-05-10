@@ -207,7 +207,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Sheet"
-		"tabxindent"		"140"
+		"tabxindent"		"149"
 		"tabxdelta"			"5"
 		"tabwidth"			"100"
 		"tabheight"			"20"
@@ -231,7 +231,7 @@
 
 		"tabskv"
 		{	
-			"ypos"						"r100"
+			"ypos"						"r90"
 			"textinsetx"				"25"
 			"textinsety"				"5"
 			"textAlignment"				"center"

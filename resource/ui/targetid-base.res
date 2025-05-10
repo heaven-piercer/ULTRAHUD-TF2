@@ -115,7 +115,7 @@
 		fieldName dataPin
 		wide 0
 		tall 0
-		xpos 12
+		xpos 10
 		ypos 14
 		visible 0
 		enabled 1
@@ -129,12 +129,12 @@
 		"xpos"				"0"
 		"ypos"				"00"
 		"zpos"				"1"
-		"wide"				"100"
+		"wide"				"f0"
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
-		"textinsetx"		"2"
+		"textinsetx"		"5"
 		"textAlignment"		"west"
 		"bgcolor_override"		"HudElementBG"
 

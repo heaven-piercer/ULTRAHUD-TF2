@@ -40,6 +40,7 @@
 		"textAlignment"		"center"
 		"fgcolor"			"ColorRed"
 		"alpha"				"0"
+		"labelText"			""
 	}
 	//--------------------------------------------------------------
 	// TRANSPARENT VIEWMODEL

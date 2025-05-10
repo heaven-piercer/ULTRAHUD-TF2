@@ -426,6 +426,8 @@
 		"tall"			"56"
 		"visible"		"0"
 		"enabled"		"1"
+		"bgcolor_override"		"HudElementBG"
+		"paintBackgroundType"		"2"
 
 		"if_hybrid"
 		{

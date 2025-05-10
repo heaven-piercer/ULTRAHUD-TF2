@@ -134,7 +134,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
-		"textinsetx"		"5"
+		"textinsetx"		"10"
 		"textAlignment"		"west"
 		"bgcolor_override"		"HudElementBG"
 

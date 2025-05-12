@@ -55,8 +55,8 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0	0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
 
-	Animate	AmmoBG BgColor "50 0 0 150" Linear 0.0 0.15
-	Animate	AmmoBG BgColor "HudElementBG" Linear 0.15 0.15
+	Animate	AmmoBG BgColor "50 0 0 200" Linear 0.0 0.15
+	Animate	AmmoBG BgColor "HudElementBG" Linear 0.20 0.15
 
 	RunEvent HudLowAmmoPulseLoop		0.3
 }
@@ -70,10 +70,6 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 			0.0
 	StopEvent HudLowAmmoPulseLoop 		0.0
-
-	Animate AmmoInClip					FgColor		"Ammo In Clip"		Accel 0.0 0.0
-	Animate AmmoInReserve				FgColor		"Ammo In Reserve"	Accel 0.0 0.0
-	Animate AmmoNoClip					FgColor		"Ammo In Clip"		Accel 0.0 0.0
 }
 //==================================================================================
 // Ubercharge Meters
@@ -200,19 +196,17 @@ event CompetitiveGame_RestoreChatWindow
 {
 	RunEvent HudLowAmmoPulseStop 0.0 
 	RunEvent Startup 0.0
-	RunEvent engie 0.2
+	RunEvent engie 0.02
 	//RunEvent Radiant 0.0
 }
 event HudTournament_MoveChatWindow { }
 
 event HintMessageHide
 {
-    RunEvent  Engie  0.0
-
-	Animate Sentry Position "10 0" "linear" 0.0 0.0
-	Animate Dispenser Position "76 0" "linear" 0.0 0.0
-	Animate TeleEntrance Position "10 42" "linear" 0.0 0.0
-	Animate TeleExit Position "76 42" "linear" 0.0 0.0
+    Animate  HudHintDisplay  FgColor  "255 220 0 0"  Linear  0.0  0.2
+    Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
+	
+	RunEvent  Engie  0.1
 }
 
 event Startup

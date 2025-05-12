@@ -47,13 +47,13 @@
 		"fieldName"			"ChargeLabelShadow"
 		"xpos"				"-1"
 		"ypos"				"-1"
-		"zpos"				"1"
-		"wide"				"100"
-		"tall"				"50"
+		"zpos"				"10"
+		"wide"				"99"
+		"tall"				"7"
 		"autoResize"		"1"
 		"pinCorner"			"2"
-		"visible"			"0"
-		"enabled"			"0"
+		"visible"			"1"
+		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#TF_UberchargeMinHUD"
 		"textAlignment"		"center"
@@ -127,7 +127,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"		"Uber Bar Color"
-		"bgcolor_override"		"255 72 72 25"
+		"bgcolor_override"		"Transparent"
 	}
 
 	"ChargeMeterBG"
@@ -199,7 +199,7 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter3"
 		"font"				"Default"
-		"xpos"				"20"
+		"xpos"				"25"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"22"
@@ -244,6 +244,24 @@
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
+	"Modulate1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Modulate1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"116"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/modulate"
+		"scaleImage"	"1"
+		"alpha"			"255"
+
+		"pin_to_sibling"	"ChargeMeter1"
+	}
+
 	"HealthClusterIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -262,7 +280,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ResistIconAnchor"
-		"xpos"				"59"
+		"xpos"				"61+1"
 		"ypos"				"122"
 		"wide"				"30"
 		"tall"				"30"

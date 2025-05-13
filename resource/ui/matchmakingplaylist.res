@@ -12,6 +12,39 @@
 		"button_command"		"play_event"
 	}
 
+	"TrainingEntry"
+	{
+		"ControlName"			"CPlayListEntry"
+		"fieldName"				"TrainingEntry"
+		"xpos"					"5"
+		"ypos"					"c-235"
+		"tall"					"50"
+		"wide"					"290"
+		"proportionaltoparent"	"0"
+		"image_name"			"main_menu/main_menu_button_training"
+		"button_token"			"#MMenu_PlayList_Training_Button"
+		"button_command"		"play_training"
+		"desc_token"			"#MMenu_PlayList_Training_Desc"
+	}
+
+	"CreateServerEntry"
+	{
+		"ControlName"			"CPlayListEntry"
+		"fieldName"				"CreateServerEntry"
+		"xpos"					"0"
+		"ypos"					"5"
+		"tall"					"50"
+		"wide"					"290"
+		"proportionaltoparent"	"0"
+		"image_name"			"main_menu/main_menu_button_custom_server"
+		"button_token"			"#MMenu_PlayList_CreateServer_Button"
+		"button_command"		"create_server"
+		"desc_token"			"#MMenu_PlayList_CreateServer_Desc"
+
+		"pin_to_sibling"		"TrainingEntry"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+	}
+
 	"CasualEntry"
 	{
 		"ControlName"			"CPlayListEntry"
@@ -52,7 +85,7 @@
 		"ControlName"			"CPlayListEntry"
 		"fieldName"				"MvMEntry"
 		"xpos"					"5"
-		"ypos"					"c110"
+		"ypos"					"rs2-10"
 		"tall"					"50"
 		"wide"					"290"
 		"proportionaltoparent"	"0"
@@ -79,20 +112,6 @@
 
 		"pin_to_sibling"		"MvMEntry"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-	}
-
-	"TrainingEntry"
-	{
-		"ControlName"			"CPlayListEntry"
-		"fieldName"				"TrainingEntry"
-		"xpos"					"9999"
-	}
-
-	"CreateServerEntry"
-	{
-		"ControlName"			"CPlayListEntry"
-		"fieldName"				"CreateServerEntry"
-		"xpos"					"9999"
 	}
 
 	"ScrollBar"

@@ -21,7 +21,7 @@
 		"scaleImage"		"1"
 	}
 
-	"DashboardDimmer"        // allows for clicking off playlist frames
+	 "DashboardDimmer"        // allows for clicking off playlist frames
     {
         "wide"                "f0"
         "tall"                "f0"

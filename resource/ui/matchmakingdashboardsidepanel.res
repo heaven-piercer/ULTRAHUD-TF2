@@ -83,26 +83,60 @@
 		}
 	}
 
-	"CloseButton"
+	"CloseButton1"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
+		"fieldName"		"CloseButton1"
 		"xpos"			"rs1"
 		"labelText"		">"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
-		"tall"			"f0"
+		"wide"			"10"
+		"tall"			"p0.5"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 		"textAlignment"	"east"
+		"textinsety"		"90"
 		"font"			"HudFontSmall"
 
 		"armedBgColor_override"		"Transparent"
 		"defaultBgColor_override"	"Transparent"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"169 123 53 255"
+		"armedFgColor_override"		"ColorRed"
+
+		"depressedbgcolor_override"		"Transparent"
+
+		if_left
+		{
+			"xpos"		"0"
+			"labelText"	"<"
+		}
+	}
+
+	"CloseButton2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton2"
+		"xpos"			"rs1"
+		"labelText"		">"
+		"ypos"			"c0"
+		"zpos"			"10000"
+		"wide"			"10"
+		"tall"			"p0.5"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"command"		"nav_close"
+		"textAlignment"	"east"
+		"textinsety"		"-90"
+		"font"			"HudFontSmall"
+
+		"armedBgColor_override"		"Transparent"
+		"defaultBgColor_override"	"Transparent"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"ColorRed"
+
+		"depressedbgcolor_override"		"Transparent"
 
 		if_left
 		{

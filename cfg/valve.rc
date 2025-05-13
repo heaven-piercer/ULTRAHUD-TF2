@@ -8,6 +8,7 @@ exec hud_customizations.cfg
 exec hud_commands.cfg
 exec menu_customizations.cfg
 exec color_customizations.cfg
+exec dimmerfix.cfg            // makes the  dimmer not be FUNKe
 
 // manage the firstrun file
 alias chud_firstrun "exec hud_firstrun"

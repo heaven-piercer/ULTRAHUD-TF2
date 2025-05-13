@@ -81,7 +81,7 @@
 	{
 		"fieldName"				"stats"
 		"xpos"					"-1"
-		"ypos"					"40"
+		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"305"
 		"tall"					"480"

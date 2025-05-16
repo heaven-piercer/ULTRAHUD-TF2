@@ -55,10 +55,10 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"				Linear 0.0	0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"					Linear 0.125 0.075
 
-	Animate	AmmoBG BgColor "50 0 0 200" Linear 0.0 0.15
-	Animate	AmmoBG BgColor "HudElementBG" Linear 0.20 0.15
+	Animate	AmmoBG BgColor "150 0 0 200" Linear 0.0 0.10
+	Animate	AmmoBG BgColor "HudElementBG" Linear 0.2 0.10
 
-	RunEvent HudLowAmmoPulseLoop		0.3
+	RunEvent HudLowAmmoPulseLoop		0.35
 }
 
 event HudLowAmmoPulseLoop
@@ -70,6 +70,8 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 			0.0
 	StopEvent HudLowAmmoPulseLoop 		0.0
+
+	Animate	AmmoBG BgColor "HudElementBG" Linear 0.0 0.0
 }
 //==================================================================================
 // Ubercharge Meters

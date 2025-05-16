@@ -333,7 +333,7 @@
 		"fieldName"		"CLOSE-button2"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"		"4000" //Absurly large num to make life easy
+		"zpos"		"-4000" //Absurly large num to make life easy
 		"wide"					"f0"
 		"tall"					"f0"
 		"visible"		"1"

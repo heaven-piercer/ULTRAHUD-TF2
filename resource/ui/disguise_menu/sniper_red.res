@@ -10,6 +10,7 @@
 	"NewNumberLabel"
 	{
 		"labelText"			"2"
+		"font"		"Tahoma16"
 	}
 
 	"NumberLabel"

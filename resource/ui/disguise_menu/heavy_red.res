@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemName"
-		"font"				"HudFontSmallBold"
+		"font"				"Tahoma16"
 		"xpos"				"20"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"HudFontSmallest"
+		"font"				"Tahoma16"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
-		"font"				"HudFontSmallest"
+		"font"				"Tahoma16"
 		"fgcolor"			"HUDRedTeamSolid"
 		"xpos"				"5"
 		"ypos"				"3"

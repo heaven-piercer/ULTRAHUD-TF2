@@ -44,9 +44,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"		"1"
-		"image"				"replay/thumbnails/smileos/trash"
+		"image"				"replay/thumbnails/smileos/music"
 		"tileImage"			"1"
-		"drawcolor"			"84 19 19 255"
 	}
 
 	"TerminalBG"

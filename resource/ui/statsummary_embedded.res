@@ -2320,7 +2320,7 @@
 			"font"			"Tahoma8"
 			"labelText"		"Tip of the Day"
 			"textAlignment"	"west"
-			"xpos"			"-1"
+			"xpos"			"-11"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"300"
@@ -2349,6 +2349,21 @@
 		"scaleImage"	"1"
 		"image"		"replay/thumbnails/header"
 		"alpha"		"200"
+	}
+	"HeaderIcon3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"HeaderIcon"
+		"xpos"				"175"
+		"ypos"				"263"
+		"zpos"				"-1"
+		"wide"				"10"
+		"tall"				"10"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/smileos/tip"
+		"tileImage"			"1"
 	}
 
 	"TerminalBG3"

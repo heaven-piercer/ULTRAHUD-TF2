@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Cerbetica10Alt"
+		"font"			"Cerbetica8Alt"
 		"fgcolor"		"ColorWhite"
 	}
 
@@ -68,8 +68,8 @@
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Cerbetica10Alt"

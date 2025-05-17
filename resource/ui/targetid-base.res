@@ -115,10 +115,13 @@
 		fieldName dataPin
 		wide 0
 		tall 0
-		xpos 10
-		ypos 14
+		xpos "-55"
+		ypos 12
 		visible 0
 		enabled 1
+		
+		"pin_to_sibling"		"TargetBG"
+		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 	}
 
 	"TargetDataLabel"
@@ -129,13 +132,13 @@
 		"xpos"				"0"
 		"ypos"				"00"
 		"zpos"				"1"
-		"wide"				"f0"
+		"wide"				"100"
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%targetdata%"
 		"textinsetx"		"10"
-		"textAlignment"		"west"
+		"textAlignment"		"WEST"
 		"bgcolor_override"		"HudElementBG"
 
 		"pin_to_sibling"	"dataPin"

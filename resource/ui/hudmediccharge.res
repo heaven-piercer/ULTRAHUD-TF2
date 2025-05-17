@@ -127,7 +127,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"		"Uber Bar Color"
-		"bgcolor_override"		"Transparent"
+		"bgcolor_override"		"72 255 255 25"
 	}
 
 	"ChargeMeterBG"
@@ -142,8 +142,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintBackgroundType"		"2"
-		"bgcolor_override"			"0 0 0 150"
-		
+		"bgcolor_override"			"0 0 0 200"
+		"roundedcorners"			"12"
+
 		"pin_to_sibling"	"ChargeMeter"
 	}
 	
@@ -253,8 +254,8 @@
 		"zpos"			"4"
 		"wide"			"116"
 		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"replay/thumbnails/modulate"
 		"scaleImage"	"1"
 		"alpha"			"255"

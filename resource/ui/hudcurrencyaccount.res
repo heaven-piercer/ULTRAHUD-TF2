@@ -32,6 +32,8 @@
 		"enabled"		"1"
 		"bgcolor_override"	"HudElementBG"
 		"PaintBackgroundType"	"2"
+		"roundedcorners"		"3"
+		"roundedcorners_minmode"		"15"
 	}
 
 	"CurrencyLabel"

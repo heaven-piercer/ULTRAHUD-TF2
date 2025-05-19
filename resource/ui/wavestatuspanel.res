@@ -83,17 +83,18 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"SupportLabel"
-		"font"					"Cerbetica14"
-		"fgcolor"				"TanLight"
+		"font"					"Cerbetica14Alt"
+		"fgcolor"				"ColorWhite"
 		"xpos"					"55"
-		"ypos"					"6"
+		"ypos"					"4"
 		"zpos"					"3"
-		"wide"					"60"
+		"wide"					"100"
 		"tall"					"15"
 		"visible"				"0"
 		"enabled"				"1"
 		"textAlignment"			"west"
 		"labelText"				"#TF_MVM_Support"
+		"allcaps"				"1"
 
 		if_verbose
 		{

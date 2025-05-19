@@ -51,8 +51,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica8Alt"
-		"fgcolor_override"		"ColorBlack"
-		"alpha"					"200"
 	}
 
 	"ItemEffectMeter"

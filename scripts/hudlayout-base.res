@@ -160,6 +160,7 @@
 		"enabled"			"1"
 		"xpos"				"-60"
 		"ypos"				"-292"
+		"ypos_minmode"				"-328"
 		"wide"				"140"
 		"tall"				"150"
 

@@ -18,7 +18,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountImage"
 		"xpos"			"3"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -40,6 +40,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"bgcolor_override"	"ColorWhite"
+		"fgcolor_override"	"ColorWHite"
 
 		"pin_to_sibling"		"EnemyCountImage"
 	}
@@ -71,7 +72,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
 		"font"			"HudFontSmallest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"xpos"			"1"
 		"ypos"			"3"
 		"zpos"			"3"

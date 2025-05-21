@@ -13,21 +13,6 @@
 		"enabled"			"1"
 	}
 
-	"WaveBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"WaveBG"
-		"xpos"			"2"
-		"ypos"			"26"
-		"zpos"			"-10"
-		"wide"			"f4"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"		"2"
-		"bgcolor_override"		"0 0 0 150"
-	}
-
 	"WaveCompleteSummaryPanel"
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"

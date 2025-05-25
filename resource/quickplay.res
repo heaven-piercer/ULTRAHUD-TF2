@@ -1,14 +1,32 @@
 "Resource/UI/MainMenuOverride.res"
 {
 
+		"FindAGameButton-mover"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"FindAGameButton-mover"
+				"xpos"		"rs-14.65"
+				"ypos"		"26"
+				"wide"		"35"
+				"tall"		"35"
+				"autoResize"		"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"		"0"
+				"PaintBackgroundType"	"0"
+
+				
+			}
+
 "MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c256"
-		"ypos"			"26"
+		"xpos"			"rs1-28"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"140"
+		"wide"			"142"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -20,7 +38,8 @@
 		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
 		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
 		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-		
+
+		pin_to_sibling	FindAGameButton-mover
 		"MOTD_ShowButtonPanel_SB"
 		{
 			"ControlName"	"CExImageButton"

@@ -40,42 +40,6 @@
 		"fgcolor_override"		"ColorRed"
 	}
 
-	"Modulate"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Modulate"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"117"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/modulate"
-		"scaleImage"	"1"
-		"alpha"			"255"
-		"drawcolor"			"c_hudnumbersdefault"
-
-		"pin_to_sibling"	"ChargeMeter"
-	}
-
-	"ChargeMeterBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ChargeMeterBG"
-		"xpos"				"5"
-		"ypos"				"4"
-		"zpos"				"2"
-		"wide"				"128"
-		"tall"				"16"
-		"visible"			"1"
-		"enabled"			"1"
-		"paintBackgroundType"		"2"
-		"bgcolor_override"			"0 0 0 150"
-
-		"pin_to_sibling"	"ChargeMeter"
-	}
-
 	"PipesPresentPanel"
 	{
 		"ControlName"		"EditablePanel"

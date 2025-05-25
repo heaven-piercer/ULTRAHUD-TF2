@@ -6,7 +6,7 @@
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
 		"xpos"				"70"
-		"ypos"				"c226"
+		"ypos"				"c225"
 		"zpos"				"2"
 		"wide"				"117"
 		"tall"				"8"
@@ -45,7 +45,7 @@
 		"fieldName"			"ItemEffectMeterLabel"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"3"
+		"zpos"				"4"
 		"wide"				"115"
 		"tall"				"8"
 		"visible"			"1"
@@ -57,5 +57,25 @@
 		"pin_to_sibling"		"ChargeMeter"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+
+	"ChargeMeterBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ChargeMeterBG"
+		"xpos"				"5"
+		"ypos"				"4"
+		"ypos_minmode"		"1"
+		"zpos"				"2"
+		"wide"				"128"
+		"tall"				"16"
+		"tall_minmode"		"10"
+		"visible"			"1"
+		"enabled"			"1"
+		"paintBackgroundType"		"2"
+		"bgcolor_override"			"0 0 0 150"
+		"roundedcorners"			"12"
+
+		"pin_to_sibling"	"ChargeMeter"
 	}
 }

@@ -5,8 +5,8 @@
 		"fieldName"		"PaintkitConsume"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"wide"			"400"
-		"tall"			"400"
+		"wide"			"f00"
+		"tall"			"480"
 		"visible"		"1"
 		"zpos"			"1000"
 	}
@@ -225,7 +225,7 @@
 		"ypos"		"30"
 		"zpos"		"10"
 		"wide"		"f0"
-		"tall"		"350"
+		"tall"		"480"
 		"proportionaltoparent"	"1"
 	}
 

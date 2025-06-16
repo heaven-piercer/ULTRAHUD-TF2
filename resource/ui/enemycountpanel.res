@@ -8,9 +8,23 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"20"
-		"tall"			"34"
-		"visible"		"0"
+		"tall"			"100"
+		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"	"EnemyCountPanelAnchor"
+	}
+
+	"EnemyCountPanelAnchor"
+	{
+		"fieldName"				"EnemyCountPanelAnchor"
+		"ControlName"			"EditablePanel"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"1"
+		"ypos"					"10"
+		"wide"					"00"
+		"tall"					"0"
 	}
 	
 	"EnemyCountImage"
@@ -18,7 +32,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountImage"
 		"xpos"			"3"
-		"ypos"			"0"
+		"ypos"			"7"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -74,7 +88,7 @@
 		"font"			"HudFontSmallest"
 		"fgcolor"		"ColorWhite"
 		"xpos"			"1"
-		"ypos"			"3"
+		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"16"
 		"tall"			"14"

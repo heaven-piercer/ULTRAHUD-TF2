@@ -1399,7 +1399,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"24"
+				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1410,7 +1410,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"24"
+				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
 				"italic"		"1"
@@ -1422,7 +1422,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"24"
+				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -1433,7 +1433,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"24"
+				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"900"
 				"italic"		"1"
@@ -1445,7 +1445,7 @@ Scheme
 			"1"
 			{
 				"name"			"VCR OSD Mono"
-				"tall"			"16"
+				"tall"			"8"
 				"antialias" 	"1"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"

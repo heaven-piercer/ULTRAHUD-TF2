@@ -1,4 +1,5 @@
 #base	"meter.res"
+//#base	"../resource/ui/winpanel.res"
 
 "Resource/HudLayout.res"
 {
@@ -911,11 +912,11 @@
 		"fieldName"			"WinPanel"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"270"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
 		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"300"
+		"wide"				"500"
+		"tall"				"285"
 	}
 
 	"ArenaWinPanel"

@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"-600"
-		"ypos"			"-102"
+		"xpos"			"0"
+		"ypos"			"0"
 		"xpos_minmode"			"-600"
 		"ypos_minmode"			"-1"
 		"zpos"			"1"
@@ -91,12 +91,14 @@
 		"teambg_3"		"../hud/character_blue_bg_clipped"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
+
+	
 	"classmodelpanel"
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"r188"
-		"ypos"				"r38"
+		"xpos"				"0"
+		"ypos"				"r140"
 		"xpos_minmode"		"r188"
 		"ypos_minmode"		"r0"
 		"zpos"				"2"

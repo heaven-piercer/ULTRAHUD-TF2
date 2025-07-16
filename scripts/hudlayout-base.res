@@ -75,11 +75,11 @@
 		"fieldName"			"HudPlayerStatus"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
+		"xpos"				"65"
 		"ypos"				"-20"
-		"xpos_minmode"				"295"
+		"xpos_minmode"				"cs-0.5"
 		"ypos_minmode"				"-100"
-		"wide"				"f0"
+		"wide"				"128"
 		"tall"				"1000"
 	}
 	//--------------------------------------------------------------
@@ -104,14 +104,12 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"-196"
-		"ypos"				"-432"
-		"xpos_minmode"				"-100"
-		"ypos_minmode"				"-370"
+		"xpos"				"196"
+		"ypos"				"rs1-40"
+		"xpos_minmode"				"cs-0.5"
+		"ypos_minmode"				"cs1+3"
 		"wide"				"60"
 		"tall"				"28"
-
-		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudObjectiveStatus"
@@ -160,13 +158,11 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"-60"
-		"ypos"				"-292"
+		"xpos"				"65"
+		"ypos"				"r86"
 		"ypos_minmode"				"-328"
-		"wide"				"140"
-		"tall"				"150"
-
-		"pin_to_sibling"	"HudPlayerStatus"
+		"wide"				"128"
+		"tall"				"16"
 	}
 
 	"HudDemomanCharge"
@@ -174,16 +170,14 @@
 		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
-		"ypos"				"47"
+		"xpos"				"65"
+		"ypos"				"r86"
 		"ypos_minmode"				"14"
 		"zpos"				"3"
-		"wide"				"f0"
-		"tall"				"500"
+		"wide"				"128"
+		"tall"				"16"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
-
-		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudBowCharge"
@@ -1080,12 +1074,11 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"-5"
-		"ypos"				"-362"
+		"xpos"				"65"
+		"ypos"				"r128"
 		"zpos"				"2"
 		"wide"				"280"
 		"tall"				"200"
-		"pin_to_sibling"	"HudPlayerStatus"
 	}
 
 	"HudTeamGoal"

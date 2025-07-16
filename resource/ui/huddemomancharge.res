@@ -5,8 +5,8 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"font"				"Default"
-		"xpos"				"70"
-		"ypos"				"c225"
+		"xpos"				"5"
+		"ypos"				"4"
 		"zpos"				"2"
 		"wide"				"117"
 		"tall"				"8"
@@ -63,8 +63,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ChargeMeterBG"
-		"xpos"				"5"
-		"ypos"				"4"
+		"xpos"				"0"
+		"ypos"				"0"
 		"ypos_minmode"		"1"
 		"zpos"				"2"
 		"wide"				"128"
@@ -75,7 +75,5 @@
 		"paintBackgroundType"		"2"
 		"bgcolor_override"			"0 0 0 150"
 		"roundedcorners"			"12"
-
-		"pin_to_sibling"	"ChargeMeter"
 	}
 }

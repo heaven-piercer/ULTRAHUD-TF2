@@ -5,12 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"105"	[$WIN32]
-		"ypos"			"r63"	[$WIN32]
+		"xpos"			"150"	[$WIN32]
+		"ypos"			"r39"	[$WIN32]
 		"xpos_minmode"			"400"	[$WIN32]
 		"ypos_minmode"			"r143"	[$WIN32]
-		"wide"			"400"
-		"tall"			"50"
+		"wide"			"43"
+		"tall"			"16"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,8 +19,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ItemEffectMeterBG"
-		"xpos"				"2"
-		"ypos"				"4"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"43"
 		"tall"				"16"
@@ -28,19 +28,17 @@
 		"enabled"			"1"
 		"paintBackgroundType"		"2"
 		"bgcolor_override"			"HudElementBG"
-
-		"pin_to_sibling"	"ItemEffectMeter"
 	}
 
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"47"
-		"ypos"					"25"
+		"xpos"					"2"
+		"ypos"					"4"
 		"zpos"					"5"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"39"
+		"tall"					"8"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -51,6 +49,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica8Alt"
+		"fgcolor_override"		"TransparentBlack"
 	}
 
 	"ItemEffectMeter"
@@ -58,8 +57,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"28"
+		"xpos"					"2"
+		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"39"
 		"tall"					"8"

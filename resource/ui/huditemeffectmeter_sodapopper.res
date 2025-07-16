@@ -1,3 +1,8 @@
+///////////////////////////////////////////
+//USE THIS AS BASE FOR METERS IN THE LEFT//
+///////////////////////////////////////////
+
+
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
@@ -5,12 +10,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"20"	[$WIN32]
-		"ypos"			"r63"	[$WIN32]
+		"xpos"			"65"	[$WIN32]
+		"ypos"			"r39"	[$WIN32]
 		"xpos_minmode"			"315"	[$WIN32]
 		"ypos_minmode"			"r143"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"40"
+		"tall"			"16"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,8 +24,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ItemEffectMeterBG"
-		"xpos"				"2"
-		"ypos"				"4"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"40"
 		"tall"				"16"
@@ -28,19 +33,17 @@
 		"enabled"			"1"
 		"paintBackgroundType"		"2"
 		"bgcolor_override"			"HudElementBG"
-
-		"pin_to_sibling"	"ItemEffectMeter"
 	}
 
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"45"
-		"ypos"					"25"
+		"xpos"					"2"
+		"ypos"					"4"
 		"zpos"					"10"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"36"
+		"tall"					"8"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -58,8 +61,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"28"
+		"xpos"					"2"
+		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"36"
 		"tall"					"8"

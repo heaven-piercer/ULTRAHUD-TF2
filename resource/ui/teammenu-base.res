@@ -150,8 +150,8 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"450"
-		"ypos"			"c80"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"30"
@@ -181,23 +181,24 @@
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling"		"inset"
 	}
 
 	"BlueImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueImage"
-		"xpos"			"-8"
-		"ypos"			"98"
-		"zpos"			"-9"
+		"xpos"			"c33"
+		"ypos"			"c-24"
+		"zpos"			"-8"
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/heads/v1_head"
-
-		"pin_to_sibling"	"teambutton0"
+		"mouseinputenabled"		"0"
 	}
 
 	"BlueImageButton"
@@ -218,8 +219,9 @@
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
-		"defaultBgColor_override"	"Transparent"
-		"armedBgColor_override"	"0 0 0 100"
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 	}
 
 	"teambutton1"
@@ -263,17 +265,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedImage"
-		"xpos"			"-42"
-		"ypos"			"200"
-		"zpos"			"-9"
+		"xpos"			"c-134"
+		"ypos"			"c-120"
+		"zpos"			"-8"
 		"wide"			"100"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/heads/v2_head"
-
-		"pin_to_sibling"	"teambutton1"
+		"mouseinputenabled"		"0"
 	}
 
 	"RedImageButton"
@@ -292,8 +293,9 @@
 
 		"pin_to_sibling"	"RedImage"
 
-		"defaultBgColor_override"	"Transparent"
-		"armedBgColor_override"	"0 0 0 100"
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
 	}
 
 
@@ -410,7 +412,7 @@
 		"fieldName"		"BlueCount"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-10"
+		"zpos"			"-8"
 		"wide"			"167"
 		"tall"			"100"
 		"autoResize"	"0"
@@ -423,6 +425,7 @@
 		"brighttext"	"1"
 		"font"			"Tahoma40"
 		"fgcolor"		"ColorBlue"
+		"mouseinputenabled"		"0"
 
 		"pin_to_sibling"		"BlueImageButton"
 	}
@@ -433,7 +436,7 @@
 		"fieldName"		"RedCount"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-10"
+		"zpos"			"-8"
 		"wide"			"167"
 		"tall"			"100"
 		"autoResize"	"0"
@@ -446,6 +449,7 @@
 		"brighttext"	"1"
 		"font"			"Tahoma40"
 		"fgcolor"		"ColorRed"
+		"mouseinputenabled"		"0"
 
 		"pin_to_sibling"		"RedImage"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"

@@ -12,8 +12,8 @@
 		"enabled"		"1"
 		"xpos"			"65"	[$WIN32]
 		"ypos"			"r39"	[$WIN32]
-		"xpos_minmode"			"315"	[$WIN32]
-		"ypos_minmode"			"r143"	[$WIN32]
+		"xpos_minmode"			"cs-1-24"	[$WIN32]
+		"ypos_minmode"			"c121"	[$WIN32]
 		"wide"			"40"
 		"tall"			"16"
 		"MeterFG"		"White"
@@ -47,13 +47,14 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica8Alt"
+		"disabledfgcolor2_override"		"transparentblack"
 	}
 
 	"ItemEffectMeter"

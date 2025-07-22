@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"150"	[$WIN32]
 		"ypos"			"r39"	[$WIN32]
-		"xpos_minmode"			"400"	[$WIN32]
-		"ypos_minmode"			"r143"	[$WIN32]
+		"xpos_minmode"			"c21"	[$WIN32]
+		"ypos_minmode"			"c121"	[$WIN32]
 		"wide"			"43"
 		"tall"			"16"
 		"MeterFG"		"White"
@@ -42,14 +42,14 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Cerbetica8Alt"
-		"fgcolor_override"		"TransparentBlack"
+		"disabledfgcolor2_override"		"32 32 32 255"
 	}
 
 	"ItemEffectMeter"

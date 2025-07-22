@@ -5,6 +5,7 @@
 	{
 		"wide"			"84"
 		"tall"			"16"
+		"xpos_minmode"	"c-64"	
 	}
 
 	"ItemEffectMeterBG"

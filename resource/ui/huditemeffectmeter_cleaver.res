@@ -5,7 +5,7 @@
 	{
 		"xpos"			"106"
 		"ypos"			"r39"
-		"xpos_minmode"	"358"
-		"ypos_minmode"	"r138"
+		"xpos_minmode"	"c-23"
+		"ypos_minmode"	"c121"
 	}
 }

@@ -165,8 +165,8 @@ Animate PlayerStatusSpyImage		Alpha		"0"					Linear 0.9	0.1
 event HudSpyDisguiseChanged
 {
 	Animate	PlayerStatusSpyOutlineImage	Alpha		"200"				Linear 0.0 0.2
-	Animate	PlayerStatusSpyOutlineImage	Position	"c-350 r175"		Linear 0.0 0.2
-	Animate	PlayerStatusSpyOutlineImage	Size		"150 150"			Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Position	"c-360 r250"		Linear 0.0 0.2
+	Animate	PlayerStatusSpyOutlineImage	Size		"200 200"			Linear 0.0 0.2
 
 	RunEvent HudSpyDisguiseHide			0.7
 }
@@ -243,8 +243,8 @@ event RadiantLoop
 }
 
 event engie{
-	Animate Sentry Position "10 0" "linear" 0.0 0.0
-	Animate Dispenser Position "76 0" "linear" 0.0 0.0
-	Animate TeleEntrance Position "10 42" "linear" 0.0 0.0
-	Animate TeleExit Position "76 42" "linear" 0.0 0.0
+	Animate Sentry Position "10 0" linear 0.0 0.0
+	Animate Dispenser Position "76 0" linear 0.0 0.0
+	Animate TeleEntrance Position "10 42" linear 0.0 0.0
+	Animate TeleExit Position "76 42" linear 0.0 0.0
 }

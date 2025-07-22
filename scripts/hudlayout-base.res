@@ -1,5 +1,4 @@
 #base	"meter.res"
-//#base	"../resource/ui/winpanel.res"
 
 "Resource/HudLayout.res"
 {
@@ -79,7 +78,8 @@
 		"ypos"				"-20"
 		"xpos_minmode"				"cs-0.5"
 		"ypos_minmode"				"-100"
-		"wide"				"128"
+		"wide"				"f0"
+		"wide_minmode"				"128"
 		"tall"				"1000"
 	}
 	//--------------------------------------------------------------
@@ -160,7 +160,8 @@
 		"enabled"			"1"
 		"xpos"				"65"
 		"ypos"				"r86"
-		"ypos_minmode"				"-328"
+		"xpos_minmode"				"cs-0.5"
+		"ypos_minmode"				"c109"
 		"wide"				"128"
 		"tall"				"16"
 	}
@@ -171,8 +172,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"65"
+		"xpos_minmode"		"cs-0.5"
 		"ypos"				"r86"
-		"ypos_minmode"				"14"
+		"ypos_minmode"				"c109"
 		"zpos"				"3"
 		"wide"				"128"
 		"tall"				"16"
@@ -265,12 +267,13 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"196"
 		"ypos"					"r98"
-		"xpos_minmode"			"360"
+		"xpos_minmode"			"c-1"
 		"ypos_minmode"					"r178"
 		"zpos"					"0"
 		"wide"					"60"
 		"tall"  				"70"
 		"wide_minmode"			"65"
+		"tall_minmode"  				"14"
 		"visible" 				"1"
 		"enabled" 				"1"
 
@@ -310,12 +313,12 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"-65"
-		"ypos"					"-447"
+		"xpos"					"65"
+		"ypos"					"r53"
+		"xpos_minmode"					"cs-0.5"
+		"ypos_minmode"					"c107"
 		"wide"					"128"
 		"tall"					"170"
-
-		"pin_to_sibling"		"HudPlayerStatus"
 	}
 
 	"CMainTargetID"
@@ -1076,8 +1079,11 @@
 		"enabled"			"1"
 		"xpos"				"65"
 		"ypos"				"r128"
+		"xpos_minmode"				"cs-0.5"
+		"ypos_minmode"				"c32"
 		"zpos"				"2"
 		"wide"				"280"
+		"wide_minmode"				"128"
 		"tall"				"200"
 	}
 

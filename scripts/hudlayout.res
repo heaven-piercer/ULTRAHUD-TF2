@@ -6,4 +6,5 @@
 #base ../../../cfg/hud_hitmarker_size.txt
 #base ../../../cfg/hud_hmark_colors.txt
 #base ../../../cfg/hud_vmodel_transparency.txt
+#base ../../../cfg/hudlayout_res.txt
 "#base" "hudlayout-base.res"

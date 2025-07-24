@@ -35,17 +35,18 @@
 		"zpos"			"-10"
 		"wide"			"64"
 		"tall"			"40"
-		"bgcolor_override"		"0 0 0 150"
+		"bgcolor_override"		"HudElementBG"
 		"visible"		"1"
 		"enabled"		"1"	
-		"paintBackgroundtype" "2"			
+		"paintBackgroundtype" "2"	
+		"roundedcorners"		"2"			
 	}
 
 	"Icon_Dispenser"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Dispenser"
-		"xpos"			"4"
+		"xpos"			"31"
 		"ypos"			"5"
 		"wide"			"30"
 		"tall"			"30"
@@ -60,7 +61,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
-		"xpos"			"30"
+		"xpos"			"2"
 		"ypos"			"3"
 		"wide"			"50"
 		"tall"			"35"
@@ -163,7 +164,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"101"
+			"xpos"			"2"
 			"ypos"			"12"
 			"zpos"			"1"
 			"wide"			"0"
@@ -179,7 +180,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"101"
+			"xpos"			"2"
 			"ypos"			"12"
 			"zpos"			"1"
 			"wide"			"17"
@@ -196,7 +197,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"2"
+			"xpos"			"58"
 			"ypos"			"7"
 			"wide"			"4"
 			"tall"			"25"
@@ -213,7 +214,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"30"
+			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"50"
 			"tall"			"40"
@@ -262,7 +263,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"33"
+			"xpos"			"2"
 			"ypos"			"0"
 			"wide"			"50"
 			"tall"			"35"

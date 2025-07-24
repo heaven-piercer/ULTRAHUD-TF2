@@ -34,10 +34,11 @@
 		"zpos"			"-10"
 		"wide"			"64"
 		"tall"			"40"
-		"bgcolor_override"		"0 0 0 150"
+		"bgcolor_override"		"HudElementBG"
 		"visible"		"1"
 		"enabled"		"1"	
-		"paintBackgroundtype" "2"			
+		"paintBackgroundtype" "2"	
+		"roundedcorners"		"1"		
 	}
 
 	"Icon_Sentry_1"
@@ -177,10 +178,10 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"28"
-			"ypos"			"6"
+			"xpos"			"-2"
+			"ypos"			"-1"
 			"zpos"			"-2"
-			"wide"			"40"
+			"wide"			"35"
 			"tall"			"44"
 			"visible"		"1"
 			"enabled"		"1"

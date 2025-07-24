@@ -244,7 +244,7 @@ event RadiantLoop
 
 event engie{
 	Animate Sentry Position "10 0" linear 0.0 0.0
-	Animate Dispenser Position "76 0" linear 0.0 0.0
-	Animate TeleEntrance Position "10 42" linear 0.0 0.0
-	Animate TeleExit Position "76 42" linear 0.0 0.0
+	Animate Dispenser Position "74 0" linear 0.0 0.0
+	Animate TeleEntrance Position "10 40" linear 0.0 0.0
+	Animate TeleExit Position "74 40" linear 0.0 0.0
 }

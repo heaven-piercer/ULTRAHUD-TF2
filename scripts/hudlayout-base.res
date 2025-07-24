@@ -365,8 +365,8 @@
 		"ControlName"			"EditablePanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"730"
-		"ypos"					"c-90"
+		"xpos"					"732"
+		"ypos"					"c-88"
 		"wide"					"640"
 		"tall"					"480"
 	}

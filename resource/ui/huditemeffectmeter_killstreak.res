@@ -1,20 +1,25 @@
-#base "huditemeffectmeter_demoman.res"
-
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"184"	[$WIN32]
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"196"	[$WIN32]
 		"ypos"			"r39"	[$WIN32]
-		"xpos_minmode"	"c51"	[$WIN32]
-		"ypos_minmode"	"r25"	[$WIN32]
+		"xpos_minmode"	"c65"	[$WIN32]
+		"ypos_minmode"	"r26"	[$WIN32]
+		"wide"			"60"
+		"tall"			"14"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
 	}
 
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
@@ -29,7 +34,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"12"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"60"
@@ -51,10 +56,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"23"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"60"
 		"tall"					"14"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -75,7 +80,7 @@
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"1"
-		"wide"					"40"
+		"wide"					"60"
 		"tall"					"14"
 		"pinCorner"				"2"
 		"visible"				"1"

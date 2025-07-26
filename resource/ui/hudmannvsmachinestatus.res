@@ -50,7 +50,7 @@
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"2"
 		"ypos"				"r54"
-		"xpos_minmode"					"c-129"
+		"xpos_minmode"					"c-126"
 		"ypos_minmode"					"rs1-5"
 		"wide"				"100"
 		"tall"				"20"

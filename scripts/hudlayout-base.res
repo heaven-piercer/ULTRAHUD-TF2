@@ -268,7 +268,7 @@
 		"xpos"					"196"
 		"ypos"					"r98"
 		"xpos_minmode"			"c-1"
-		"ypos_minmode"					"r178"
+		"ypos_minmode"					"r163"
 		"zpos"					"0"
 		"wide"					"60"
 		"tall"  				"70"
@@ -276,8 +276,6 @@
 		"tall_minmode"  				"14"
 		"visible" 				"1"
 		"enabled" 				"1"
-
-		"pin_to_sibling"		"HudPlayerStatus"
 	}
 
 	"CHealthAccountPanel"
@@ -422,7 +420,7 @@
 		"fieldName"				"CurrencyStatusPanel"
 		"xpos"					"2"
 		"ypos"					"r68"
-		"xpos_minmode"					"c-129"
+		"xpos_minmode"					"c-126"
 		"ypos_minmode"					"rs2+1"
 		"wide"					"100"
 		"tall"					"20"

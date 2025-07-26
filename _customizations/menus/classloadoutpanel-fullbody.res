@@ -4,11 +4,7 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"c-255"
-		"ypos"				"30"
 		"zpos"				"-1"
-		"wide"				"320"
-		"tall"				"350"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

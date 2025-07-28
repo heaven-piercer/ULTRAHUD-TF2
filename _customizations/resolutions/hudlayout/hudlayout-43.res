@@ -9,6 +9,7 @@
 		"enabled"				"1"
 		"xpos"					"519"
 		"ypos"					"c-88"
+		"ypos_minmode"					"r153"
 		"wide"					"640"
 		"tall"					"480"
 	}

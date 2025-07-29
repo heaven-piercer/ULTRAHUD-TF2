@@ -1,0 +1,17 @@
+"Resource/HudLayout.res"
+{
+	
+	"BuildingStatusAnchor"
+	{
+		"fieldName"				"BuildingStatusAnchor"
+		"ControlName"			"EditablePanel"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"647"
+		"ypos"					"c-88"
+		"ypos_minmode"					"r153"
+		"wide"					"640"
+		"tall"					"480"
+	}
+
+}

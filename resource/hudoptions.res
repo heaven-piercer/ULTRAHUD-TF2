@@ -15,47 +15,16 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"cs-0.5"
+			"ypos"			"16"
 			"zpos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"600"
+			"tall"			"420"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 		
-			"TerminalBG"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"TerminalBG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-4"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"		"replay/thumbnails/content"
-			}
-
-			"TerminalBG2"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"TerminalBG2"
-				"xpos"			"cs-0.5"
-				"ypos"			"30"
-				"zpos"			"-3"
-				"wide"			"f30"
-				"tall"			"f40"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"		"replay/thumbnails/inset"
-				"alpha"		"200"
-			}
-			
 			"BackgroundHeader"
 			{
 				"ControlName"		"ImagePanel"
@@ -63,13 +32,85 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"-2"
-				"wide"				"f0"
+				"wide"				"600"
 				"tall"				"20"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
 				"image"				"replay/thumbnails/header"
 				"tileImage"			"1"
+			}
+
+			"HeaderIcon"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"HeaderIcon"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"-1"
+				"wide"				"20"
+				"tall"				"20"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"image"				"replay/thumbnails/smileos/magnifying_glass"
+				"tileImage"			"1"
+			}
+
+			"TerminalBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TerminalBG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-4"
+				"wide"			"600"
+				"tall"			"400"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"		"replay/thumbnails/content"
+				
+				"pin_to_sibling"		"BackgroundHeader"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"TerminalBG2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TerminalBG2"
+				"xpos"			"-5"
+				"ypos"			"-5"
+				"zpos"			"-3"
+				"wide"			"590"
+				"tall"			"390"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"		"replay/thumbnails/inset"
+				"alpha"		"200"
+
+				"pin_to_sibling"	"TerminalBG"
+			}
+
+			"buttons"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"buttons"
+				"xpos"			"-5"
+				"ypos"			"-3"
+				"zpos"			"53"
+				"wide"			"60"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/smileos_buttons"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+
+				"pin_to_sibling"		"BackgroundHeader"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 			}
 
 			"HeaderIcon"
@@ -86,22 +127,6 @@
 				"scaleImage"		"1"
 				"image"				"replay/thumbnails/smileos/gear"
 				"tileImage"			"1"
-			}
-
-			"buttons"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"buttons"
-				"xpos"			"rs1-5"
-				"ypos"			"3"
-				"zpos"			"53"
-				"wide"			"60"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/smileos_buttons"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
 			}
 
 			"headerlabel"				
@@ -157,45 +182,16 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"		"0"
 		}
-		
-	
-
-		"exitbutton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"exitbutton"
-			"xpos"			"rs1-5"
-			"ypos"			"3"
-			"zpos"			"10"
-			"wide"			"60"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"default"		"0"
-			"actionsignallevel"	"2"
-			"font"		"Tahoma32"
-			"labelText"		""
-			"Command"			"engine cl_mainmenu_safemode 0"
-			
-			"defaultfgcolor_override"	"ColorWhite"	
-			"armedfgcolor_override"		"ColorRed"
-
-			"defaultbgcolor_override"		"Transparent"
-			"armedbgcolor_override"		"255 255 255 3"
-			"depressedBgColor_override"		"ColorRed"
-		}
 
 		"exitbutton2"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"exitbutton2"
-			"xpos"			"rs1-30"
-			"ypos"			"25"
+			"xpos"			"-552"
+			"ypos"			"-2"
 			"zpos"			"91"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -208,21 +204,54 @@
 			"Command"			"engine cl_mainmenu_safemode 0"
 			
 			"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"Transparent"	
-					"depressedBgColor_override"		"ColorRed"
+			"defaultBgColor_override"	"Transparent"	
+			"depressedBgColor_override"		"ColorRed"
 
-					"defaultfgcolor_override"		"ColorRed"
-					"armedfgcolor_override"		"ColorRed"
-					"depressedfgcolor_override"		"colorwhite"
+			"defaultfgcolor_override"		"ColorRed"
+			"armedfgcolor_override"		"ColorRed"
+			"depressedfgcolor_override"		"colorwhite"
+
+			"pin_to_sibling"	"menuscroller"
 
 				"SubImage"
 				{
 					image replay/thumbnails/buttons/back
 					scaleImage 1
-					wide 32
-					tall 32
+					"xpos"		"-4"
+					"ypos"		"-4"
+					wide 38
+					tall 38
 				}
-		}	
+		}
+
+		"secretexitbutton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"secretexitbutton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-999"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"default"		"0"
+			"actionsignallevel"	"2"
+			"textAlignment"		"center"
+			"font"		"Tahoma32"
+			"labelText"		""
+			"Command"			"engine cl_mainmenu_safemode 0"
+			
+			"armedBgColor_override"		"0 0 0 150"	
+			"defaultBgColor_override"	"0 0 0 100"	
+			"depressedBgColor_override"		"0 0 0 200"
+
+			"defaultfgcolor_override"		"ColorRed"
+			"armedfgcolor_override"		"ColorRed"
+			"depressedfgcolor_override"		"colorwhite"
+		}		
 
 		
 
@@ -231,12 +260,14 @@
 		{
 			"ControlName"		"CScrollableList"
 			"fieldName"		"menuscroller"
-			"xpos"		"0"
-			"ypos"		"35"
+			"xpos"		"-7"
+			"ypos"		"-30"
 			"zpos"		"90"
-			"wide"		"f0"
-			"tall"		"f50"
+			"wide"		"590"
+			"tall"		"f100"
 			"visible"	"1"
+
+			"pin_to_sibling"		"Background"
 
 			
 
@@ -244,9 +275,9 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"		"r30"
-				"ypos"		"0"
-				"tall"		"f0"
+				"xpos"		"570"
+				"ypos"		"30"
+				"tall"		"f27"
 				"wide"		"8"
 				"nobuttons"		"0"
 				"proportionaltoparent"	"1"
@@ -274,10 +305,10 @@
 {
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Customization"
-		"xpos"		"cs-0.5-20"
+		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"770"
-		"tall"		"1530"
+		"wide"		"550"
+		"tall"		"1550"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -291,7 +322,7 @@
 				fieldName Crosshairs
 				xpos	0
 				ypos	0
-				wide 770
+				wide 550
 				tall 280
 				visible 1
 				enabled 1
@@ -303,7 +334,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -319,7 +350,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"270"
 					"visible"		"1"
 					"enabled"		"1"
@@ -359,7 +390,7 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
+					"wide"			"540"
 					"tall"			"260"
 					"visible"		"1"
 					"enabled"		"1"
@@ -413,8 +444,8 @@
 					"ControlName"	"CExButton"	
 					"fieldname"	"Crosshair 1"
 					
-					"xpos"	"0"	
-					"ypos"	"5"	
+					"xpos"	"7"	
+					"ypos"	"41"	
 					"zpos"	"16"	
 					"wide"	"16"	
 					"tall"	"16"
@@ -436,9 +467,6 @@
 					"depressedBgColor_override"		"ColorRed"
 
 					"fgcolor_override"		"ColorWhite"	
-
-					"pin_to_sibling"	"CrosshairStyleLabel"
-					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"	
 					
 				}
 
@@ -2425,7 +2453,7 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"640"	
+					"wide"	"432"	
 					"tall"	"16"
 					
 					"font"	"Tahoma16"	
@@ -2456,7 +2484,7 @@
 				{
 					"ControlName"			"CExLabel"
 					"fieldName"				"CrosshairSizeLabel"
-					"xpos"					"0"
+					"xpos"					"-3"
 					"ypos"					"5"
 					"zpos"					"100"
 					"wide"					"360"
@@ -2478,7 +2506,7 @@
 					"ControlName"	"CExButton"	
 					"fieldname"	"Size 10"
 					
-					"xpos"	"0"	
+					"xpos"	"3"	
 					"ypos"	"5"	
 					"zpos"	"16"	
 					"wide"	"16"	
@@ -2766,7 +2794,7 @@
 				{
 					"ControlName"			"CExLabel"
 					"fieldName"				"HitmarkerLabel"
-					"xpos"					"0"
+					"xpos"					"-3"
 					"ypos"					"5"
 					"zpos"					"100"
 					"wide"					"360"
@@ -2788,7 +2816,7 @@
 					"ControlName"	"CExButton"	
 					"fieldname"	"hitmarker 1"
 					
-					"xpos"	"0"	
+					"xpos"	"3"	
 					"ypos"	"5"	
 					"zpos"	"16"	
 					"wide"	"16"	
@@ -4800,7 +4828,7 @@
 					"xpos"	"10"	
 					"ypos"	"0"	
 					"zpos"	"16"	
-					"wide"	"640"	
+					"wide"	"432"	
 					"tall"	"16"
 					
 					"font"	"Tahoma16"	
@@ -4831,7 +4859,7 @@
 				{
 					"ControlName"			"CExLabel"
 					"fieldName"				"HitmarkerSizeLabel"
-					"xpos"					"0"
+					"xpos"					"-3"
 					"ypos"					"5"
 					"zpos"					"100"
 					"wide"					"360"
@@ -4853,7 +4881,7 @@
 					"ControlName"	"CExButton"	
 					"fieldname"	"hitSize 10"
 					
-					"xpos"	"0"	
+					"xpos"	"3"	
 					"ypos"	"5"	
 					"zpos"	"16"	
 					"wide"	"16"	
@@ -5143,8 +5171,8 @@
 				fieldName Colors
 				xpos	0
 				ypos	5
-				wide 770
-				tall 210
+				wide 550
+				tall 254
 				visible 1
 				enabled 1
 
@@ -5159,7 +5187,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -5175,8 +5203,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
-					"tall"			"200"
+					"wide"			"550"
+					"tall"			"244"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -5215,8 +5243,8 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
-					"tall"			"190"
+					"wide"			"540"
+					"tall"			"234"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -5933,7 +5961,7 @@
 						xpos	7
 						ypos	70
 						wide 600
-						tall 100
+						tall 120
 						visible 1
 						enabled 1
 
@@ -7002,8 +7030,8 @@
 						{
 							ControlName "EditablePanel"
 							fieldName hurt
-							xpos	435
-							ypos	20
+							xpos	0
+							ypos	63
 							wide 140
 							tall 100
 							visible 1
@@ -7353,7 +7381,7 @@
 						ControlName "EditablePanel"
 						fieldName AmmoColors
 						xpos	7
-						ypos	140
+						ypos	185
 						wide 500
 						tall 100
 						visible 1
@@ -8115,7 +8143,7 @@
 				fieldName VModels
 				xpos	0
 				ypos	5
-				wide 770
+				wide 550
 				tall 100
 				visible 1
 				enabled 1
@@ -8130,7 +8158,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8146,7 +8174,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"90"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8186,7 +8214,7 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
+					"wide"			"540"
 					"tall"			"80"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8222,7 +8250,7 @@
 						"xpos"	"7"	
 						"ypos"	"17"	
 						"zpos"	"15"	
-						"wide"	"700"	
+						"wide"	"530"	
 						"tall"	"20"
 
 						"SubButton"
@@ -8254,7 +8282,7 @@
 							
 							"xpos"	"160"	
 							"ypos"	"5"	
-							"wide"	"500"	
+							"wide"	"370"	
 							"tall"	"20"
 							
 							"leftText"	"0"	
@@ -8294,7 +8322,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -8326,7 +8355,8 @@
 					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"armedBgColor_override"		"255 255 255 3"	
-					"defaultBgColor_override"	"ColorBlack"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
 
 					"fgcolor_override"		"ColorWhite"
 
@@ -8341,7 +8371,7 @@
 				fieldName Sound
 				xpos	0
 				ypos	5
-				wide 770
+				wide 550
 				tall 100
 				visible 1
 				enabled 1
@@ -8356,7 +8386,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8372,7 +8402,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"90"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8412,7 +8442,7 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
+					"wide"			"540"
 					"tall"			"80"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8452,7 +8482,7 @@
 						"xpos"	"3"	
 						"ypos"	"17"	
 						"zpos"	"15"	
-						"wide"	"350"	
+						"wide"	"260"	
 						"tall"	"20"
 
 						"SubButton"
@@ -8484,11 +8514,11 @@
 							
 							"xpos"	"80"	
 							"ypos"	"5"	
-							"wide"	"270"	
+							"wide"	"180"	
 							"tall"	"20"
 							
 							"leftText"	"0"	
-							"rightText"	"100"
+							"rightText"	"180"
 							
 							"minvalue"	"0"	
 							"maxvalue"	"100"
@@ -8508,7 +8538,7 @@
 						"xpos"	"10"	
 						"ypos"	"0"	
 						"zpos"	"15"	
-						"wide"	"350"	
+						"wide"	"260"	
 						"tall"	"20"
 
 						"pin_to_sibling"		"volume"
@@ -8543,7 +8573,7 @@
 							
 							"xpos"	"80"	
 							"ypos"	"5"	
-							"wide"	"270"	
+							"wide"	"180"	
 							"tall"	"20"
 							
 							"leftText"	"0"	
@@ -8567,7 +8597,7 @@
 						"xpos"	"0"	
 						"ypos"	"2"	
 						"zpos"	"15"	
-						"wide"	"350"	
+						"wide"	"260"	
 						"tall"	"20"
 
 						"pin_to_sibling"		"volume"
@@ -8602,7 +8632,7 @@
 							
 							"xpos"	"80"	
 							"ypos"	"5"	
-							"wide"	"270"	
+							"wide"	"180"	
 							"tall"	"20"
 							
 							"leftText"	"0"	
@@ -8626,7 +8656,7 @@
 						"xpos"	"10"	
 						"ypos"	"0"	
 						"zpos"	"15"	
-						"wide"	"350"	
+						"wide"	"260"	
 						"tall"	"20"
 
 						"pin_to_sibling"		"HitVolume"
@@ -8661,7 +8691,7 @@
 							
 							"xpos"	"80"	
 							"ypos"	"5"	
-							"wide"	"270"	
+							"wide"	"180"	
 							"tall"	"20"
 							
 							"leftText"	"0"	
@@ -8682,8 +8712,8 @@
 				fieldName Backgrounds
 				xpos	0
 				ypos	5
-				wide 770
-				tall 290
+				wide 550
+				tall 400
 				visible 1
 				enabled 1
 
@@ -8697,7 +8727,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -8713,8 +8743,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
-					"tall"			"280"
+					"wide"			"550"
+					"tall"			"390"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -8753,8 +8783,8 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
-					"tall"			"270"
+					"wide"			"540"
+					"tall"			"380"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -8785,10 +8815,10 @@
 					{
 						"ControlName"	"CExButton"
 						"fieldName"		"RandomButton"
-						"xpos"			"25"
+						"xpos"			"7"
 						"ypos"			"17"
 						"zpos"			"2"
-						"wide"			"718"
+						"wide"			"536"
 						"tall"			"28"
 						"pinCorner"		"3"
 						"visible"		"1"
@@ -8814,11 +8844,11 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "ActOneImage"
-						"xpos"             "0"
+						"xpos"             "-17"
 						"ypos"             "2"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/background_upward"
@@ -8835,8 +8865,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -8848,7 +8878,8 @@
 						"sound_released"	"UI/buttonclickrelease.wav"
 
 						"armedBgColor_override"		"255 255 255 3"	
-						"defaultBgColor_override"	"Transparent"	
+						"defaultBgColor_override"	"Transparent"
+						"depressedBgColor_override"		"ColorREd"	
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -8862,8 +8893,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/background_gabe"
@@ -8880,8 +8911,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -8894,6 +8925,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -8907,8 +8939,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"labeltext"			"ERR 404"
@@ -8928,8 +8960,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -8942,6 +8974,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -8955,8 +8988,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/mannequins"
@@ -8973,8 +9006,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -8986,7 +9019,8 @@
 						"sound_released"	"UI/buttonclickrelease.wav"
 
 						"armedBgColor_override"		"255 255 255 3"	
-						"defaultBgColor_override"	"Transparent"	
+						"defaultBgColor_override"	"Transparent"
+						"depressedBgColor_override"		"ColorREd"	
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9000,8 +9034,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/background_sirencallsong"
@@ -9018,8 +9052,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9032,6 +9066,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9042,18 +9077,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "SufferingLeavesImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/sufferingleaves"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"SirenSongImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"ActOneImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"SufferingLeavesButton"
@@ -9063,8 +9098,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9077,6 +9112,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9090,8 +9126,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/deepblue"
@@ -9108,8 +9144,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9122,6 +9158,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9132,18 +9169,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "DeathOdysseyImage"
-						"xpos"             "0"
-						"ypos"             "3"
+						"xpos"             "3"
+						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/deathodyssey"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"ActOneImage"
-						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+						"pin_to_sibling"		"DeepBlueImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 
 					"DeathOdysseyButton"
@@ -9153,8 +9190,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9167,6 +9204,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9180,8 +9218,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/gooseact3"
@@ -9198,8 +9236,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9212,6 +9250,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9225,8 +9264,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/goosefraud"
@@ -9243,8 +9282,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9257,6 +9296,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9267,18 +9307,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "GooseTreacheryImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/goosetreachery"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"GooseFraudImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"SufferingLeavesImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"GooseTreacheryButton"
@@ -9288,8 +9328,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9302,6 +9342,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9315,8 +9356,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/revamp"
@@ -9333,8 +9374,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9347,6 +9388,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9360,8 +9402,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/benjamin"
@@ -9378,8 +9420,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9392,6 +9434,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9405,8 +9448,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/encores"
@@ -9423,8 +9466,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9437,6 +9480,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9447,18 +9491,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "AltarsImage"
-						"xpos"             "0"
-						"ypos"             "3"
+						"xpos"             "3"
+						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/altarsofapostasy"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"DeathOdysseyImage"
-						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+						"pin_to_sibling"		"EncoresImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 
 					"AltarsButton"
@@ -9468,8 +9512,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9482,6 +9526,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9492,18 +9537,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "DeathOfGodsWillImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/deathofgodswill"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"AltarsImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"GooseTreacheryImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"DeathOfGodsWillButton"
@@ -9513,8 +9558,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9527,6 +9572,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9540,8 +9586,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/leviathan"
@@ -9558,8 +9604,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9572,6 +9618,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9585,8 +9632,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/scout"
@@ -9603,8 +9650,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9617,6 +9664,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9630,8 +9678,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/soldier"
@@ -9648,8 +9696,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9662,6 +9710,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9675,8 +9724,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/pyro"
@@ -9693,8 +9742,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9707,6 +9756,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9717,18 +9767,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "DemomanImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/demoman"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"PyroImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"DeathOfGodsWillImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"DemomanButton"
@@ -9738,8 +9788,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9752,6 +9802,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9762,18 +9813,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "HeavyImage"
-						"xpos"             "0"
-						"ypos"             "3"
+						"xpos"             "3"
+						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/heavy"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"AltarsImage"
-						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+						"pin_to_sibling"		"DemomanImage"
+						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 					}
 
 					"HeavyButton"
@@ -9783,8 +9834,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9797,6 +9848,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9810,8 +9862,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/engineer"
@@ -9828,8 +9880,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9842,6 +9894,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9855,8 +9908,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/medic"
@@ -9873,8 +9926,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9887,6 +9940,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9900,8 +9954,8 @@
 						"xpos"             "3"
 						"ypos"             "0"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/sniper"
@@ -9918,8 +9972,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9932,6 +9986,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9942,18 +9997,18 @@
 					{
 						"ControlName"      "ImagePanel"
 						"fieldName"        "SpyImage"
-						"xpos"             "3"
-						"ypos"             "0"
+						"xpos"             "0"
+						"ypos"             "3"
 						"zpos"             "1"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"visible"          "1"
 						"enabled"			"1"
 						"image"				"../console/spy"
 						"scaleImage"		"1"
 
-						"pin_to_sibling"		"SniperImage"
-						"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+						"pin_to_sibling"		"DemomanImage"
+						"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 					}
 
 					"SpyButton"
@@ -9963,8 +10018,8 @@
 						"xpos"			"0"
 						"ypos"			"0"
 						"zpos"			"2"
-						"wide"			"100"
-						"tall"			"56"
+						"wide"			"96"
+						"tall"			"54"
 						"pinCorner"		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -9977,6 +10032,7 @@
 
 						"armedBgColor_override"		"255 255 255 3"	
 						"defaultBgColor_override"	"Transparent"	
+						"depressedBgColor_override"		"ColorREd"
 
 						"fgcolor_override"		"ColorWhite"
 
@@ -9990,7 +10046,7 @@
 				fieldName StreamerMode
 				xpos	0
 				ypos	5
-				wide 770
+				wide 550
 				tall 160
 				visible 1
 				enabled 1
@@ -10005,7 +10061,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -10021,7 +10077,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"150"
 					"visible"		"1"
 					"enabled"		"1"
@@ -10061,7 +10117,7 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
+					"wide"			"540"
 					"tall"			"140"
 					"visible"		"1"
 					"enabled"		"1"
@@ -10096,7 +10152,7 @@
 				"xpos"					"7"
 				"ypos"					"17"
 				"zpos"					"100"
-				"wide"					"285"
+				"wide"					"205"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10114,8 +10170,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"140"
-				"tall"			"100"
+				"wide"			"100"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10133,7 +10189,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"140"
+				"wide"					"100"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10154,8 +10210,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
-				"wide"			"140"
-				"tall"			"120"
+				"wide"			"100"
+				"tall"			"80"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10168,6 +10224,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10181,8 +10238,8 @@
 				"xpos"			"5"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"140"
-				"tall"			"100"
+				"wide"			"100"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10200,7 +10257,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"140"
+				"wide"					"100"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10221,8 +10278,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
-				"wide"			"140"
-				"tall"			"120"
+				"wide"			"100"
+				"tall"			"80"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10234,7 +10291,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
+				"defaultBgColor_override"	"Transparent"
+				"depressedBgColor_override"		"ColorREd"	
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10245,7 +10303,7 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"RankLabel"
-				"xpos"					"300"
+				"xpos"					"240"
 				"ypos"					"17"
 				"zpos"					"100"
 				"wide"					"285"
@@ -10267,7 +10325,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"140"
-				"tall"			"65"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10307,7 +10365,7 @@
 				"ypos"			"0"
 				"zpos"			"101"
 				"wide"			"140"
-				"tall"			"82"
+				"tall"			"77"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10320,6 +10378,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10334,7 +10393,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"140"
-				"tall"			"65"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10374,7 +10433,7 @@
 				"ypos"			"0"
 				"zpos"			"101"
 				"wide"			"140"
-				"tall"			"82"
+				"tall"			"77"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10386,7 +10445,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
+				"defaultBgColor_override"	"Transparent"
+				"depressedBgColor_override"		"ColorREd"	
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10399,8 +10459,8 @@
 				fieldName Miscellaneous
 				xpos	0
 				ypos	5
-				wide 770
-				tall 300
+				wide 550
+				tall 220
 				visible 1
 				enabled 1
 
@@ -10414,7 +10474,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -10430,8 +10490,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
-					"tall"			"290"
+					"wide"			"550"
+					"tall"			"210"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -10470,8 +10530,8 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
-					"tall"			"280"
+					"wide"			"540"
+					"tall"			"200"
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
@@ -10524,7 +10584,7 @@
 				"xpos"					"7"
 				"ypos"					"17"
 				"zpos"					"100"
-				"wide"					"205"
+				"wide"					"125"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10542,8 +10602,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"100"
+				"wide"			"60"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10561,7 +10621,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"100"
+				"wide"					"60"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10582,8 +10642,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
-				"wide"			"100"
-				"tall"			"120"
+				"wide"			"60"
+				"tall"			"80"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10596,6 +10656,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10609,8 +10670,8 @@
 				"xpos"			"5"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"100"
+				"wide"			"60"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10628,7 +10689,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"100"
+				"wide"					"60"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10649,8 +10710,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
-				"wide"			"100"
-				"tall"			"120"
+				"wide"			"60"
+				"tall"			"80"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -10663,6 +10724,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10676,7 +10738,7 @@
 				"xpos"					"10"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"245"
+				"wide"					"205"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10751,6 +10813,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10819,6 +10882,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10829,10 +10893,10 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"SpeedoLabel"
-				"xpos"					"10"
-				"ypos"					"0"
+				"xpos"					"0"
+				"ypos"					"70"
 				"zpos"					"100"
-				"wide"					"205"
+				"wide"					"245"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10842,7 +10906,7 @@
 				"fgcolor"				"ColorWhite"
 
 				"pin_to_sibling"		"TahomaStyleLabel"
-				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 
 			}
 
@@ -10906,6 +10970,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10974,7 +11039,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
+				"defaultBgColor_override"	"Transparent"
+				"depressedBgColor_override"		"ColorREd"	
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -10985,10 +11051,10 @@
 			{
 				"ControlName"			"CExLabel"
 				"fieldName"				"MainFontLabel"
-				"xpos"					"0"
-				"ypos"					"70"
+				"xpos"					"10"
+				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"245"
+				"wide"					"205"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -10998,7 +11064,7 @@
 				"fgcolor"				"ColorWhite"
 
 				"pin_to_sibling"		"TahomaStyleLabel"
-				"pin_to_sibling_corner"		"PIN_BottomLeft"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 			}
 
@@ -11062,7 +11128,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
+				"defaultBgColor_override"	"Transparent"
+				"depressedBgColor_override"		"ColorREd"	
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -11130,7 +11197,8 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
+				"defaultBgColor_override"	"Transparent"
+				"depressedBgColor_override"		"ColorREd"	
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -11142,9 +11210,9 @@
 				"ControlName"			"CExLabel"
 				"fieldName"				"TeamHeadLabel"
 				"xpos"					"0"
-				"ypos"					"120"
+				"ypos"					"80"
 				"zpos"					"100"
-				"wide"					"205"
+				"wide"					"125"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -11165,8 +11233,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"100"
+				"wide"			"60"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -11184,7 +11252,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"100"
+				"wide"					"60"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -11205,8 +11273,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
-				"wide"			"100"
-				"tall"			"120"
+				"wide"			"60"
+				"tall"			"80"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -11219,6 +11287,7 @@
 
 				"armedBgColor_override"		"255 255 255 3"	
 				"defaultBgColor_override"	"Transparent"	
+				"depressedBgColor_override"		"ColorREd"
 
 				"fgcolor_override"		"ColorWhite"
 
@@ -11232,8 +11301,8 @@
 				"xpos"			"5"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"100"
-				"tall"			"100"
+				"wide"			"60"
+				"tall"			"60"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -11251,7 +11320,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"
-				"wide"					"100"
+				"wide"					"60"
 				"tall"					"18"
 				"visible"				"1"
 				"enabled"				"1"
@@ -11272,8 +11341,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"101"
-				"wide"			"100"
-				"tall"			"120"
+				"wide"			"60"
+				"tall"			"80"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -11285,12 +11354,133 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"armedBgColor_override"		"255 255 255 3"	
-				"defaultBgColor_override"	"Transparent"	
+				"defaultBgColor_override"	"Transparent"
+				"depressedBgColor_override"		"ColorREd"	
 
 				"fgcolor_override"		"ColorWhite"
 
 				"pin_to_sibling"		"FullTeamHeadImage"
 			}
+
+			"ResolutionLabel"
+			{
+				"ControlName"			"CExLabel"
+				"fieldName"				"ResolutionLabel"
+				"xpos"					"30"
+				"ypos"					"0"
+				"zpos"					"100"
+				"wide"					"80"
+				"tall"					"18"
+				"visible"				"1"
+				"enabled"				"1"
+				"font"					"Tahoma14"
+				"labeltext"				"Aspect Ratio"
+				"textAlignment"			"center"
+				"fgcolor"				"ColorWhite"
+
+				"pin_to_sibling"	"SpeedoLabel"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+
+			}
+
+			"4/3Button"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"4/3Button"
+					
+					"xpos"	"0"	
+					"ypos"	"5"	
+					"zpos"	"16"	
+					"wide"	"80"	
+					"tall"	"18"
+					
+					"font"	"Tahoma16"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine ultrahud_4/3;fullhudreload"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"4/3"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"ResolutionLabel"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+
+				"16/9Button"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"16/9Button"
+					
+					"xpos"	"0"	
+					"ypos"	"5"	
+					"zpos"	"16"	
+					"wide"	"80"	
+					"tall"	"18"
+					
+					"font"	"Tahoma16"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine ultrahud_16/9;fullhudreload"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"16/9"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"4/3Button"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+
+				"16/10Button"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"16/10Button"
+					
+					"xpos"	"0"	
+					"ypos"	"5"	
+					"zpos"	"16"	
+					"wide"	"80"	
+					"tall"	"18"
+					
+					"font"	"Tahoma16"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine ultrahud_16/10;fullhudreload"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"16/10"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"16/9Button"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
 
 		}
 			
@@ -11304,10 +11494,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Utilities"
-		"xpos"		"cs-0.5-20"
-		"ypos"		"1500"
-		"wide"		"770"
-		"tall"		"160"
+		"xpos"		"0"
+		"ypos"		"1550"
+		"wide"		"550"
+		"tall"		"130"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -11322,7 +11512,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-7"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
@@ -11338,7 +11528,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"-8"
-					"wide"			"770"
+					"wide"			"550"
 					"tall"			"120"
 					"visible"		"1"
 					"enabled"		"1"
@@ -11378,7 +11568,7 @@
 					"xpos"			"-5"
 					"ypos"			"-5"
 					"zpos"			"-8"
-					"wide"			"760"
+					"wide"			"540"
 					"tall"			"110"
 					"visible"		"1"
 					"enabled"		"1"
@@ -11412,7 +11602,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ItemTestButton"
-		"xpos"			"7"
+		"xpos"			"10"
 		"ypos"			"17"
 		"zpos"			"2"
 		"wide"			"80"
@@ -11569,39 +11759,6 @@
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		
 	}
-	
-	"target pos"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"target pos"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine toggle tf_spectator_target_location"
-		"actionsignallevel"		"4"
-		"labelText"		"target.pos."
-		"allcaps"		"1"
-		"font"			"Tahoma14"
-		"textAlignment"	"center"
-		
-		"sound_depressed"	"UI/buttonclick.wav"	
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"
-		"depressedBgColor_override"		"ColorRed"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"fullReload"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
 
 
 
@@ -11633,40 +11790,7 @@
 
 		"fgcolor_override"		"ColorWhite"
 
-		"pin_to_sibling"		"target pos"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		
-	}
-
-	"3d icons"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"3d icons"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"Command"		"engine toggle cl_hud_playerclass_use_playermodel"
-		"actionsignallevel"		"4"
-		"labelText"		"classmodel"
-		"allcaps"		"1"
-		"font"			"Tahoma14"
-		"textAlignment"	"center"
-		
-		"sound_depressed"	"UI/buttonclick.wav"	
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"armedBgColor_override"		"255 255 255 3"	
-		"defaultBgColor_override"	"ColorBlack"
-		"depressedBgColor_override"		"ColorRed"	
-
-		"fgcolor_override"		"ColorWhite"
-
-		"pin_to_sibling"		"chat on/off"
+		"pin_to_sibling"		"fullreload"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		
 	}
@@ -11678,7 +11802,7 @@
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"710"
+		"wide"			"530"
 		"tall"			"30"
 		"pinCorner"		"3"
 		"visible"		"1"

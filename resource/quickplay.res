@@ -71,7 +71,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"f0"
-		"tall"		"421"
+		"tall"		"f0"
 		"zpos"		"100"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -346,9 +346,9 @@
 		"command"		"motd_hide"
 		"sound_depressed"	"ui/buttonclick.wav"
 
-		"defaultBgColor_override"	"Transparent"
-		"armedBgColor_override"		"Transparent"
-		"depressedBgColor_override"	"Transparent"
+		"defaultBgColor_override"	"0 0 0 100"
+		"armedBgColor_override"		"0 0 0 150"
+		"depressedBgColor_override"	"0 0 0 200"
 
 		"defaultFgColor_override"	"ColorRed"
 		"armedFgColor_override"	"ColorRed"

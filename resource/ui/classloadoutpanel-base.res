@@ -410,7 +410,7 @@
 		"xpos"                    "0"
 		"zpos"                    "20"
 		"wide"                    "130"
-		"tall"                    "135"
+		"tall"                    "25"
 		"visible"                "1"
 		"ignorescheme"            "1"
 		"pin_to_sibling"        "presetpinner"

@@ -75,10 +75,10 @@
 				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
 			}
 
-			"TerminalBG2"
+			"inset"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"		"TerminalBG2"
+				"fieldName"		"inset"
 				"xpos"			"-5"
 				"ypos"			"-5"
 				"zpos"			"-3"

@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"Transparent"
 
 		"item_ypos"					"60"
 		"item_ydelta"				"80"
@@ -87,71 +87,174 @@
 		}
 	}
 
+	"BackgroundHeader"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"BackgroundHeader"
+				"xpos"				"cs-0.5"
+				"ypos"				"0"
+				"zpos"				"-2"
+				"wide"				"600"
+				"tall"				"20"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"image"				"replay/thumbnails/header"
+				"tileImage"			"1"
+			}
+
+			"HeaderIcon"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"			"HeaderIcon"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"-1"
+				"wide"				"20"
+				"tall"				"20"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"image"				"replay/thumbnails/smileos/magnifying_glass"
+				"tileImage"			"1"
+
+				"pin_to_sibling"	"BackgroundHeader"
+			}
+
+			"TerminalBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TerminalBG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-4"
+				"wide"			"600"
+				"tall"			"372"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"		"replay/thumbnails/content"
+				
+				"pin_to_sibling"		"BackgroundHeader"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			"inset"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"inset"
+				"xpos"			"-5"
+				"ypos"			"-5"
+				"zpos"			"-3"
+				"wide"			"590"
+				"tall"			"362"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"		"replay/thumbnails/inset"
+				"alpha"		"200"
+
+				"pin_to_sibling"	"TerminalBG"
+			}
+
+			"buttons"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"buttons"
+				"xpos"			"-5"
+				"ypos"			"-3"
+				"zpos"			"53"
+				"wide"			"60"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/smileos_buttons"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+
+				"pin_to_sibling"		"BackgroundHeader"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+			}
+
 	"CaratLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontMediumSmall"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-290"
-		"ypos"			"26"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "ColorPurple"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMedium"
+		"font"			"Tahoma16"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-270"
-		"ypos"			"15"
+		"xpos"			"-21"
+		"ypos"			"1"
 		"zpos"			"1"
-		"wide"			"350"
-		"tall"			"40"
+		"auto_wide_tocontents" "1"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"		"BackgroundHeader"
+	}
+
+	"ClassLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassLabelShadow"
+		"font"			"Tahoma16"
+		"labelText"		"#ClassBeingEquipped"
+		"textAlignment"	"west"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"auto_wide_tocontents" "1"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"		"ClassLabel"
 	}
 
 	"NameFilterLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Tahoma18"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c+175"
-		"ypos"			"12"
+		"xpos"			"-9"
+		"ypos"			"-7"
 		"zpos"			"1"
-		"wide"			"120"
+		"auto_wide_tocontents"	"1"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorwHITE"
+
+		"pin_to_sibling"		"inset"
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"font"			"HudFontSmallest"
-		"xpos"			"c+175"
-		"ypos"			"30"
+		"font"			"Tahoma16"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"19"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -160,9 +263,12 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"DarkerGrey"
-		"bgcolor_override"	"TanLight"
+		"fgcolor_override"	"ColorBlack"
+		"bgcolor_override"	"ColorWhite"
 		"paintbackgroundtype" "2"
+
+		"pin_to_sibling"		"NameFilterLabel"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"TopLine"
@@ -182,18 +288,43 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontMedium"
+		"font"			"Tahoma16"
 		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"center"
-		"xpos"			"c-185"
-		"ypos"			"24"
+		"textAlignment"	"west"
+		"xpos"			"3"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"375"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"	"ClassLabel"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}
+
+	"ItemSlotLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemSlotLabelShadow"
+		"font"			"Tahoma16"
+		"labelText"		"#PrimaryWeapon"
+		"textAlignment"	"west"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"375"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"allcaps"		"1"
+		"fgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"	"ItemSlotLabel"
 	}
 
 	"NoItemsLabel"
@@ -264,10 +395,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c-20"
-		"ypos"			"290"
+		"xpos"			"-7"
+		"ypos"			"-260"
 		"zpos"			"20"
-		"wide"			"200"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -275,7 +406,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Selection_ShowBackpack"
-		"font"			"HudFontMediumSmall"
+		"font"			"Tahoma18"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -284,6 +415,15 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"inset"
 	}
 	"ShowSelection"
 	{
@@ -315,10 +455,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"290"
+		"xpos"			"10"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"30"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -334,17 +474,27 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"ShowBackpack"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmall"
+		"font"			"Tahoma16"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"290"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -352,17 +502,20 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "ColorRed"
+		"fgcolor_override" "ColorWhite"
+
+		"pin_to_sibling"		"PrevPageButton"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"290"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"30"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -375,8 +528,19 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
+
+		"pin_to_sibling"		"CurPageLabel"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 
 	"mouseoveritempanel"

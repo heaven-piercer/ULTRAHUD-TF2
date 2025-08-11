@@ -10452,6 +10452,72 @@
 
 				"pin_to_sibling"		"HideRankImage"
 			}
+
+			"ShowKillfeedButton"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"ShowKillfeedButton"
+					
+					"xpos"	"0"	
+					"ypos"	"10"	
+					"zpos"	"16"	
+					"wide"	"100"	
+					"tall"	"26"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine killfeed_show"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"SHOW KILLFEED NAMES"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"defaultFriendsButton"
+					"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+				}
+
+			"HideKillfeedButton"
+				{
+					"ControlName"	"CExButton"	
+					"fieldname"	"HideKillfeedButton"
+					
+					"xpos"	"10"	
+					"ypos"	"0"	
+					"zpos"	"16"	
+					"wide"	"100"	
+					"tall"	"26"
+					
+					"font"	"Tahoma10"	
+					"visible"	"1"
+					"enabled"	"1"	
+					"command"	"engine killfeed_hide"	
+					"actionsignallevel"	"5"	
+					
+					"labeltext"	"HIDE KILLFEED NAMES"	
+					"textAlignment"	"center"	
+					
+					"sound_depressed"	"UI/buttonclick.wav"	
+					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					"armedBgColor_override"		"255 255 255 3"	
+					"defaultBgColor_override"	"ColorBlack"
+					"depressedBgColor_override"		"ColorREd"	
+
+					"fgcolor_override"		"ColorWhite"
+
+					"pin_to_sibling"		"ShowKillfeedButton"
+					"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+				}	
 		}
 
 		"Miscellaneous"{

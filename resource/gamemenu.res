@@ -82,12 +82,6 @@
 		"command"		"questlog"
 		"tooltip"		"#TF_QuestMap_Intro_Title"
 	}
-	"HudOptionsButton"
-	{
-		"label"			"w"
-		"command"		"engine cl_mainmenu_safemode 1"
-		"tooltip"		"#TF_OptionCategory_HUD"
-	}
 	"QuitButton"
 	{
 		"command"		"engine quit"

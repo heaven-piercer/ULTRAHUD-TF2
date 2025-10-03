@@ -128,13 +128,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"rs1-10"
-		"ypos"			"75"
+		"xpos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling" "HomeServerButton"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -165,47 +169,43 @@
 
 	"HudOptionsButton"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"HudOptionsButton"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		"command"		"engine cl_mainmenu_safemode 1;"
+		"font"				"Cerbetica20alt"
+		"labeltext"			" "
+		"use_proportional_insets" "1"
+		"textAlignment"		"center"
 
-		"pin_to_sibling"	"QuestLogButton"
+		"pin_to_sibling"	"SettingButton"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"			"SubButton"
-			"xpos"				"0"
-			"ypos"				"0"
-			"wide"				"20"
-			"tall"				"20"
-			"autoResize"		"0"
-			"pinCorner"			"3"
-			"visible"			"1"
-			"enabled"			"1"
-			"tabPosition"		"0"
-			"font"				"CustomIcons"
-			"labeltext"			"L"
-			"use_proportional_insets" "1"
-			"textAlignment"		"center"
-			"default"			"1"
-			"actionsignallevel" "2"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"command"		"engine cl_mainmenu_safemode 1;"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"ColorRed"
+		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"255 255 255 3"
+		"depressedBgColor_override"	"ColorRed"
+
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override"	"255 255 255 255"
+
+		"SubImage"
+		{
+			image "replay/thumbnails/uk_logo_transparent"
+			scaleImage 1
+			xpos "-2"
+			ypos "-2"
+			"wide"	24
+			tall 24
 		}
 	}
 
@@ -213,15 +213,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HomeServerButton"
-		"xpos"			"0"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-		"pin_to_sibling"	"HudOptionsButton"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling"	"CoachPlayersButton"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
 		"SubButton"
 		{

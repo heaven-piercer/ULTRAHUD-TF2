@@ -1283,16 +1283,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"20"
-		"ypos"			"0"
+		"xpos"			"c-40"
+		"ypos"			"r90"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
-
-		"pin_to_sibling"			"CoachPlayersButton"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1326,16 +1322,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"0"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
-		"pin_to_sibling"			"HomeServerButton"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_to_sibling"			"RequestCoachButton"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1369,16 +1365,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"0"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
 		"pin_to_sibling"			"CallVoteButton"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1412,16 +1408,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"0"
-		"ypos"			"20"
+		"xpos"			"20"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
 		"pin_to_sibling"			"MutePlayersButton"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 
 		"SubButton"
 		{

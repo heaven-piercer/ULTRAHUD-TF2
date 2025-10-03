@@ -15,13 +15,13 @@
 		"tabPosition"		"0"
 		"medal_width"		"28"
 		"medal_column_width"	"18"
-		"avatar_width"		"50"
-		"spacer"			"5"
-		"name_width"		"150"
-		"nemesis_width"		"20"
-		"class_width"		"20"
+		"avatar_width"		"25"
+		"spacer"			"10"
+		"name_width"		"1000"
+		"nemesis_width"		"10"
+		"class_width"		"15"
 		"score_width"		"25"
-		"ping_width"		"20"
+		"ping_width"		"15"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
@@ -29,13 +29,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"c-265"
-		"ypos"			"144"
+		"xpos"			"cs-1-1"
+		"ypos"			"100"
 		"wide"			"270"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Blue"
+		"paintBackgroundType"	"2"
+		"roundedcorners"		"1"
 
 		if_mvm
 		{
@@ -46,32 +48,30 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c1"
+		"ypos"			"100"
 		"wide"			"270"
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Red"
-
-		"pin_to_sibling"		"BlueScoreBG"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"paintBackgroundType"	"2"
+		"roundedcorners"		"2"
 
 		if_mvm
 		{
 			"visible"	"0"
 		}
 	}
-	"MainBG"
+	"BlueListBG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MainBG"
+		"fieldName"		"BlueListBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"540"
-		"tall"			"315"
+		"wide"			"270"
+		"tall"			"208"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
@@ -85,18 +85,65 @@
 			"visible"	"0"
 		}
 	}
+
+	"RedListBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RedListBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"270"
+		"tall"			"208"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentBlack"
+
+		"pin_to_sibling"		"RedScoreBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+	}
+
+	"MiscDataBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MiscDataBG"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"542"
+		"tall"			"105"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"paintBackgroundType"	"2"
+		"roundedcorners"		"12"
+
+		"pin_to_sibling"		"BlueListBG"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
+	}
 	
 	"BlueTeamName"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamName"
-		"font"			"HudFontMediumBig"
+		"font"			"Cerbetica20alt"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"270"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -174,21 +221,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"HudFontSmall"
+		"font"			"Cerbetica8alt"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"west"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-2"
 		"wide"			"270"
-		"tall"			"15"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"		"BlueScoreBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"		"BlueTeamName"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
@@ -200,13 +246,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamName"
-		"font"			"HudFontMediumBig"
+		"font"			"Cerbetica20alt"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"270"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -284,21 +330,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"HudFontSmall"
+		"font"			"Cerbetica8alt"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"east"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"1"
+		"ypos"			"-2"
 		"wide"			"270"
-		"tall"			"15"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"		"RedScoreBG"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling"		"RedTeamName"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		if_mvm
 		{
@@ -419,8 +464,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-265"
-		"ypos"			"168"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"20"
 		"wide"			"270"
 		"tall"			"240"
@@ -432,6 +477,8 @@
 		"linespacing"	"16"
 		"fgcolor"		"Blue"
 
+		"pin_to_sibling"	"BlueScoreBG"
+
 		if_mvm
 		{
 			"visible"	"0"
@@ -441,8 +488,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c5"
-		"ypos"			"168"
+		"xpos"			"0"
+		"ypos"			"-30"
 		"zpos"			"20"
 		"wide"			"270"
 		"tall"			"240"
@@ -453,6 +500,8 @@
 		"autoresize"	"3"
 		"linespacing"	"16"
 		"fgcolor"		"Red"
+
+		"pin_to_sibling"		"RedScoreBG"
 
 		if_mvm
 		{
@@ -488,23 +537,23 @@
 	{
 		"ControlName"		"CTFPlayerModelPanel"
 		"fieldName"			"classmodelpanel"
-		"xpos"				"-10"
-		"ypos"				"185"
+		"xpos"				"9999"
+		"ypos"				"9999"
 		"zpos"				"10"		
-		"wide"				"130"
-		"tall"				"260"
+		"wide"				"0"
+		"tall"				"0"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"render_texture"	"0"
-		"fov"				"12"
+		"fov"				"20"
 		"allow_rot"			"1"
 		"disable_speak_event"	"1"
 		
-		"pin_to_sibling"		"LocalPlayerStatsPanel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_to_sibling"		"MiscDataBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		if_mvm
 		{
@@ -914,12 +963,12 @@
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"540"
-		"tall"			"70"
+		"tall"			"105"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling"		"MiscDataBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
@@ -935,8 +984,8 @@
 			"font"			"HudFontGiantBold"
 			"labelText"		":"
 			"textAlignment"	"center"
-			"xpos"			"265"
-			"ypos"			"0"
+			"xpos"			"50"
+			"ypos"			"15"
 			"zpos"			"3"
 			"wide"			"15"
 			"tall"			"65"
@@ -949,7 +998,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"HudFontGiantBold"
+			"font"			"Cerbetica56"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -961,6 +1010,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+			"fgcolor_override" "ColorWhite"
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -970,7 +1020,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills2"
-			"font"			"HudFontGiantBold"
+			"font"			"Cerbetica56"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -982,7 +1032,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor" 		"TanLight"
+			"fgcolor_override" "ColorWhite"
 
 			"pin_to_sibling"		"Kills"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -1022,6 +1072,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+			"fgcolor_override" "ColorWhite"
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -1031,7 +1082,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths2"
-			"font"			"HudFontGiantBold"
+			"font"			"Cerbetica56"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -1043,7 +1094,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "ColorWhite"
 
 			"pin_to_sibling"		"Deaths"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -1076,8 +1127,8 @@
 			"font"			"Cerbetica12Alt"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"west"
-			"xpos"			"15"
-			"ypos"			"2"
+			"xpos"			"120"
+			"ypos"			"18"
 			"zpos"			"3"
 			"wide"			"60"
 			"tall"			"15"
@@ -1592,8 +1643,8 @@
 			"font"			"Cerbetica10Alt"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"	"west"
-			"xpos"			"342"
-			"ypos"			"2"
+			"xpos"			"5"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"60"
 			"tall"			"15"
@@ -1601,6 +1652,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling" "Domination"
+			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}
 		"Teleports"
 		{
@@ -1970,6 +2024,27 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
+	}
+
+	"Kris"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Kris"
+		"xpos"			"-50"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"50"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"	"replay/thumbnails/kris_sleep"
+		"scaleImage"		"1"
+
+		"pin_to_sibling"	"MiscDataBG"
+		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 	}
 
 	"MvMScoreboard"

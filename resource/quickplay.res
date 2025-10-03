@@ -136,7 +136,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGHeader"
 		"xpos"			"r370"
-		"ypos"			"c-150"
+		"ypos"			"c-180"
 		"zpos"			"52"
 		"wide"			"245"
 		"tall"			"20"

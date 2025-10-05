@@ -911,7 +911,7 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5"
 		"zpos"				"1"
-		"wide"				"500"
+		"wide"				"400"
 		"tall"				"285"
 	}
 

@@ -583,7 +583,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 1"
 				}
 			}
@@ -591,7 +591,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "1 0"
 				}
 			}
@@ -599,7 +599,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -607,7 +607,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -904,7 +904,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -2158,7 +2158,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 1"
 				}
 			}
@@ -2166,7 +2166,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "1 0"
 				}
 			}
@@ -2174,7 +2174,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}
@@ -2182,7 +2182,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "ColorWhite"
 					"offset" "0 0"
 				}
 			}

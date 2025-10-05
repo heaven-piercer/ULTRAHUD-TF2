@@ -7,7 +7,7 @@
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"280-s1-2"
 		"ypos"			"140-20-2"
-		"zpos"			"9999"
+		"zpos"			"50"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"

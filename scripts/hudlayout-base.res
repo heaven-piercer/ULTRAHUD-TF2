@@ -82,6 +82,42 @@
 		"wide_minmode"				"128"
 		"tall"				"1000"
 	}
+
+	"HealthBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"HealthBG"
+		"xpos"			"65"
+		"ypos"			"r68"
+		"xpos_minmode"			"cs-0.5"
+		"ypos_minmode"			"c93"
+		"zpos"			"-10"
+		"wide"			"128"
+		"tall"			"28"
+		"tall_minmode"	"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintBackgroundType"	"2"
+		"bgcolor_override"		"HudElementBG"
+	}
+
+	//BG for player class
+	"HudPlayerClassBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HudPlayerClassBG"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"65"
+		"ypos"				"r160"
+		"xpos_minmode"				"cs-0.5"
+		"ypos_minmode"		"r102"
+		"zpos"				"-1"
+		"wide"				"128"
+		"tall"				"90"
+		"paintBackgroundType"		"2"
+		"bgcolor_override"			"HudElementBG"
+	}
 	//--------------------------------------------------------------
 
 	"Dead"
@@ -107,9 +143,10 @@
 		"xpos"				"196"
 		"ypos"				"rs1-40"
 		"xpos_minmode"				"cs-0.5"
-		"ypos_minmode"				"cs1+3"
+		"ypos_minmode"				"c30"
 		"wide"				"60"
 		"tall"				"28"
+		"tall_minmode"				"18"
 	}
 
 	"HudObjectiveStatus"

@@ -214,11 +214,17 @@ event HintMessageHide
 event Startup
 {
 	Animate HudPlayerHealth wide 0 linear 0.0 0.0
-	Animate HudPlayerHealth wide 128 linear 0.0 0.3
+	Animate HudPlayerHealth wide 124 linear 0.0 0.3
+	Animate HealthBG wide 0 linear 0.0 0.0
+	Animate HealthBG wide 128 linear 0.0 0.3
 	Animate HudWeaponAmmo wide 0 linear 0.0 0.0
 	Animate HudWeaponAmmo wide 60 linear 0.32 0.42
 	Animate classmodelpanel wide 0 linear 0.0 0.0
 	Animate classmodelpanel wide 128 linear 0.0 0.3
+	Animate HudPlayerClassBG wide 0 linear 0.0 0.0
+	Animate HudPlayerClassBG wide 128 linear 0.0 0.3
+	Animate BuildingStatus_Engineer wide 0 linear 0.0 0.0
+	Animate BuildingStatus_Engineer wide 138 linear 0.0 0.3
 	
 }
 

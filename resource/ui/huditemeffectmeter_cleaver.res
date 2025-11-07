@@ -6,6 +6,6 @@
 		"xpos"			"106"
 		"ypos"			"r39"
 		"xpos_minmode"	"c-23"
-		"ypos_minmode"	"c121"
+		"ypos_minmode"	"c110"
 	}
 }

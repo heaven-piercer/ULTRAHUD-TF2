@@ -13,7 +13,7 @@
 		"xpos"			"65"	[$WIN32]
 		"ypos"			"r39"	[$WIN32]
 		"xpos_minmode"			"cs-1-24"	[$WIN32]
-		"ypos_minmode"			"c121"	[$WIN32]
+		"ypos_minmode"			"c110"	[$WIN32]
 		"wide"			"40"
 		"tall"			"16"
 		"MeterFG"		"White"

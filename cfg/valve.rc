@@ -27,3 +27,18 @@ sv_unlockedchapters 99
 
 //refit dimmer
 hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials
+
+//Make shaders work
+mat_viewportscale 0.9999999
+
+// force refracts to work on the hud immediately
+// otherwise you will need to be jarate'd / bleed / go underwater
+mat_motion_blur_enabled 1
+
+// improve visual quality with refracts
+mat_motion_blur_strength 0
+mat_disable_bloom 1
+mat_hdr_level 0
+mat_antialias 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0

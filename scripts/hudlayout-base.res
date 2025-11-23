@@ -2,7 +2,7 @@
 
 "Resource/HudLayout.res"
 {
-	
+	//Shader? I hardly know her!
 	CustomShaderOverlay
 	{
 		"ControlName"   "ImagePanel"

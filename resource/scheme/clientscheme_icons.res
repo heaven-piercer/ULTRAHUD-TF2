@@ -64,7 +64,8 @@ Scheme
 	{
 		"121"
 		{
-			"font"	"resource/fonts/TF2Icons.ttf"
+			"font"	"resource/fonts/TF2Icons.ttf" [$WINDOWS]
+			"font"	"resource/fonts/TF2Icons_linux.ttf" [$LINUX]
 			"name"	"TF2Icons"
 		}
 	}

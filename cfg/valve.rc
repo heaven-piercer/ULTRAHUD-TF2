@@ -27,3 +27,6 @@ sv_unlockedchapters 99
 
 //refit dimmer
 hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials
+
+//Makes the shaders work
+mat_viewportscale 0.9999999

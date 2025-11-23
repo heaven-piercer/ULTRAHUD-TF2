@@ -3111,7 +3111,8 @@ Scheme
 		}
 		"10"
 		{
-			"font" 	"resource/fonts/VCR_OSD_MONO_1.001.ttf"
+			"font" 	"resource/fonts/VCR_OSD_MONO_1.001.ttf" [$WINDOWS]
+			"font" 	"resource/fonts/VCR_OSD_MONO_1.001_linux.ttf" [$LINUX]
 			"name" 	"VCR OSD Mono"
 		}
 		"11"
@@ -3121,17 +3122,20 @@ Scheme
 		}
 		"11"
 		{
-			"font" 	"resource/fonts/fs-tahoma-8px.ttf"
+			"font" 	"resource/fonts/fs-tahoma-8px.ttf" [$WINDOWS]
+			"font" 	"resource/fonts/fs-tahoma-8px_linux.ttf" [$LINUX]
 			"name" 	"fs Tahoma 8px"
 		}
 		"12"
 		{
-			"font" 	"resource/fonts/tahoma.ttf"
+			"font" 	"resource/fonts/tahoma.ttf" [$WINDOWS]
+			"font" 	"resource/fonts/tahoma_linux.ttf" [$LINUX]
 			"name" 	"Tahoma"
 		}
 		"12"
 		{
-			"font" 	"resource/fonts/alagard.ttf"
+			"font" 	"resource/fonts/alagard.ttf" [$WINDOWS]
+			"font" 	"resource/fonts/alagard_linux.ttf" [$LINUX]
 			"name" 	"Alagard"
 		}
 	}

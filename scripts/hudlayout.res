@@ -7,4 +7,5 @@
 #base ../../../cfg/hud_hmark_colors.txt
 #base ../../../cfg/hud_vmodel_transparency.txt
 #base ../../../cfg/hudlayout_res.txt
+#base ../../../cfg/ultrahud_shader.txt
 "#base" "hudlayout-base.res"

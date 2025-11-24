@@ -3122,8 +3122,7 @@ Scheme
 		}
 		"11"
 		{
-			"font" 	"resource/fonts/fs-tahoma-8px.ttf" [$WINDOWS]
-			"font" 	"resource/fonts/fs-tahoma-8px_linux.ttf" [$LINUX]
+			"font" 	"resource/fonts/fs-tahoma-8px.ttf"
 			"name" 	"fs Tahoma 8px"
 		}
 		"12"

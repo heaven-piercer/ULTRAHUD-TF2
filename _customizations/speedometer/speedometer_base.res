@@ -43,7 +43,8 @@
 			"xpos"					"17"
 			"ypos"					"0"
 			"zpos"					"-2"
-			"xpos_minmode"			"-62"
+			"xpos_minmode"			"-62" [$WINDOWS]
+			"xpos_minmode"			"-69" [$LINUX]
 			"ypos_minmode"			"2"
 			"wide"					"16"
 			"tall"					"16"
